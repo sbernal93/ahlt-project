@@ -1,0 +1,10 @@
+0 -> added some suffixes
+1 -> adds agent groups
+2 -> adds suffixes group with ines, adds ine as suffix
+3 -> fixing issue with text cutting of last char
+4 -> adding agents to tokenize two words together
+5 -> fixes issue when tokenizing agents
+6 -> added "ine" as a suffix for drugs
+7 -> filtering stopwords and punctuation, agent tokenize with nouns or unknown pos tag only
+8 -> adding some more suffixes for brands
+9 -> adding more suffixes for drugs

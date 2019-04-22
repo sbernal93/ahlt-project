@@ -1,21 +1,28 @@
 #! /usr/bin/python3
 
 import sys
+import string
 import os
 from os import listdir
 
 from xml.dom.minidom import parse
 from nltk.tokenize import word_tokenize
+from nltk.corpus import wordnet as wn
+from nltk.corpus import stopwords
 
 ## -------- classify_token ----------
 ## -- check if a token is a drug, and of which type
 
-suffixes = ["azole", "idine", "amine", "mycin"]
+suffixes = ["azole", "idine", "amine", "mycin", "xacin", "ostol", "adiol"]
+suffixes_drug = ["ine", "cin", "ium"]
+suffixes_brand = ["gen"]
+suffixes_group = ["ines", "ides", "cins", "oles"]
 def classify_token(txt):
    ## Complete this function to return a pair (boolean, drug_type)
    ## depending on whether the token is a drug name or not
-   if txt.isupper() : return True,"brand"
-   elif txt[-5:] in suffixes : return True,"drug"
+   if txt.isupper() or txt[-3:] in suffixes_brand : return True,"brand"
+   elif txt[-5:] in suffixes or txt[-3:] in suffixes_drug : return True,"drug"
+   elif txt[-4:] in suffixes_group or "agent" in txt : return True,"group"
    else : return False,""
 
 
@@ -26,12 +33,22 @@ def tokenize(txt):
     offset = 0
     tks = []
     ## word_tokenize splits words, taking into account punctuations, numbers, etc.
-    for t in word_tokenize(txt):
+    tokens = word_tokenize(txt)
+    count = 0
+    for t in tokens:
+        if ("agent" in t) or (t in stop_words) or (t in string.punctuation):
+            count += 1
+            continue
+        if((count + 1 < len(tokens)) and ("agent" in tokens[count + 1]) and
+         (((len(wn.synsets(t)) > 1) and (wn.synsets(t)[0].pos() == 'n')) or
+         (len(wn.synsets(t)) > 1))):
+            t = t + " " + tokens[count + 1]
         ## keep track of the position where each token should appear, and
         ## store that information with the token
         offset = txt.find(t, offset)
         tks.append((t, offset, offset+len(t)-1))
         offset += len(t)
+        count += 1
 
     ## tks is a list of triples (word,start,end)
     return tks
@@ -57,7 +74,7 @@ def extract_entities(stext) :
        drug_end = t[2]
        drug_type = tk_type
        e = { "offset" : str(drug_start)+"-"+str(drug_end),
-             "text" : stext[drug_start:drug_end],
+             "text" : stext[drug_start:drug_end + 1],
              "type" : drug_type  }
        result.append(e)
 
@@ -72,6 +89,7 @@ def extract_entities(stext) :
 ## -- them in the output format requested by the evalution programs.
 ## --
 
+stop_words = set(stopwords.words('english'))
 # directory with files to process
 datadir = sys.argv[1]
 
