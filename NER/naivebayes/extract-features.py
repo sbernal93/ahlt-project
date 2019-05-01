@@ -19,10 +19,10 @@ suffixes_drug = ["ine", "cin", "ium"]
 suffixes_brand = ["gen"]
 suffixes_group = ["ines", "ides", "cins", "oles"]
 def classify_token(txt):
-   if txt.isupper() or txt[-3:] in suffixes_brand : return True,"brand"
-   elif txt[-5:] in suffixes or txt[-3:] in suffixes_drug : return True,"drug"
-   elif txt[-4:] in suffixes_group : return True,"group"
-   else : return False,""
+   if txt.isupper() or txt[-3:] in suffixes_brand : return 1,"brand"
+   elif txt[-5:] in suffixes or txt[-3:] in suffixes_drug : return 1,"drug"
+   elif txt[-4:] in suffixes_group : return 1,"group"
+   else : return 0,""
 
 
 ## --------- tokenize sentence -----------
@@ -69,64 +69,63 @@ def extract_features(tokens) :
       tokenFeatures = [];
       t = tokens[k][0]
 
-      tokenFeatures.append("form="+t)
-      tokenFeatures.append("formlower="+t.lower())
-      tokenFeatures.append("suf3="+t[-3:])
-      tokenFeatures.append("suf4="+t[-4:])
+      tokenFeatures.append(t)
+      tokenFeatures.append(t.lower())
+      tokenFeatures.append(t[-3:])
+      tokenFeatures.append(t[-4:])
 
-      tokenFeatures.append("posTag="+pos_tag([t])[0][1])
+      tokenFeatures.append(pos_tag([t])[0][1])
       (is_drug, tk_type) = classify_token(t)
 
-      tokenFeatures.append("isClassified") if (is_drug) else tokenFeatures.append("notClassified")
-      tokenFeatures.append("tkType="+tk_type) if (tk_type) else tokenFeatures.append("tkType=None")
+      tokenFeatures.append("1") if (is_drug) else tokenFeatures.append("0")
+      tokenFeatures.append(tk_type) if (tk_type) else tokenFeatures.append("0")
 
-      tokenFeatures.append("isStopWord") if (t in stop_words)  else tokenFeatures.append("notStopWord")
-      tokenFeatures.append("isUpper") if (t.isupper()) else tokenFeatures.append("notUpper")
-      tokenFeatures.append("isTitle") if (t.istitle()) else tokenFeatures.append("notTitle")
-      tokenFeatures.append("isDigit") if (t.isdigit()) else tokenFeatures.append("notDigit")
+      tokenFeatures.append("1") if (t in stop_words)  else tokenFeatures.append("0")
+      tokenFeatures.append("1") if (t.isupper()) else tokenFeatures.append("0")
+      tokenFeatures.append("1") if (t.istitle()) else tokenFeatures.append("0")
+      tokenFeatures.append("1") if (t.isdigit()) else tokenFeatures.append("0")
 
       if k>0 :
          tPrev = tokens[k-1][0]
-         tokenFeatures.append("formPrev="+tPrev)
-         tokenFeatures.append("formlowerPrev="+tPrev.lower())
-         tokenFeatures.append("suf3Prev="+tPrev[-3:])
-         tokenFeatures.append("suf4Prev="+tPrev[-4:])
-         tokenFeatures.append("isUpperPrev") if (t.isupper()) else tokenFeatures.append("notUpperPrev")
-         tokenFeatures.append("isTitlePrev") if (t.istitle()) else tokenFeatures.append("notTitlePrev")
-         tokenFeatures.append("isDigitPrev") if (t.isdigit()) else tokenFeatures.append("notDigitPrev")
+         tokenFeatures.append(tPrev)
+         tokenFeatures.append(tPrev.lower())
+         tokenFeatures.append(tPrev[-3:])
+         tokenFeatures.append(tPrev[-4:])
+         tokenFeatures.append("1") if (t.isupper()) else tokenFeatures.append("0")
+         tokenFeatures.append("1") if (t.istitle()) else tokenFeatures.append("0")
+         tokenFeatures.append("1") if (t.isdigit()) else tokenFeatures.append("0")
       else :
          #tokenFeatures.append("BoS")
-         tokenFeatures.append("formPrev=")
-         tokenFeatures.append("formlowerPrev=")
-         tokenFeatures.append("suf3Prev=")
-         tokenFeatures.append("suf4Prev=")
-         tokenFeatures.append("notUpperPrev")
-         tokenFeatures.append("notTitlePrev")
-         tokenFeatures.append("notDigitPrev")
+         tokenFeatures.append("0")
+         tokenFeatures.append("0")
+         tokenFeatures.append("0")
+         tokenFeatures.append("0")
+         tokenFeatures.append("0")
+         tokenFeatures.append("0")
+         tokenFeatures.append("0")
 
       if k<len(tokens)-1 :
          tNext = tokens[k+1][0]
-         tokenFeatures.append("formNext="+tNext)
-         tokenFeatures.append("formlowerNext="+tNext.lower())
-         tokenFeatures.append("suf3Next="+tNext[-3:])
-         tokenFeatures.append("suf4Next="+tNext[-4:])
-         tokenFeatures.append("isUpperNext") if (t.isupper()) else tokenFeatures.append("notUpperNext")
-         tokenFeatures.append("isTitleNext") if (t.istitle()) else tokenFeatures.append("notTitleNext")
-         tokenFeatures.append("isDigitNext") if (t.isdigit()) else tokenFeatures.append("notDigitNext")
+         tokenFeatures.append(tNext)
+         tokenFeatures.append(tNext.lower())
+         tokenFeatures.append(tNext[-3:])
+         tokenFeatures.append(tNext[-4:])
+         tokenFeatures.append("1") if (t.isupper()) else tokenFeatures.append("0")
+         tokenFeatures.append("1") if (t.istitle()) else tokenFeatures.append("0")
+         tokenFeatures.append("1") if (t.isdigit()) else tokenFeatures.append("0")
       else:
          #tokenFeatures.append("EoS")
-         tokenFeatures.append("formNext=")
-         tokenFeatures.append("formlowerNext=")
-         tokenFeatures.append("suf3Next=")
-         tokenFeatures.append("suf4Next=")
-         tokenFeatures.append("notUpperNext")
-         tokenFeatures.append("notTitleNext")
-         tokenFeatures.append("notDigitNext")
+         tokenFeatures.append("0")
+         tokenFeatures.append("0")
+         tokenFeatures.append("0")
+         tokenFeatures.append("0")
+         tokenFeatures.append("0")
+         tokenFeatures.append("0")
+         tokenFeatures.append("0")
 
       result.append(tokenFeatures)
 
    return result
-
 
 ## --------- MAIN PROGRAM -----------
 ## --
@@ -140,6 +139,7 @@ def extract_features(tokens) :
 stop_words = set(stopwords.words('english'))
 # directory with files to process
 datadir = sys.argv[1]
+
 
 # process each file in directory
 for f in listdir(datadir) :
