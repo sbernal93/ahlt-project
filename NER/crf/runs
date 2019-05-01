@@ -1,0 +1,8 @@
+# 0 -> adding pos_tag and stop_words
+1 -> removing posTag and stopwords
+2 -> adds classification from baseline
+3 -> tk_type only if present
+4 -> moving tokenize from baseline
+5 -> removing custom class
+6 -> adds custom class, removes custom tokenize
+7 -> removing agents from custom class
