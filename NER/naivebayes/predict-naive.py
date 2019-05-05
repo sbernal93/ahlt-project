@@ -6,8 +6,10 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.pipeline import Pipeline
 from sklearn.feature_selection import SelectKBest, chi2
 from sklearn.preprocessing import LabelEncoder
+from sklearn.feature_extraction import DictVectorizer
 import pickle
 import numpy as np
+import pandas as pd
 
 def instances_pred(fi):
     xseq = []
@@ -45,9 +47,9 @@ if __name__ == '__main__':
 
     model = pickle.load(open(sys.argv[1], "rb"))
 
-
     for xseq,toks in instances_pred(sys.stdin):
-        prediction = model.predict(encode(xseq))
+        x = pd.DataFrame(xseq)
+        prediction = model.predict(x.to_dict('records'))
         inside = False;
         for k in range(0,len(prediction)) :
             y = prediction[k]

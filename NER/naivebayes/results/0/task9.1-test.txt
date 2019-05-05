@@ -1,0 +1,267 @@
+['O' 'O' 'O' 'O' 'O' 'O' 'O' 'O']
+['O' 'I-brand' 'I-brand' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'I-brand' 'O'
+ 'O' 'O' 'I-drug_n' 'O' 'I-drug_n' 'O' 'O' 'I-drug_n' 'O' 'O' 'O' 'O' 'O'
+ 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O']
+['O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O'
+ 'O']
+['O' 'I-brand' 'O' 'O' 'O' 'O' 'O']
+['O' 'I-brand' 'O' 'O' 'O' 'O' 'I-brand' 'O' 'O' 'O' 'O' 'O' 'O' 'O']
+['O' 'O' 'I-brand' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O']
+['I-brand' 'O' 'I-brand' 'O' 'O' 'O' 'O' 'I-brand' 'O' 'O']
+['O' 'O' 'O' 'O' 'O' 'O' 'I-brand' 'O' 'O' 'O' 'O' 'I-drug_n' 'O' 'O'
+ 'I-brand' 'O' 'O' 'O']
+['O' 'O' 'I-brand' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O']
+['I-brand' 'O' 'I-brand' 'O' 'O' 'O' 'O' 'O' 'O' 'I-brand' 'O']
+['O' 'O' 'O' 'O' 'I-brand' 'O' 'O' 'O' 'O' 'O' 'I-brand' 'O' 'O' 'O'
+ 'I-brand' 'O' 'O' 'I-brand' 'O' 'O']
+['O' 'O' 'O' 'I-brand' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O']
+['O' 'O' 'O' 'O' 'O' 'I-brand' 'O' 'O' 'I-brand' 'O' 'O']
+['O' 'O' 'I-brand' 'O' 'O' 'O' 'O' 'O' 'O' 'I-brand' 'O']
+['I-brand' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O'
+ 'O' 'O' 'O' 'O']
+['I-brand' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O'
+ 'O' 'O' 'O' 'O' 'O' 'O']
+['I-brand' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O']
+['O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'I-brand' 'O' 'O'
+ 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'I-drug_n' 'O']
+['I-brand' 'O' 'I-brand' 'O']
+['I-brand' 'O' 'O' 'O']
+['O' 'O' 'O' 'O' 'O']
+['O' 'O' 'O' 'O' 'O' 'O' 'O' 'O']
+['O' 'O']
+['O' 'O' 'O' 'O' 'O' 'O' 'O' 'O']
+['O' 'I-brand' 'O' 'O']
+['O' 'I-brand' 'I-brand' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O'
+ 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'I-drug_n' 'O' 'O' 'O' 'O' 'I-brand'
+ 'O']
+['O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'I-drug_n' 'O' 'I-brand' 'O']
+['O' 'I-brand' 'I-brand' 'O' 'I-brand' 'O' 'O' 'I-brand' 'I-brand' 'O'
+ 'I-brand' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O']
+['O' 'O' 'O' 'O' 'O' 'O' 'I-brand' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O'
+ 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O']
+['O' 'O' 'O' 'O' 'I-brand' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O'
+ 'O' 'O']
+['O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'I-brand' 'O' 'O' 'O' 'O'
+ 'O' 'O' 'O']
+['O' 'O' 'O' 'I-brand' 'O' 'O' 'O' 'O']
+['O' 'O' 'O' 'O' 'O' 'O' 'O' 'I-brand' 'O' 'I-brand' 'I-drug_n' 'O' 'O'
+ 'O' 'O' 'O' 'O' 'O']
+['O']
+['O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'I-brand' 'O']
+['I-brand' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O'
+ 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'I-brand' 'O' 'I-brand' 'O' 'O'
+ 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O'
+ 'O' 'O' 'O' 'O']
+['O' 'O' 'O' 'O' 'I-brand' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O']
+['O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'I-brand' 'O']
+['O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'I-brand' 'O' 'O' 'O' 'O' 'O' 'O']
+['O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O'
+ 'O' 'O']
+['O' 'O' 'O' 'O' 'I-brand' 'O' 'I-brand' 'O' 'O' 'O' 'O' 'O' 'I-brand' 'O'
+ 'I-brand' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O'
+ 'O']
+['O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O']
+['O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O'
+ 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O']
+['O' 'I-brand' 'I-brand' 'I-brand' 'O' 'O' 'I-brand' 'O' 'O' 'O' 'O' 'O'
+ 'O' 'O' 'O' 'O' 'I-drug_n' 'O' 'O' 'I-brand' 'O' 'O']
+['O' 'O' 'O' 'I-brand' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O'
+ 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O'
+ 'I-drug_n' 'O' 'O' 'O']
+['O' 'O' 'O' 'I-brand' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O'
+ 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'I-drug_n' 'O' 'O' 'O']
+['O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'I-brand' 'O']
+['O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'I-brand' 'O' 'O']
+['O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'I-brand' 'O' 'O' 'O' 'O' 'O'
+ 'I-brand' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O']
+['O' 'O' 'O' 'I-brand' 'O' 'O' 'O' 'O']
+['O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'I-brand' 'O' 'O' 'O' 'O' 'O']
+['B-group' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O'
+ 'I-drug_n' 'O' 'I-drug_n' 'O' 'I-drug_n' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O'
+ 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O']
+DDI-DrugBank.d614.s1|0-6|However|group
+['I-brand' 'I-brand' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O'
+ 'O' 'O' 'O']
+['O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O']
+['O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O'
+ 'I-brand' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O']
+['O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O']
+['O' 'O' 'O' 'O' 'I-brand' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O'
+ 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'I-brand' 'O' 'O']
+['O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'I-drug_n' 'O' 'O' 'O' 'O' 'O'
+ 'O' 'O' 'O' 'O' 'O' 'I-brand' 'I-brand' 'O']
+['O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'I-brand' 'O' 'O' 'O'
+ 'O' 'O' 'O' 'O' 'I-brand' 'O']
+['O' 'O' 'O' 'O' 'O' 'O' 'O' 'I-brand' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O']
+['O' 'I-brand' 'I-brand' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O'
+ 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O'
+ 'O' 'O' 'O' 'O' 'O' 'B-drug_n' 'O' 'O' 'O' 'O' 'O' 'B-drug_n' 'O' 'O' 'O'
+ 'O' 'O' 'B-drug_n' 'O' 'B-drug_n' 'O' 'B-drug_n' 'O' 'O' 'O' 'O' 'O' 'O'
+ 'O' 'O' 'O' 'O' 'O' 'I-drug_n' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O']
+DDI-DrugBank.d760.s0|250-263|phenothiazines|drug_n
+DDI-DrugBank.d760.s0|294-308|salicylanilides|drug_n
+DDI-DrugBank.d760.s0|334-345|sulfonamides|drug_n
+DDI-DrugBank.d760.s0|348-360|tetracyclines|drug_n
+DDI-DrugBank.d760.s0|363-371|thiazides|drug_n
+['O' 'I-brand' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O'
+ 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O'
+ 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'I-brand' 'I-drug_n' 'O' 'O' 'O' 'O' 'O' 'O'
+ 'I-drug_n' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'I-drug_n' 'O' 'O']
+['O' 'O' 'O' 'O' 'O' 'O' 'O' 'O']
+['O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'I-drug_n' 'O' 'O' 'I-brand' 'O' 'O' 'O'
+ 'I-brand' 'O' 'I-drug_n' 'O' 'I-brand' 'O' 'I-brand' 'O' 'O' 'O' 'O' 'O'
+ 'I-drug_n' 'O' 'O' 'O' 'O' 'O' 'O']
+['O' 'O' 'O' 'O' 'O' 'I-brand' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O'
+ 'O' 'O' 'O' 'O' 'O']
+['O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O'
+ 'O' 'O' 'O' 'O' 'O']
+['O' 'I-brand' 'I-brand' 'O' 'I-brand' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O'
+ 'O' 'O' 'O']
+['O' 'O' 'O' 'O' 'O' 'O' 'O']
+['O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'I-brand' 'O']
+['I-brand' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'I-brand' 'O' 'O']
+['O' 'O' 'I-brand' 'O' 'I-brand' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O']
+['O' 'I-brand' 'O' 'O' 'I-brand' 'O' 'O' 'O' 'O' 'O' 'I-brand' 'O' 'O'
+ 'I-brand' 'O' 'O' 'I-brand' 'O' 'O' 'O' 'O' 'I-brand' 'O']
+['O' 'O' 'O' 'O' 'I-brand' 'O' 'I-brand']
+['O' 'I-brand' 'O' 'O' 'O' 'I-brand' 'O' 'I-brand' 'O' 'O' 'I-brand' 'O'
+ 'I-brand' 'O' 'I-drug_n' 'O' 'O' 'I-brand' 'O' 'O' 'O' 'O' 'I-brand' 'O'
+ 'I-brand' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'I-drug_n' 'O']
+['O' 'O' 'O' 'I-drug_n' 'O' 'I-drug_n' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O'
+ 'O' 'O' 'O' 'O']
+['O' 'O' 'O' 'O' 'O' 'I-brand' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O'
+ 'I-brand' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O'
+ 'O' 'O' 'O' 'O' 'O']
+['O' 'O' 'I-brand' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O']
+['O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'I-brand'
+ 'I-brand' 'O' 'I-brand' 'O' 'O']
+['O' 'O' 'O' 'O' 'O' 'O' 'I-brand' 'I-brand' 'O' 'O' 'O' 'O' 'O']
+['B-group' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'I-brand' 'I-brand' 'O' 'O'
+ 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O']
+DDI-DrugBank.d684.s1|0-4|Based|group
+['O' 'O' 'O' 'O' 'O' 'I-brand' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O'
+ 'O' 'O' 'O']
+['O' 'O' 'O' 'O' 'O' 'O' 'I-brand' 'O' 'I-brand' 'O' 'I-brand' 'O'
+ 'I-brand' 'O' 'I-brand' 'O' 'O' 'O' 'I-brand' 'O']
+['O' 'O' 'O' 'O' 'I-brand' 'O' 'O' 'O']
+['O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O'
+ 'O' 'O' 'O' 'O']
+['O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O']
+['O' 'I-brand' 'O' 'I-brand' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'I-brand'
+ 'O']
+['O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O']
+['O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O']
+['B-group' 'O' 'I-brand' 'O' 'I-brand' 'O' 'O' 'O' 'O' 'I-brand' 'O' 'O'
+ 'O' 'I-brand' 'O' 'I-brand' 'O' 'I-brand' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O'
+ 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O'
+ 'O' 'O' 'O' 'O' 'O' 'O']
+DDI-DrugBank.d657.s0|0-11|Interactions|group
+['O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'I-brand' 'I-brand' 'O' 'O'
+ 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O']
+['O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O']
+['O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O'
+ 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O']
+['O' 'O' 'O' 'O' 'O' 'O' 'O' 'I-brand' 'O' 'O' 'O' 'O']
+['I-brand' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'I-brand' 'O'
+ 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O']
+['O' 'O' 'O' 'I-brand' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'I-brand'
+ 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'I-brand' 'O']
+['O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O']
+['O' 'O' 'O' 'I-brand' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O']
+['O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O'
+ 'O' 'O' 'O']
+['O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'I-drug_n' 'O' 'O' 'O' 'O' 'O' 'O'
+ 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O'
+ 'O' 'O' 'O' 'O' 'O' 'O' 'O']
+['O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O'
+ 'I-brand' 'O' 'O' 'O' 'O' 'O']
+['O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O']
+['O' 'O' 'O' 'O' 'I-brand' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O']
+['O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O']
+['O' 'O' 'O' 'O']
+['O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O'
+ 'O' 'O' 'O' 'O']
+['O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'I-brand' 'O'
+ 'I-brand' 'O' 'I-brand' 'O' 'I-brand' 'O' 'I-brand' 'O' 'O']
+['O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'I-brand' 'O' 'O' 'O' 'O' 'O' 'O'
+ 'I-brand' 'O' 'O']
+['O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O'
+ 'O']
+['O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'I-brand' 'O' 'O']
+['O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O']
+['O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O'
+ 'O' 'I-brand' 'O' 'O']
+['O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'I-brand' 'O' 'I-brand' 'O'
+ 'I-brand' 'O' 'I-brand' 'O' 'I-brand' 'O' 'I-brand' 'O' 'I-brand' 'O'
+ 'I-brand' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'I-brand' 'O'
+ 'I-brand' 'O' 'O' 'I-brand' 'O']
+['O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O']
+['I-brand' 'O' 'O' 'O' 'O' 'O' 'O' 'I-brand' 'O' 'O' 'O' 'O' 'O' 'O' 'O'
+ 'O' 'O' 'O' 'O' 'I-brand' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O']
+['O' 'O' 'O' 'O' 'O' 'I-brand' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O'
+ 'O' 'O' 'O' 'O' 'O' 'O']
+['I-brand' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O'
+ 'O' 'B-drug_n' 'O' 'B-drug_n' 'O' 'B-drug_n' 'I-brand' 'O' 'O' 'B-drug_n'
+ 'O' 'O' 'O']
+DDI-DrugBank.d768.s5|125-134|cytarabine|drug_n
+DDI-DrugBank.d768.s5|137-147|doxorubicin|drug_n
+DDI-DrugBank.d768.s5|153-163|mitomycin C|drug_n
+DDI-DrugBank.d768.s5|169-174|murine|drug_n
+['O' 'I-drug_n' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O'
+ 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O']
+['O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'I-brand' 'O' 'I-brand' 'O' 'O' 'O' 'O'
+ 'O' 'O' 'O' 'O' 'I-brand' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O'
+ 'I-brand' 'O' 'O' 'O']
+['O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O']
+['O' 'I-brand' 'I-brand' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O'
+ 'I-brand' 'I-brand' 'O' 'I-brand' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O'
+ 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O']
+['O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O'
+ 'O' 'O' 'O' 'I-brand' 'O' 'O' 'O']
+['O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'I-brand' 'O' 'O' 'O' 'O' 'O']
+['O' 'O' 'I-brand' 'I-brand' 'I-brand' 'O' 'I-brand' 'O' 'O' 'O' 'O' 'O'
+ 'O' 'O' 'O' 'O' 'O' 'O']
+['O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O'
+ 'I-brand' 'O']
+['O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'I-brand' 'I-brand' 'I-brand' 'O'
+ 'O' 'O' 'O' 'O' 'O' 'O']
+['I-brand' 'I-brand' 'I-brand' 'I-brand' 'O' 'O' 'O' 'I-brand' 'I-brand'
+ 'I-brand' 'I-brand' 'I-brand' 'O' 'I-brand' 'O' 'O' 'O' 'O' 'O' 'O' 'O'
+ 'O' 'O' 'O' 'O' 'O' 'O']
+['I-brand' 'I-brand' 'I-brand' 'I-brand' 'O' 'O' 'I-brand' 'O' 'O'
+ 'I-drug_n' 'O' 'I-brand' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O'
+ 'I-drug_n' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O'
+ 'O']
+['O' 'O' 'O' 'I-brand' 'O' 'O' 'O' 'I-drug_n' 'O' 'O' 'O' 'O' 'O' 'O' 'O'
+ 'O' 'I-brand' 'O']
+['O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'I-brand' 'O' 'O'
+ 'O' 'O' 'O']
+['O' 'I-brand' 'O' 'I-brand' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O'
+ 'O' 'O' 'I-brand' 'O' 'O' 'O' 'O' 'O' 'O' 'O']
+['O' 'I-brand' 'O' 'I-brand' 'I-drug_n' 'O' 'O' 'O' 'O' 'O' 'I-brand' 'O'
+ 'I-brand' 'O' 'O' 'O' 'I-brand' 'O' 'O' 'O' 'I-brand' 'O' 'O' 'I-brand'
+ 'O' 'O' 'O' 'O' 'I-brand' 'O' 'I-brand' 'O' 'I-brand' 'O' 'I-brand' 'O'
+ 'I-brand' 'O' 'I-brand' 'O' 'I-brand' 'O' 'I-brand' 'O' 'O' 'I-brand' 'O'
+ 'O' 'O' 'O' 'I-brand' 'I-brand' 'O']
+['O' 'O' 'O' 'I-brand' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O']
+['O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O'
+ 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O']
+['O' 'O' 'O' 'O' 'O' 'I-brand' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O'
+ 'O' 'O' 'O' 'O' 'O']
+['O' 'O' 'O' 'O' 'O' 'O' 'I-brand' 'O' 'I-brand' 'O' 'I-brand' 'O'
+ 'I-brand' 'O' 'I-brand' 'O' 'O' 'O' 'I-brand' 'O']
+['O' 'O' 'O' 'O' 'I-brand' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O'
+ 'O' 'O']
+['O' 'O' 'O' 'O' 'O' 'O' 'O']
+['O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'I-brand']
+['O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'I-brand' 'O']
+['O' 'O' 'O' 'O' 'I-brand' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O']
+['O' 'O' 'I-brand' 'I-brand']
+['O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'I-brand' 'O' 'O']
+['O' 'O' 'O' 'O' 'O' 'I-drug_n' 'O' 'O' 'O' 'I-brand' 'O' 'I-brand' 'O'
+ 'I-brand' 'O' 'I-brand' 'O' 'O' 'I-brand' 'O' 'O' 'I-drug_n' 'O' 'O' 'O'
+ 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'I-brand' 'O' 'O']
+['O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O'
+ 'O' 'O' 'O']
+['O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O' 'O'
+ 'O' 'O' 'O' 'O' 'O' 'O' 'O']

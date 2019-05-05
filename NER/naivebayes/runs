@@ -1,1 +1,10 @@
-# 0 -> start naivebayes with baseline from crf (on run 7)
+# 0 -> GaussianNB: start naivebayes with baseline from crf (on run 7)
+1 -> GaussianNB: fixing encoding, removing some features
+2 -> GaussianNB: adding some features (memory error)
+3 -> GaussianNB: other features
+4 -> GaussianNB: SelectKBest with 7000
+5 -> MultinomialNB: changing GaussianNB for MultinomialNB
+6 -> MultinomialNB: SelectKBest with 10000
+7 -> MultinomialNB: SelectKBest with 7000, adding some features (tPrev, tNext)
+8 -> MultinomialNB: adding more features (memory error)
+9 -> ComplementNB: changing to ComplementNB

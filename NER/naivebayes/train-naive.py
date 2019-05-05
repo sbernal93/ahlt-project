@@ -1,13 +1,15 @@
 #!/usr/bin/env python3
 
 import sys
-from sklearn.naive_bayes import GaussianNB
-from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.naive_bayes import GaussianNB, MultinomialNB, ComplementNB
+from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
+from sklearn.feature_extraction import DictVectorizer
 from sklearn.pipeline import Pipeline
 from sklearn.feature_selection import SelectKBest, chi2
 from sklearn.preprocessing import LabelEncoder
 import pickle
 import numpy as np
+import pandas as pd
 
 label_replace = {'O': 0, 'B-drug': 1, 'I-drug': 2, 'B-drug_n': 3,
 'I-drug_n': 4, 'B-group': 5, 'I-group': 6, 'B-brand': 7, 'I-brand': 8}
@@ -58,22 +60,30 @@ if __name__ == '__main__':
 
     gnb = GaussianNB()
 
-    vectorizer = TfidfVectorizer(min_df= 3, stop_words="english", sublinear_tf=True, norm='l2', ngram_range=(1, 2))
+    #vectorizer = TfidfVectorizer(min_df= 3, stop_words="english", sublinear_tf=True, norm='l2', ngram_range=(1, 2))
 
     #xtrain = []
     #ytrain = []
+    v = DictVectorizer(sparse=False)
     (xtrain, ytrain) = instances(sys.stdin)
     #for xseq, yseq in instances(sys.stdin):
     #    xtrain.append(xseq)
     #    ytrain.append(yseq)
-    xtrain = encode(xtrain)
+    #xtrain = encode(xtrain)
     #ytrain = encode_tags(ytrain)
+    x = pd.DataFrame(xtrain)
+    #xv = v.fit_transform(x.to_dict('records'))
+    y = pd.DataFrame(ytrain).values[:,0]
 
-    pipeline = Pipeline([('vect', vectorizer),
-                     ('chi',  SelectKBest(chi2, k=20)),
-                     ('clf', GaussianNB())])
-
-    model = gnb.fit(np.array(xtrain), np.array(ytrain))
+    #pipeline = Pipeline([('vect', vectorizer),
+    #                 ('chi',  SelectKBest(chi2, k=20)),
+    #                 ('clf', GaussianNB())])
+    pipeline = Pipeline([('vect', CountVectorizer()),
+                    ('chi',  SelectKBest(chi2, k=10000)),
+                    ('clf', ComplementNB()),])
+    #model = gnb.fit(np.array(xtrain), np.array(ytrain))
+    #model = gnb.fit(xv, y)
+    model = pipeline.fit(x.to_dict('records'), y)
 
     with open(sys.argv[1], 'wb') as f:
         pickle.dump(model, f)
@@ -82,3 +92,6 @@ if __name__ == '__main__':
 #https://towardsdatascience.com/l1-and-l2-regularization-methods-ce25e7fc831c
 #https://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.GaussianNB.html#sklearn.naive_bayes.GaussianNB
 #https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html
+#https://towardsdatascience.com/machine-learning-text-processing-1d5a2d638958
+#https://towardsdatascience.com/hacking-scikit-learns-vectorizers-9ef26a7170af
+#https://www.datacamp.com/community/tutorials/categorical-data
