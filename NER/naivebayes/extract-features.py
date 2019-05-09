@@ -2,6 +2,7 @@
 
 import sys
 import string
+import pandas as pd
 from os import listdir
 
 import nltk
@@ -19,8 +20,8 @@ suffixes_drug = ["ine", "cin", "ium"]
 suffixes_brand = ["gen"]
 suffixes_group = ["ines", "ides", "cins", "oles"]
 def classify_token(txt):
-   if txt.isupper() or txt[-3:] in suffixes_brand : return 1,"brand"
-   elif txt[-5:] in suffixes or txt[-3:] in suffixes_drug : return 1,"drug"
+   if txt[-5:] in suffixes or txt[-3:] in suffixes_drug or txt.lower() in drugnames : return True,"drug"
+   elif txt.isupper() or txt[-3:] in suffixes_brand : return 1,"brand"
    elif txt[-4:] in suffixes_group : return 1,"group"
    else : return 0,""
 
@@ -139,6 +140,8 @@ def extract_features(tokens) :
 
 #nltk.download('stopwords')
 stop_words = set(stopwords.words('english'))
+db = pd.read_csv('../drugbank/drugbank_vocabulary.csv')
+drugnames = [d.lower() for d in db['Common name'].values.tolist()]
 # directory with files to process
 datadir = sys.argv[1]
 

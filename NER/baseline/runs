@@ -8,3 +8,5 @@
 7 -> filtering stopwords and punctuation, agent tokenize with nouns or unknown pos tag only
 8 -> adding some more suffixes for brands
 9 -> adding more suffixes for drugs
+10 -> adding drugbank
+11 -> adding synonyms

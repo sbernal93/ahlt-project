@@ -78,9 +78,9 @@ if __name__ == '__main__':
     #pipeline = Pipeline([('vect', vectorizer),
     #                 ('chi',  SelectKBest(chi2, k=20)),
     #                 ('clf', GaussianNB())])
-    pipeline = Pipeline([('vect', CountVectorizer()),
+    pipeline = Pipeline([('vect', v),
                     ('chi',  SelectKBest(chi2, k=10000)),
-                    ('clf', ComplementNB()),])
+                    ('clf', ComplementNB())])
     #model = gnb.fit(np.array(xtrain), np.array(ytrain))
     #model = gnb.fit(xv, y)
     model = pipeline.fit(x.to_dict('records'), y)

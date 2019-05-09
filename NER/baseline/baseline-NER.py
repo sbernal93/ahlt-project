@@ -4,6 +4,7 @@ import sys
 import string
 import os
 from os import listdir
+import pandas as pd
 
 from xml.dom.minidom import parse
 from nltk.tokenize import word_tokenize
@@ -20,8 +21,8 @@ suffixes_group = ["ines", "ides", "cins", "oles"]
 def classify_token(txt):
    ## Complete this function to return a pair (boolean, drug_type)
    ## depending on whether the token is a drug name or not
-   if txt.isupper() or txt[-3:] in suffixes_brand : return True,"brand"
-   elif txt[-5:] in suffixes or txt[-3:] in suffixes_drug : return True,"drug"
+   if txt[-5:] in suffixes or txt[-3:] in suffixes_drug or txt.lower() in drugnames or txt.lower() in synonyms: return True,"drug"
+   elif txt.isupper() or txt[-3:] in suffixes_brand : return True,"brand"
    elif txt[-4:] in suffixes_group or "agent" in txt : return True,"group"
    else : return False,""
 
@@ -92,6 +93,11 @@ def extract_entities(stext) :
 stop_words = set(stopwords.words('english'))
 # directory with files to process
 datadir = sys.argv[1]
+db = pd.read_csv('../drugbank/drugbank_vocabulary.csv')
+drugnames = [d.lower() for d in db['Common name'].values.tolist()]
+
+split = [str(d).lower().split('|') for d in db['Synonyms'].values.tolist()]
+synonyms = [item[1:-1] for sublist in split for item in sublist]
 
 # process each file in directory
 for f in listdir(datadir) :
