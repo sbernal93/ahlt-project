@@ -11,9 +11,6 @@ import pickle
 import numpy as np
 import pandas as pd
 
-label_replace = {'O': 0, 'B-drug': 1, 'I-drug': 2, 'B-drug_n': 3,
-'I-drug_n': 4, 'B-group': 5, 'I-group': 6, 'B-brand': 7, 'I-brand': 8}
-
 def instances(fi):
     xseq = []
     yseq = []
@@ -40,49 +37,18 @@ def instances(fi):
         yseq.append(fields[4])
     return xseq, yseq
 
-def encode(data):
-    x = np.asarray(data)
-    le = LabelEncoder()
-    for k in range(x.shape[1]):
-        x[:,k] = le.fit_transform(x[:,k])
-    return x.astype(int)
-
-def encode_tags(test):
-    y = np.asarray(test)
-    for k in range(y.shape[0]):
-        y[k] = label_replace[y[k]]
-    return y.astype(int)
-
-
-
 
 if __name__ == '__main__':
 
-    gnb = GaussianNB()
 
-    #vectorizer = TfidfVectorizer(min_df= 3, stop_words="english", sublinear_tf=True, norm='l2', ngram_range=(1, 2))
-
-    #xtrain = []
-    #ytrain = []
     v = DictVectorizer(sparse=False)
     (xtrain, ytrain) = instances(sys.stdin)
-    #for xseq, yseq in instances(sys.stdin):
-    #    xtrain.append(xseq)
-    #    ytrain.append(yseq)
-    #xtrain = encode(xtrain)
-    #ytrain = encode_tags(ytrain)
     x = pd.DataFrame(xtrain)
-    #xv = v.fit_transform(x.to_dict('records'))
     y = pd.DataFrame(ytrain).values[:,0]
 
-    #pipeline = Pipeline([('vect', vectorizer),
-    #                 ('chi',  SelectKBest(chi2, k=20)),
-    #                 ('clf', GaussianNB())])
     pipeline = Pipeline([('vect', v),
                     ('chi',  SelectKBest(chi2, k=10000)),
                     ('clf', ComplementNB())])
-    #model = gnb.fit(np.array(xtrain), np.array(ytrain))
-    #model = gnb.fit(xv, y)
     model = pipeline.fit(x.to_dict('records'), y)
 
     with open(sys.argv[1], 'wb') as f:

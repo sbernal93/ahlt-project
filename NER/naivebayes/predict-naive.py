@@ -36,13 +36,6 @@ def instances_pred(fi):
         # Append the label to the label sequence.
         toks.append([fields[0],fields[1],fields[2],fields[3]])
 
-def encode(data):
-    x = np.asarray(data)
-    le = LabelEncoder()
-    for k in range(x.shape[1]):
-        x[:,k] = le.fit_transform(x[:,k])
-    return x.astype(int)
-
 if __name__ == '__main__':
 
     model = pickle.load(open(sys.argv[1], "rb"))
