@@ -1,0 +1,11 @@
+0 -> initial run
+1 -> act to relu
+2 -> back to softmax, SpatialDropout1D to 0.5
+3 -> SpatialDropout1D to 0.8, 10 epochs
+4 -> main lstm units to 500
+5 -> batch size to 64, units to 50
+6 -> units to 100
+7 -> revert units, rec dropouts to 0.8
+8 -> validation_split to 0.2, dense to 100, max_len_char to 5
+9 -> max len to 10
+10 -> linear act

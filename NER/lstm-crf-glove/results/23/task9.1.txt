@@ -1,0 +1,73 @@
+DDI-DrugBank.d660.s1|98-115|childhood vaccines|group
+DDI-DrugBank.d660.s1|118-134|influenza vaccine|group
+DDI-DrugBank.d660.s1|137-151|bronchodilators|group
+DDI-DrugBank.d660.s1|156-170|corticosteroids|group
+DDI-DrugBank.d621.s0|27-40|anticoagulants|group
+DDI-DrugBank.d621.s1|26-35|colestipol|drug
+DDI-DrugBank.d621.s1|38-51|cholestyramine|drug
+DDI-DrugBank.d621.s1|54-64|mineral oil|drug_n
+DDI-DrugBank.d621.s1|71-80|sucralfate|drug
+DDI-DrugBank.d672.s0|0-6|Digoxin|drug
+DDI-DrugBank.d672.s0|9-20|Sparfloxacin|drug
+DDI-DrugBank.d672.s0|63-69|digoxin|drug
+DDI-DrugBank.d672.s1|0-14|Methylxanthines|drug
+DDI-DrugBank.d672.s1|17-28|Sparfloxacin|drug
+DDI-DrugBank.d672.s1|55-66|theophylline|drug
+DDI-DrugBank.d672.s2|35-46|theophylline|drug
+DDI-DrugBank.d672.s2|72-86|methylxanthines|group
+DDI-DrugBank.d672.s2|96-103|caffeine|drug
+DDI-DrugBank.d672.s3|0-7|Warfarin|drug
+DDI-DrugBank.d672.s3|10-21|Sparfloxacin|drug
+DDI-DrugBank.d672.s3|70-77|warfarin|drug
+DDI-DrugBank.d672.s4|0-9|Cimetidine|drug
+DDI-DrugBank.d672.s4|12-21|Cimetidine|drug
+DDI-DrugBank.d672.s4|63-74|sparfloxacin|drug
+DDI-DrugBank.d672.s5|28-39|sparfloxacin|drug
+DDI-DrugBank.d672.s5|65-82|aluminum-magnesium|drug
+DDI-DrugBank.d672.s5|129-140|sparfloxacin|drug
+DDI-DrugBank.d672.s6|31-40|quinolones|group
+DDI-DrugBank.d672.s7|42-53|sparfloxacin|drug
+DDI-DrugBank.d672.s8|0-9|Probenecid|drug
+DDI-DrugBank.d672.s8|12-21|Probenecid|drug
+DDI-DrugBank.d672.s8|62-73|sparfloxacin|drug
+DDI-DrugBank.d733.s0|0-10|Misoprostol|drug
+DDI-DrugBank.d733.s0|75-81|aspirin|brand
+DDI-DrugBank.d733.s1|0-10|Misoprostol|drug
+DDI-DrugBank.d733.s1|141-147|aspirin|brand
+DDI-DrugBank.d733.s2|0-10|Misoprostol|drug
+DDI-DrugBank.d733.s2|68-77|diclofenac|drug
+DDI-DrugBank.d733.s2|82-90|ibuprofen|drug
+DDI-DrugBank.d617.s0|99-106|PRIMACOR|brand
+DDI-DrugBank.d617.s0|156-175|digitalis glycosides|group
+DDI-DrugBank.d617.s1|0-8|lidocaine|drug
+DDI-DrugBank.d617.s1|11-19|quinidine|drug
+DDI-DrugBank.d617.s2|0-10|hydralazine|drug
+DDI-DrugBank.d617.s2|13-20|prazosin|drug
+DDI-DrugBank.d617.s3|11-19|dinitrate|drug
+DDI-DrugBank.d617.s3|22-34|nitroglycerin|drug
+DDI-DrugBank.d617.s4|0-13|chlorthalidone|drug
+DDI-DrugBank.d617.s4|16-25|furosemide|drug
+DDI-DrugBank.d617.s4|28-46|hydrochlorothiazide|drug
+DDI-DrugBank.d617.s4|49-62|spironolactone|drug
+DDI-DrugBank.d617.s5|0-8|captopril|drug
+DDI-DrugBank.d617.s6|0-6|heparin|drug
+DDI-DrugBank.d617.s6|9-16|warfarin|drug
+DDI-DrugBank.d617.s6|19-26|diazepam|drug
+DDI-DrugBank.d617.s6|29-35|insulin|drug
+DDI-DrugBank.d617.s7|4-12|potassium|drug
+DDI-DrugBank.d617.s8|123-132|furosemide|drug
+DDI-DrugBank.d617.s8|189-196|PRIMACOR|drug
+DDI-DrugBank.d617.s9|11-20|furosemide|drug
+DDI-DrugBank.d617.s9|81-88|PRIMACOR|drug
+DDI-DrugBank.d667.s0|43-50|oxytocin|drug
+DDI-DrugBank.d667.s0|125-139|vasoconstrictor|group
+DDI-DrugBank.d667.s0|161-166|caudal|drug
+DDI-DrugBank.d667.s0|174-183|anesthesia|drug
+DDI-DrugBank.d667.s1|0-11|Cyclopropane|drug
+DDI-DrugBank.d667.s2|91-98|oxytocin|drug
+DDI-DrugBank.d667.s2|141-150|anesthesia|drug
+DDI-DrugBank.d714.s0|20-34|CNS depressants|group
+DDI-DrugBank.d714.s0|39-63|trycyclic antidepressants|group
+DDI-DrugBank.d620.s0|0-11|Pyrazinamide|drug
+DDI-DrugBank.d620.s0|49-55|ACETEST|brand
+DDI-DrugBank.d724.s0|60-67|Infergen|brand

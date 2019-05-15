@@ -1,0 +1,21 @@
+https://towardsdatascience.com/named-entity-recognition-ner-meeting-industrys-requirement-by-applying-state-of-the-art-deep-698d2b3b4ede
+https://www.depends-on-the-definition.com/sequence-tagging-lstm-crf/
+https://www.depends-on-the-definition.com/lstm-with-char-embeddings-for-ner/
+
+
+" classifier being the linear-chain Conditional Random Fields (CRF),
+Structural Support Vector Machines (S-SVM) and maximum-entropy classifiers.
+The drawback of this approach is that feature engineering can be ofte
+as time-consuming as the manual design of rules."
+
+ However, drug and clinical concept recognition are very domain-specific tasks,
+and many words might not appear in general-domain datasets. In order to
+assign word embeddings to these specialized words, the embedding
+algorithms need to be retrained using medical domain resources
+such as the MIMIC-III corpora [10]
+https://www.sciencedirect.com/science/article/pii/S1532046417302447
+
+
+https://github.com/keras-team/keras/issues/11894
+https://github.com/strongio/keras-elmo/blob/master/Elmo%20Keras.ipynb
+https://www.depends-on-the-definition.com/lstm-with-char-embeddings-for-ner/

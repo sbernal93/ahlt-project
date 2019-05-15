@@ -1,0 +1,28 @@
+0 -> initial run
+1 -> units to 64
+2 -> dense to 100
+3 -> validation_split to 0.2
+4 -> 10 epochs
+5 -> increase recurrent_dropout to 0.8
+6 -> increase recurrent_dropout to 0.9
+7 -> decrease recurrent_dropout to 0.8, act tanh
+8 -> linear activation
+9 -> adam optimizer
+10 -> 5 epochs
+11 -> 20 epochs
+12 -> 5 epochs, sgd optimizer
+13 -> rmsprop optimizer, linear activation in crf
+14 -> relu activation in crf
+15 -> tanh activation
+16 -> sigmoid activation
+17 -> linear activation in crf 0.5 dropout
+18 -> testing kfold
+19 -> removing dropout
+20 -> 10 fold xvalidation
+21 -> 5 fold, dropout 0.8
+22 -> dropout 0.3
+23 -> mx len to 50
+24 -> mx len to 75
+25 -> test pos embedding
+26 -> add missing import
+27 -> fixes

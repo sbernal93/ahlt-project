@@ -1,0 +1,37 @@
+DDI-DrugBank.d672.s0|0-6|Digoxin|drug
+DDI-DrugBank.d672.s1|0-14|Methylxanthines|drug
+DDI-DrugBank.d672.s3|0-7|Warfarin|drug
+DDI-DrugBank.d672.s4|0-9|Cimetidine|drug
+DDI-DrugBank.d672.s6|0-8|Zinc/iron|drug
+DDI-DrugBank.d672.s8|0-9|Probenecid|drug
+DDI-DrugBank.d733.s0|0-10|Misoprostol|drug
+DDI-DrugBank.d733.s1|0-10|Misoprostol|drug
+DDI-DrugBank.d733.s2|0-10|Misoprostol|drug
+DDI-DrugBank.d617.s1|0-8|lidocaine|drug
+DDI-DrugBank.d617.s2|0-10|hydralazine|drug
+DDI-DrugBank.d617.s3|11-19|dinitrate|drug
+DDI-DrugBank.d617.s4|0-13|chlorthalidone|drug
+DDI-DrugBank.d617.s5|0-8|captopril|drug
+DDI-DrugBank.d617.s6|0-6|heparin|drug
+DDI-DrugBank.d620.s0|0-11|Pyrazinamide|drug
+DDI-DrugBank.d724.s1|0-7|Infergen|drug
+DDI-DrugBank.d583.s1|0-11|Remifentanil|drug
+DDI-DrugBank.d749.s1|0-9|Pegaptanib|drug
+DDI-DrugBank.d614.s4|0-7|Research|drug
+DDI-DrugBank.d614.s7|65-88|calcium channel blockers|group
+DDI-DrugBank.d614.s7|99-132|prostaglandin synthesis inhibitors|group
+DDI-DrugBank.d614.s9|0-22|Glucocorticoid hormones|group
+DDI-DrugBank.d644.s4|74-104|seizure medications antibiotics|group
+DDI-DrugBank.d663.s1|9-20|intravitreal|drug
+DDI-DrugBank.d684.s3|87-110|calcium channel blockers|group
+DDI-DrugBank.d657.s2|0-9|Dronabinol|drug
+DDI-DrugBank.d705.s0|0-10|Telbivudine|drug
+DDI-DrugBank.d662.s0|0-11|Mitoxantrone|drug
+DDI-DrugBank.d673.s2|11-19|medoxomil|drug
+DDI-DrugBank.d768.s0|0-11|Palonosetron|drug
+DDI-DrugBank.d768.s5|0-11|Palonosetron|drug
+DDI-DrugBank.d592.s0|35-41|Sulfate|drug
+DDI-DrugBank.d592.s2|0-6|Heparin|drug
+DDI-DrugBank.d592.s2|72-78|Sulfate|drug
+DDI-DrugBank.d586.s3|87-110|calcium channel blockers|group
+DDI-DrugBank.d626.s0|0-6|Alcohol|drug

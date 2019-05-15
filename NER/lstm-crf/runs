@@ -1,0 +1,23 @@
+0 -> initial run
+1 -> optimize with adam
+2 -> optimize with sgd
+3 -> using rmsprop, increase batch size and epochs
+4 -> initial config, adding Dropout of 0.5 for LSTM
+5 -> Dropout 0.3
+5 -> Dropout 0.8
+6 -> remove dropout
+7 -> recurrent_dropout to 0.5
+8 -> output_dim to 60 units 100
+10 -> more epochs
+11 -> bigger output dim to 120
+12 -> bigger output dim to 300
+13 -> bigger output dim to 600
+14 -> units to 200
+15 -> output dim to 450
+16 -> units to 900
+17 -> Dense units to 100
+19 -> 0 in pad pad_sequences
+20 -> n_words -1 in pad pad_sequences
+21 -> n_words -1 in pad pad_sequences for prediction
+22 -> testing prediction converter
+23 -> revert
