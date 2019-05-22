@@ -26,3 +26,36 @@
 25 -> test pos embedding
 26 -> add missing import
 27 -> fixes
+28 -> using prev features from crf
+29 -> update features, add suff3 and 4 for the model
+30,31,32,33 -> fixes
+34 -> lr in opt to 0.03
+35 -> lr to 0.05, without kfold
+36,37 -> lr to 0.01
+38,39 -> add tktypes
+40 -> add kfold
+41 -> remove suff4
+42 -> remove suff3
+43 -> lr to 0.001
+44 -> 10 epochs
+45 -> 5 epochs, lr to 0.009
+46 -> MedLine
+47 -> DrugBank
+48 -> lr to 0.001
+49 -> 10 epochs
+50 -> no rho
+51 -> lr 0.1
+52 -> lr 0.02
+53 -> lr 0.01
+54 -> update network, batch_size 64
+55 -> reverts network changes, adds suf3 and suf4
+56 -> lr to 0.0001
+57-> lr to 0.01 removing kffold
+58 -> 10 epoch, validation split 0.2
+59 -> update network units, linear activation in crf
+60 -> re add kfold
+61 -> remove kflod, set lr to 0.1
+62 -> 5 epochs, lr to 0.009
+63 -> 20 epochs, lr to 0.01
+64 -> 10 epochs
+65 -> batches 64

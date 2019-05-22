@@ -1,0 +1,783 @@
+DDI-DrugBank.d660.s1|DDI-DrugBank.d660.s1.e0|DDI-DrugBank.d660.s1.e1|0|null
+DDI-DrugBank.d660.s1|DDI-DrugBank.d660.s1.e0|DDI-DrugBank.d660.s1.e2|0|null
+DDI-DrugBank.d660.s1|DDI-DrugBank.d660.s1.e0|DDI-DrugBank.d660.s1.e3|0|null
+DDI-DrugBank.d660.s1|DDI-DrugBank.d660.s1.e0|DDI-DrugBank.d660.s1.e4|0|null
+DDI-DrugBank.d660.s1|DDI-DrugBank.d660.s1.e1|DDI-DrugBank.d660.s1.e2|0|null
+DDI-DrugBank.d660.s1|DDI-DrugBank.d660.s1.e1|DDI-DrugBank.d660.s1.e3|0|null
+DDI-DrugBank.d660.s1|DDI-DrugBank.d660.s1.e1|DDI-DrugBank.d660.s1.e4|0|null
+DDI-DrugBank.d660.s1|DDI-DrugBank.d660.s1.e2|DDI-DrugBank.d660.s1.e3|0|null
+DDI-DrugBank.d660.s1|DDI-DrugBank.d660.s1.e2|DDI-DrugBank.d660.s1.e4|0|null
+DDI-DrugBank.d660.s1|DDI-DrugBank.d660.s1.e3|DDI-DrugBank.d660.s1.e4|0|null
+DDI-DrugBank.d621.s1|DDI-DrugBank.d621.s1.e0|DDI-DrugBank.d621.s1.e1|0|null
+DDI-DrugBank.d621.s1|DDI-DrugBank.d621.s1.e0|DDI-DrugBank.d621.s1.e2|0|null
+DDI-DrugBank.d621.s1|DDI-DrugBank.d621.s1.e0|DDI-DrugBank.d621.s1.e3|0|null
+DDI-DrugBank.d621.s1|DDI-DrugBank.d621.s1.e1|DDI-DrugBank.d621.s1.e2|0|null
+DDI-DrugBank.d621.s1|DDI-DrugBank.d621.s1.e1|DDI-DrugBank.d621.s1.e3|0|null
+DDI-DrugBank.d621.s1|DDI-DrugBank.d621.s1.e2|DDI-DrugBank.d621.s1.e3|0|null
+DDI-DrugBank.d672.s0|DDI-DrugBank.d672.s0.e0|DDI-DrugBank.d672.s0.e1|0|null
+[('Digoxin', 0, 6), (':', 7, 7), ('Sparfloxacin', 9, 20), ('has', 22, 24), ('no', 26, 27), ('effect', 29, 34), ('on', 36, 37), ('the', 39, 41), ('pharmacokinetics', 43, 58), ('of', 60, 61), ('digoxin', 63, 69), ('.', 70, 70)]
+{'DDI-DrugBank.d672.s0.e0': ['0', '6'], 'DDI-DrugBank.d672.s0.e1': ['9', '20'], 'DDI-DrugBank.d672.s0.e2': ['63', '69']}
+[[':', 7, 7, ':', ':'], ['Sparfloxacin', 9, 20, 'NNP', 'Sparfloxacin'], ['has', 22, 24, 'VBZ', 'ha'], ['no', 26, 27, 'DT', 'no'], ['effect', 29, 34, 'NN', 'effect'], ['on', 36, 37, 'IN', 'on'], ['the', 39, 41, 'DT', 'the'], ['pharmacokinetics', 43, 58, 'NNS', 'pharmacokinetics'], ['of', 60, 61, 'IN', 'of']]
+DDI-DrugBank.d672.s0|DDI-DrugBank.d672.s0.e0|DDI-DrugBank.d672.s0.e2|1|effect
+[('Digoxin', 0, 6), (':', 7, 7), ('Sparfloxacin', 9, 20), ('has', 22, 24), ('no', 26, 27), ('effect', 29, 34), ('on', 36, 37), ('the', 39, 41), ('pharmacokinetics', 43, 58), ('of', 60, 61), ('digoxin', 63, 69), ('.', 70, 70)]
+{'DDI-DrugBank.d672.s0.e0': ['0', '6'], 'DDI-DrugBank.d672.s0.e1': ['9', '20'], 'DDI-DrugBank.d672.s0.e2': ['63', '69']}
+[['has', 22, 24, 'VBZ', 'ha'], ['no', 26, 27, 'DT', 'no'], ['effect', 29, 34, 'NN', 'effect'], ['on', 36, 37, 'IN', 'on'], ['the', 39, 41, 'DT', 'the'], ['pharmacokinetics', 43, 58, 'NNS', 'pharmacokinetics'], ['of', 60, 61, 'IN', 'of']]
+DDI-DrugBank.d672.s0|DDI-DrugBank.d672.s0.e1|DDI-DrugBank.d672.s0.e2|1|effect
+DDI-DrugBank.d672.s1|DDI-DrugBank.d672.s1.e0|DDI-DrugBank.d672.s1.e1|0|null
+[('Methylxanthines', 0, 14), (':', 15, 15), ('Sparfloxacin', 17, 28), ('does', 30, 33), ('not', 35, 37), ('increase', 39, 46), ('plasma', 48, 53), ('theophylline', 55, 66), ('concentrations', 68, 81), ('.', 82, 82)]
+{'DDI-DrugBank.d672.s1.e0': ['0', '14'], 'DDI-DrugBank.d672.s1.e1': ['17', '28'], 'DDI-DrugBank.d672.s1.e2': ['55', '66']}
+[[':', 15, 15, ':', ':'], ['Sparfloxacin', 17, 28, 'NN', 'Sparfloxacin'], ['does', 30, 33, 'VBZ', 'doe'], ['not', 35, 37, 'RB', 'not'], ['increase', 39, 46, 'VB', 'increase'], ['plasma', 48, 53, 'NN', 'plasma']]
+DDI-DrugBank.d672.s1|DDI-DrugBank.d672.s1.e0|DDI-DrugBank.d672.s1.e2|1|effect
+[('Methylxanthines', 0, 14), (':', 15, 15), ('Sparfloxacin', 17, 28), ('does', 30, 33), ('not', 35, 37), ('increase', 39, 46), ('plasma', 48, 53), ('theophylline', 55, 66), ('concentrations', 68, 81), ('.', 82, 82)]
+{'DDI-DrugBank.d672.s1.e0': ['0', '14'], 'DDI-DrugBank.d672.s1.e1': ['17', '28'], 'DDI-DrugBank.d672.s1.e2': ['55', '66']}
+[['does', 30, 33, 'VBZ', 'doe'], ['not', 35, 37, 'RB', 'not'], ['increase', 39, 46, 'VB', 'increase'], ['plasma', 48, 53, 'NN', 'plasma']]
+DDI-DrugBank.d672.s1|DDI-DrugBank.d672.s1.e1|DDI-DrugBank.d672.s1.e2|1|effect
+DDI-DrugBank.d672.s2|DDI-DrugBank.d672.s2.e0|DDI-DrugBank.d672.s2.e1|0|null
+DDI-DrugBank.d672.s2|DDI-DrugBank.d672.s2.e0|DDI-DrugBank.d672.s2.e2|0|null
+DDI-DrugBank.d672.s2|DDI-DrugBank.d672.s2.e1|DDI-DrugBank.d672.s2.e2|0|null
+DDI-DrugBank.d672.s3|DDI-DrugBank.d672.s3.e0|DDI-DrugBank.d672.s3.e1|0|null
+[('Warfarin', 0, 7), (':', 8, 8), ('Sparfloxacin', 10, 21), ('does', 23, 26), ('not', 28, 30), ('increase', 32, 39), ('the', 41, 43), ('anti-coagulant', 45, 58), ('effect', 60, 65), ('of', 67, 68), ('warfarin', 70, 77), ('.', 78, 78)]
+{'DDI-DrugBank.d672.s3.e0': ['0', '7'], 'DDI-DrugBank.d672.s3.e1': ['10', '21'], 'DDI-DrugBank.d672.s3.e2': ['70', '77']}
+[[':', 8, 8, ':', ':'], ['Sparfloxacin', 10, 21, 'NN', 'Sparfloxacin'], ['does', 23, 26, 'VBZ', 'doe'], ['not', 28, 30, 'RB', 'not'], ['increase', 32, 39, 'VB', 'increase'], ['the', 41, 43, 'DT', 'the'], ['anti-coagulant', 45, 58, 'JJ', 'anti-coagulant'], ['effect', 60, 65, 'NN', 'effect'], ['of', 67, 68, 'IN', 'of']]
+DDI-DrugBank.d672.s3|DDI-DrugBank.d672.s3.e0|DDI-DrugBank.d672.s3.e2|1|effect
+[('Warfarin', 0, 7), (':', 8, 8), ('Sparfloxacin', 10, 21), ('does', 23, 26), ('not', 28, 30), ('increase', 32, 39), ('the', 41, 43), ('anti-coagulant', 45, 58), ('effect', 60, 65), ('of', 67, 68), ('warfarin', 70, 77), ('.', 78, 78)]
+{'DDI-DrugBank.d672.s3.e0': ['0', '7'], 'DDI-DrugBank.d672.s3.e1': ['10', '21'], 'DDI-DrugBank.d672.s3.e2': ['70', '77']}
+[['does', 23, 26, 'VBZ', 'doe'], ['not', 28, 30, 'RB', 'not'], ['increase', 32, 39, 'VB', 'increase'], ['the', 41, 43, 'DT', 'the'], ['anti-coagulant', 45, 58, 'JJ', 'anti-coagulant'], ['effect', 60, 65, 'NN', 'effect'], ['of', 67, 68, 'IN', 'of']]
+DDI-DrugBank.d672.s3|DDI-DrugBank.d672.s3.e1|DDI-DrugBank.d672.s3.e2|1|effect
+DDI-DrugBank.d672.s4|DDI-DrugBank.d672.s4.e0|DDI-DrugBank.d672.s4.e1|0|null
+DDI-DrugBank.d672.s4|DDI-DrugBank.d672.s4.e0|DDI-DrugBank.d672.s4.e2|0|null
+DDI-DrugBank.d672.s4|DDI-DrugBank.d672.s4.e1|DDI-DrugBank.d672.s4.e2|0|null
+DDI-DrugBank.d672.s5|DDI-DrugBank.d672.s5.e0|DDI-DrugBank.d672.s5.e1|0|null
+[('The', 0, 2), ('oral', 4, 7), ('bioavailability', 9, 23), ('of', 25, 26), ('sparfloxacin', 28, 39), ('is', 41, 42), ('not', 44, 46), ('reduced', 48, 54), ('when', 56, 59), ('the', 61, 63), ('aluminum-magnesium', 65, 82), ('suspension', 84, 93), ('is', 95, 96), ('administered', 98, 109), ('4', 111, 111), ('hours', 113, 117), ('following', 119, 127), ('sparfloxacin', 129, 140), ('administration', 142, 155), ('.', 156, 156)]
+{'DDI-DrugBank.d672.s5.e0': ['28', '39'], 'DDI-DrugBank.d672.s5.e1': ['65', '72'], 'DDI-DrugBank.d672.s5.e2': ['74', '82']}
+[['is', 41, 42, 'VBZ', 'is'], ['not', 44, 46, 'RB', 'not'], ['reduced', 48, 54, 'VBN', 'reduced'], ['when', 56, 59, 'WRB', 'when'], ['the', 61, 63, 'DT', 'the'], ['aluminum-magnesium', 65, 82, 'JJ', 'aluminum-magnesium'], ['suspension', 84, 93, 'NN', 'suspension'], ['is', 95, 96, 'VBZ', 'is'], ['administered', 98, 109, 'VBN', 'administered'], ['4', 111, 111, 'CD', '4'], ['hours', 113, 117, 'NNS', 'hour'], ['following', 119, 127, 'VBG', 'following'], ['sparfloxacin', 129, 140, 'JJ', 'sparfloxacin'], ['administration', 142, 155, 'NN', 'administration'], ['.', 156, 156, '.', '.']]
+DDI-DrugBank.d672.s5|DDI-DrugBank.d672.s5.e0|DDI-DrugBank.d672.s5.e2|1|effect
+[('The', 0, 2), ('oral', 4, 7), ('bioavailability', 9, 23), ('of', 25, 26), ('sparfloxacin', 28, 39), ('is', 41, 42), ('not', 44, 46), ('reduced', 48, 54), ('when', 56, 59), ('the', 61, 63), ('aluminum-magnesium', 65, 82), ('suspension', 84, 93), ('is', 95, 96), ('administered', 98, 109), ('4', 111, 111), ('hours', 113, 117), ('following', 119, 127), ('sparfloxacin', 129, 140), ('administration', 142, 155), ('.', 156, 156)]
+{'DDI-DrugBank.d672.s5.e0': ['28', '39'], 'DDI-DrugBank.d672.s5.e1': ['65', '72'], 'DDI-DrugBank.d672.s5.e2': ['74', '82']}
+[['suspension', 84, 93, 'NN', 'suspension'], ['is', 95, 96, 'VBZ', 'is'], ['administered', 98, 109, 'VBN', 'administered'], ['4', 111, 111, 'CD', '4'], ['hours', 113, 117, 'NNS', 'hour'], ['following', 119, 127, 'VBG', 'following'], ['sparfloxacin', 129, 140, 'JJ', 'sparfloxacin'], ['administration', 142, 155, 'NN', 'administration'], ['.', 156, 156, '.', '.']]
+DDI-DrugBank.d672.s5|DDI-DrugBank.d672.s5.e1|DDI-DrugBank.d672.s5.e2|1|effect
+DDI-DrugBank.d672.s6|DDI-DrugBank.d672.s6.e0|DDI-DrugBank.d672.s6.e1|0|null
+DDI-DrugBank.d672.s6|DDI-DrugBank.d672.s6.e0|DDI-DrugBank.d672.s6.e2|0|null
+DDI-DrugBank.d672.s6|DDI-DrugBank.d672.s6.e1|DDI-DrugBank.d672.s6.e2|0|null
+DDI-DrugBank.d672.s8|DDI-DrugBank.d672.s8.e0|DDI-DrugBank.d672.s8.e1|0|null
+DDI-DrugBank.d672.s8|DDI-DrugBank.d672.s8.e0|DDI-DrugBank.d672.s8.e2|0|null
+DDI-DrugBank.d672.s8|DDI-DrugBank.d672.s8.e1|DDI-DrugBank.d672.s8.e2|0|null
+[('Misoprostol', 0, 10), ('has', 12, 14), ('not', 16, 18), ('been', 20, 23), ('shown', 25, 29), ('to', 31, 32), ('interfere', 34, 42), ('with', 44, 47), ('the', 49, 51), ('beneficial', 53, 62), ('effects', 64, 70), ('of', 72, 73), ('aspirin', 75, 81), ('on', 83, 84), ('signs', 86, 90), ('and', 92, 94), ('symptoms', 96, 103), ('of', 105, 106), ('rheumatoid', 108, 117), ('arthritis', 119, 127), ('.', 128, 128)]
+{'DDI-DrugBank.d733.s0.e0': ['0', '10'], 'DDI-DrugBank.d733.s0.e1': ['75', '81']}
+[['has', 12, 14, 'VBZ', 'ha'], ['not', 16, 18, 'RB', 'not'], ['been', 20, 23, 'VBN', 'been'], ['shown', 25, 29, 'VBN', 'shown'], ['to', 31, 32, 'TO', 'to'], ['interfere', 34, 42, 'VB', 'interfere'], ['with', 44, 47, 'IN', 'with'], ['the', 49, 51, 'DT', 'the'], ['beneficial', 53, 62, 'JJ', 'beneficial'], ['effects', 64, 70, 'NNS', 'effect'], ['of', 72, 73, 'IN', 'of']]
+DDI-DrugBank.d733.s0|DDI-DrugBank.d733.s0.e0|DDI-DrugBank.d733.s0.e1|1|effect
+[('Misoprostol', 0, 10), ('does', 12, 15), ('not', 17, 19), ('exert', 21, 25), ('clinically', 27, 36), ('significant', 38, 48), ('effects', 50, 56), ('on', 58, 59), ('the', 61, 63), ('absorption', 65, 74), (',', 75, 75), ('blood', 77, 81), ('levels', 83, 88), (',', 89, 89), ('and', 91, 93), ('anti-platelet', 95, 107), ('effects', 109, 115), ('of', 117, 118), ('therapeutic', 120, 130), ('doses', 132, 136), ('of', 138, 139), ('aspirin', 141, 147), ('.', 148, 148)]
+{'DDI-DrugBank.d733.s1.e0': ['0', '10'], 'DDI-DrugBank.d733.s1.e1': ['141', '147']}
+[['does', 12, 15, 'VBZ', 'doe'], ['not', 17, 19, 'RB', 'not'], ['exert', 21, 25, 'VB', 'exert'], ['clinically', 27, 36, 'RB', 'clinically'], ['significant', 38, 48, 'JJ', 'significant'], ['effects', 50, 56, 'NNS', 'effect'], ['on', 58, 59, 'IN', 'on'], ['the', 61, 63, 'DT', 'the'], ['absorption', 65, 74, 'NN', 'absorption'], [',', 75, 75, ',', ','], ['blood', 77, 81, 'NN', 'blood'], ['levels', 83, 88, 'NNS', 'level'], [',', 89, 89, ',', ','], ['and', 91, 93, 'CC', 'and'], ['anti-platelet', 95, 107, 'JJ', 'anti-platelet'], ['effects', 109, 115, 'NNS', 'effect'], ['of', 117, 118, 'IN', 'of'], ['therapeutic', 120, 130, 'JJ', 'therapeutic'], ['doses', 132, 136, 'NNS', 'dos'], ['of', 138, 139, 'IN', 'of']]
+DDI-DrugBank.d733.s1|DDI-DrugBank.d733.s1.e0|DDI-DrugBank.d733.s1.e1|1|effect
+[('Misoprostol', 0, 10), ('has', 12, 14), ('no', 16, 17), ('clinically', 19, 28), ('significant', 30, 40), ('effect', 42, 47), ('on', 49, 50), ('the', 52, 54), ('kinetics', 56, 63), ('of', 65, 66), ('diclofenac', 68, 77), ('or', 79, 80), ('ibuprofen', 82, 90), ('.', 91, 91)]
+{'DDI-DrugBank.d733.s2.e0': ['0', '10'], 'DDI-DrugBank.d733.s2.e1': ['68', '77'], 'DDI-DrugBank.d733.s2.e2': ['82', '90']}
+[['has', 12, 14, 'VBZ', 'ha'], ['no', 16, 17, 'DT', 'no'], ['clinically', 19, 28, 'RB', 'clinically'], ['significant', 30, 40, 'JJ', 'significant'], ['effect', 42, 47, 'NN', 'effect'], ['on', 49, 50, 'IN', 'on'], ['the', 52, 54, 'DT', 'the'], ['kinetics', 56, 63, 'NNS', 'kinetics'], ['of', 65, 66, 'IN', 'of']]
+DDI-DrugBank.d733.s2|DDI-DrugBank.d733.s2.e0|DDI-DrugBank.d733.s2.e1|1|effect
+[('Misoprostol', 0, 10), ('has', 12, 14), ('no', 16, 17), ('clinically', 19, 28), ('significant', 30, 40), ('effect', 42, 47), ('on', 49, 50), ('the', 52, 54), ('kinetics', 56, 63), ('of', 65, 66), ('diclofenac', 68, 77), ('or', 79, 80), ('ibuprofen', 82, 90), ('.', 91, 91)]
+{'DDI-DrugBank.d733.s2.e0': ['0', '10'], 'DDI-DrugBank.d733.s2.e1': ['68', '77'], 'DDI-DrugBank.d733.s2.e2': ['82', '90']}
+[['has', 12, 14, 'VBZ', 'ha'], ['no', 16, 17, 'DT', 'no'], ['clinically', 19, 28, 'RB', 'clinically'], ['significant', 30, 40, 'JJ', 'significant'], ['effect', 42, 47, 'NN', 'effect'], ['on', 49, 50, 'IN', 'on'], ['the', 52, 54, 'DT', 'the'], ['kinetics', 56, 63, 'NNS', 'kinetics'], ['of', 65, 66, 'IN', 'of'], ['diclofenac', 68, 77, 'NN', 'diclofenac'], ['or', 79, 80, 'CC', 'or']]
+DDI-DrugBank.d733.s2|DDI-DrugBank.d733.s2.e0|DDI-DrugBank.d733.s2.e2|1|effect
+DDI-DrugBank.d733.s2|DDI-DrugBank.d733.s2.e1|DDI-DrugBank.d733.s2.e2|0|null
+[('No', 0, 1), ('untoward', 3, 10), ('clinical', 12, 19), ('manifestations', 21, 34), ('have', 36, 39), ('been', 41, 44), ('observed', 46, 53), ('in', 55, 56), ('limited', 58, 64), ('experience', 66, 75), ('with', 77, 80), ('patients', 82, 89), ('in', 91, 92), ('whom', 94, 97), ('PRIMACOR', 99, 106), ('was', 108, 110), ('used', 112, 115), ('concurrently', 117, 128), ('with', 130, 133), ('the', 135, 137), ('following', 139, 147), ('drugs', 149, 153), (':', 154, 154), ('digitalis', 156, 164), ('glycosides', 166, 175), (';', 176, 176)]
+{'DDI-DrugBank.d617.s0.e0': ['99', '106'], 'DDI-DrugBank.d617.s0.e1': ['156', '175']}
+[['was', 108, 110, 'VBD', 'wa'], ['used', 112, 115, 'VBN', 'used'], ['concurrently', 117, 128, 'RB', 'concurrently'], ['with', 130, 133, 'IN', 'with'], ['the', 135, 137, 'DT', 'the'], ['following', 139, 147, 'VBG', 'following'], ['drugs', 149, 153, 'NNS', 'drug'], [':', 154, 154, ':', ':']]
+DDI-DrugBank.d617.s0|DDI-DrugBank.d617.s0.e0|DDI-DrugBank.d617.s0.e1|1|effect
+DDI-DrugBank.d617.s1|DDI-DrugBank.d617.s1.e0|DDI-DrugBank.d617.s1.e1|0|null
+DDI-DrugBank.d617.s2|DDI-DrugBank.d617.s2.e0|DDI-DrugBank.d617.s2.e1|0|null
+DDI-DrugBank.d617.s3|DDI-DrugBank.d617.s3.e0|DDI-DrugBank.d617.s3.e1|0|null
+DDI-DrugBank.d617.s4|DDI-DrugBank.d617.s4.e0|DDI-DrugBank.d617.s4.e1|0|null
+DDI-DrugBank.d617.s4|DDI-DrugBank.d617.s4.e0|DDI-DrugBank.d617.s4.e2|0|null
+DDI-DrugBank.d617.s4|DDI-DrugBank.d617.s4.e0|DDI-DrugBank.d617.s4.e3|0|null
+DDI-DrugBank.d617.s4|DDI-DrugBank.d617.s4.e1|DDI-DrugBank.d617.s4.e2|0|null
+DDI-DrugBank.d617.s4|DDI-DrugBank.d617.s4.e1|DDI-DrugBank.d617.s4.e3|0|null
+DDI-DrugBank.d617.s4|DDI-DrugBank.d617.s4.e2|DDI-DrugBank.d617.s4.e3|0|null
+DDI-DrugBank.d617.s6|DDI-DrugBank.d617.s6.e0|DDI-DrugBank.d617.s6.e1|0|null
+DDI-DrugBank.d617.s6|DDI-DrugBank.d617.s6.e0|DDI-DrugBank.d617.s6.e2|0|null
+DDI-DrugBank.d617.s6|DDI-DrugBank.d617.s6.e0|DDI-DrugBank.d617.s6.e3|0|null
+DDI-DrugBank.d617.s6|DDI-DrugBank.d617.s6.e1|DDI-DrugBank.d617.s6.e2|0|null
+DDI-DrugBank.d617.s6|DDI-DrugBank.d617.s6.e1|DDI-DrugBank.d617.s6.e3|0|null
+DDI-DrugBank.d617.s6|DDI-DrugBank.d617.s6.e2|DDI-DrugBank.d617.s6.e3|0|null
+DDI-DrugBank.d617.s8|DDI-DrugBank.d617.s8.e0|DDI-DrugBank.d617.s8.e1|0|null
+[('Therefore', 0, 8), (',', 9, 9), ('furosemide', 11, 20), ('should', 22, 27), ('not', 29, 31), ('be', 33, 34), ('administered', 36, 47), ('in', 49, 50), ('intravenous', 52, 62), ('lines', 64, 68), ('containing', 70, 79), ('PRIMACOR', 81, 88), ('.', 89, 89)]
+{'DDI-DrugBank.d617.s9.e0': ['11', '20'], 'DDI-DrugBank.d617.s9.e1': ['81', '88']}
+[['should', 22, 27, 'MD', 'should'], ['not', 29, 31, 'RB', 'not'], ['be', 33, 34, 'VB', 'be'], ['administered', 36, 47, 'VBN', 'administered'], ['in', 49, 50, 'IN', 'in'], ['intravenous', 52, 62, 'JJ', 'intravenous'], ['lines', 64, 68, 'NNS', 'line'], ['containing', 70, 79, 'VBG', 'containing']]
+DDI-DrugBank.d617.s9|DDI-DrugBank.d617.s9.e0|DDI-DrugBank.d617.s9.e1|1|effect
+DDI-DrugBank.d667.s0|DDI-DrugBank.d667.s0.e0|DDI-DrugBank.d667.s0.e1|0|null
+DDI-DrugBank.d714.s0|DDI-DrugBank.d714.s0.e0|DDI-DrugBank.d714.s0.e1|0|null
+DDI-DrugBank.d583.s0|DDI-DrugBank.d583.s0.e0|DDI-DrugBank.d583.s0.e1|0|null
+DDI-DrugBank.d583.s1|DDI-DrugBank.d583.s1.e0|DDI-DrugBank.d583.s1.e1|0|null
+DDI-DrugBank.d583.s1|DDI-DrugBank.d583.s1.e0|DDI-DrugBank.d583.s1.e2|0|null
+DDI-DrugBank.d583.s1|DDI-DrugBank.d583.s1.e0|DDI-DrugBank.d583.s1.e3|0|null
+DDI-DrugBank.d583.s1|DDI-DrugBank.d583.s1.e0|DDI-DrugBank.d583.s1.e4|0|null
+DDI-DrugBank.d583.s1|DDI-DrugBank.d583.s1.e1|DDI-DrugBank.d583.s1.e2|0|null
+DDI-DrugBank.d583.s1|DDI-DrugBank.d583.s1.e1|DDI-DrugBank.d583.s1.e3|0|null
+DDI-DrugBank.d583.s1|DDI-DrugBank.d583.s1.e1|DDI-DrugBank.d583.s1.e4|0|null
+DDI-DrugBank.d583.s1|DDI-DrugBank.d583.s1.e2|DDI-DrugBank.d583.s1.e3|0|null
+DDI-DrugBank.d583.s1|DDI-DrugBank.d583.s1.e2|DDI-DrugBank.d583.s1.e4|0|null
+DDI-DrugBank.d583.s1|DDI-DrugBank.d583.s1.e3|DDI-DrugBank.d583.s1.e4|0|null
+DDI-DrugBank.d583.s2|DDI-DrugBank.d583.s2.e0|DDI-DrugBank.d583.s2.e1|0|null
+DDI-DrugBank.d583.s2|DDI-DrugBank.d583.s2.e0|DDI-DrugBank.d583.s2.e2|0|null
+DDI-DrugBank.d583.s2|DDI-DrugBank.d583.s2.e0|DDI-DrugBank.d583.s2.e3|0|null
+DDI-DrugBank.d583.s2|DDI-DrugBank.d583.s2.e0|DDI-DrugBank.d583.s2.e4|0|null
+DDI-DrugBank.d583.s2|DDI-DrugBank.d583.s2.e0|DDI-DrugBank.d583.s2.e5|0|null
+DDI-DrugBank.d583.s2|DDI-DrugBank.d583.s2.e0|DDI-DrugBank.d583.s2.e6|0|null
+DDI-DrugBank.d583.s2|DDI-DrugBank.d583.s2.e0|DDI-DrugBank.d583.s2.e7|0|null
+DDI-DrugBank.d583.s2|DDI-DrugBank.d583.s2.e1|DDI-DrugBank.d583.s2.e2|0|null
+DDI-DrugBank.d583.s2|DDI-DrugBank.d583.s2.e1|DDI-DrugBank.d583.s2.e3|0|null
+DDI-DrugBank.d583.s2|DDI-DrugBank.d583.s2.e1|DDI-DrugBank.d583.s2.e4|0|null
+DDI-DrugBank.d583.s2|DDI-DrugBank.d583.s2.e1|DDI-DrugBank.d583.s2.e5|0|null
+DDI-DrugBank.d583.s2|DDI-DrugBank.d583.s2.e1|DDI-DrugBank.d583.s2.e6|0|null
+DDI-DrugBank.d583.s2|DDI-DrugBank.d583.s2.e1|DDI-DrugBank.d583.s2.e7|0|null
+DDI-DrugBank.d583.s2|DDI-DrugBank.d583.s2.e2|DDI-DrugBank.d583.s2.e3|0|null
+DDI-DrugBank.d583.s2|DDI-DrugBank.d583.s2.e2|DDI-DrugBank.d583.s2.e4|0|null
+DDI-DrugBank.d583.s2|DDI-DrugBank.d583.s2.e2|DDI-DrugBank.d583.s2.e5|0|null
+DDI-DrugBank.d583.s2|DDI-DrugBank.d583.s2.e2|DDI-DrugBank.d583.s2.e6|0|null
+DDI-DrugBank.d583.s2|DDI-DrugBank.d583.s2.e2|DDI-DrugBank.d583.s2.e7|0|null
+DDI-DrugBank.d583.s2|DDI-DrugBank.d583.s2.e3|DDI-DrugBank.d583.s2.e4|0|null
+DDI-DrugBank.d583.s2|DDI-DrugBank.d583.s2.e3|DDI-DrugBank.d583.s2.e5|0|null
+DDI-DrugBank.d583.s2|DDI-DrugBank.d583.s2.e3|DDI-DrugBank.d583.s2.e6|0|null
+DDI-DrugBank.d583.s2|DDI-DrugBank.d583.s2.e3|DDI-DrugBank.d583.s2.e7|0|null
+DDI-DrugBank.d583.s2|DDI-DrugBank.d583.s2.e4|DDI-DrugBank.d583.s2.e5|0|null
+DDI-DrugBank.d583.s2|DDI-DrugBank.d583.s2.e4|DDI-DrugBank.d583.s2.e6|0|null
+DDI-DrugBank.d583.s2|DDI-DrugBank.d583.s2.e4|DDI-DrugBank.d583.s2.e7|0|null
+DDI-DrugBank.d583.s2|DDI-DrugBank.d583.s2.e5|DDI-DrugBank.d583.s2.e6|0|null
+DDI-DrugBank.d583.s2|DDI-DrugBank.d583.s2.e5|DDI-DrugBank.d583.s2.e7|0|null
+DDI-DrugBank.d583.s2|DDI-DrugBank.d583.s2.e6|DDI-DrugBank.d583.s2.e7|0|null
+DDI-DrugBank.d749.s2|DDI-DrugBank.d749.s2.e0|DDI-DrugBank.d749.s2.e1|0|null
+DDI-DrugBank.d614.s1|DDI-DrugBank.d614.s1.e0|DDI-DrugBank.d614.s1.e1|0|null
+DDI-DrugBank.d614.s1|DDI-DrugBank.d614.s1.e0|DDI-DrugBank.d614.s1.e2|0|null
+DDI-DrugBank.d614.s1|DDI-DrugBank.d614.s1.e0|DDI-DrugBank.d614.s1.e3|0|null
+DDI-DrugBank.d614.s1|DDI-DrugBank.d614.s1.e0|DDI-DrugBank.d614.s1.e4|0|null
+DDI-DrugBank.d614.s1|DDI-DrugBank.d614.s1.e0|DDI-DrugBank.d614.s1.e5|0|null
+DDI-DrugBank.d614.s1|DDI-DrugBank.d614.s1.e0|DDI-DrugBank.d614.s1.e6|0|null
+DDI-DrugBank.d614.s1|DDI-DrugBank.d614.s1.e1|DDI-DrugBank.d614.s1.e2|0|null
+DDI-DrugBank.d614.s1|DDI-DrugBank.d614.s1.e1|DDI-DrugBank.d614.s1.e3|0|null
+DDI-DrugBank.d614.s1|DDI-DrugBank.d614.s1.e1|DDI-DrugBank.d614.s1.e4|0|null
+DDI-DrugBank.d614.s1|DDI-DrugBank.d614.s1.e1|DDI-DrugBank.d614.s1.e5|0|null
+DDI-DrugBank.d614.s1|DDI-DrugBank.d614.s1.e1|DDI-DrugBank.d614.s1.e6|0|null
+DDI-DrugBank.d614.s1|DDI-DrugBank.d614.s1.e2|DDI-DrugBank.d614.s1.e3|0|null
+DDI-DrugBank.d614.s1|DDI-DrugBank.d614.s1.e2|DDI-DrugBank.d614.s1.e4|0|null
+DDI-DrugBank.d614.s1|DDI-DrugBank.d614.s1.e2|DDI-DrugBank.d614.s1.e5|0|null
+DDI-DrugBank.d614.s1|DDI-DrugBank.d614.s1.e2|DDI-DrugBank.d614.s1.e6|0|null
+DDI-DrugBank.d614.s1|DDI-DrugBank.d614.s1.e3|DDI-DrugBank.d614.s1.e4|0|null
+DDI-DrugBank.d614.s1|DDI-DrugBank.d614.s1.e3|DDI-DrugBank.d614.s1.e5|0|null
+DDI-DrugBank.d614.s1|DDI-DrugBank.d614.s1.e3|DDI-DrugBank.d614.s1.e6|0|null
+DDI-DrugBank.d614.s1|DDI-DrugBank.d614.s1.e4|DDI-DrugBank.d614.s1.e5|0|null
+DDI-DrugBank.d614.s1|DDI-DrugBank.d614.s1.e4|DDI-DrugBank.d614.s1.e6|0|null
+DDI-DrugBank.d614.s1|DDI-DrugBank.d614.s1.e5|DDI-DrugBank.d614.s1.e6|0|null
+DDI-DrugBank.d614.s6|DDI-DrugBank.d614.s6.e0|DDI-DrugBank.d614.s6.e1|0|null
+DDI-DrugBank.d614.s6|DDI-DrugBank.d614.s6.e0|DDI-DrugBank.d614.s6.e2|0|null
+DDI-DrugBank.d614.s6|DDI-DrugBank.d614.s6.e0|DDI-DrugBank.d614.s6.e3|0|null
+DDI-DrugBank.d614.s6|DDI-DrugBank.d614.s6.e0|DDI-DrugBank.d614.s6.e4|0|null
+DDI-DrugBank.d614.s6|DDI-DrugBank.d614.s6.e1|DDI-DrugBank.d614.s6.e2|0|null
+DDI-DrugBank.d614.s6|DDI-DrugBank.d614.s6.e1|DDI-DrugBank.d614.s6.e3|0|null
+DDI-DrugBank.d614.s6|DDI-DrugBank.d614.s6.e1|DDI-DrugBank.d614.s6.e4|0|null
+DDI-DrugBank.d614.s6|DDI-DrugBank.d614.s6.e2|DDI-DrugBank.d614.s6.e3|0|null
+DDI-DrugBank.d614.s6|DDI-DrugBank.d614.s6.e2|DDI-DrugBank.d614.s6.e4|0|null
+DDI-DrugBank.d614.s6|DDI-DrugBank.d614.s6.e3|DDI-DrugBank.d614.s6.e4|0|null
+DDI-DrugBank.d614.s7|DDI-DrugBank.d614.s7.e0|DDI-DrugBank.d614.s7.e1|0|null
+DDI-DrugBank.d760.s0|DDI-DrugBank.d760.s0.e0|DDI-DrugBank.d760.s0.e1|0|null
+DDI-DrugBank.d760.s0|DDI-DrugBank.d760.s0.e0|DDI-DrugBank.d760.s0.e2|0|null
+DDI-DrugBank.d760.s0|DDI-DrugBank.d760.s0.e0|DDI-DrugBank.d760.s0.e3|0|null
+DDI-DrugBank.d760.s0|DDI-DrugBank.d760.s0.e0|DDI-DrugBank.d760.s0.e4|0|null
+DDI-DrugBank.d760.s0|DDI-DrugBank.d760.s0.e0|DDI-DrugBank.d760.s0.e5|0|null
+DDI-DrugBank.d760.s0|DDI-DrugBank.d760.s0.e0|DDI-DrugBank.d760.s0.e6|0|null
+DDI-DrugBank.d760.s0|DDI-DrugBank.d760.s0.e0|DDI-DrugBank.d760.s0.e7|0|null
+DDI-DrugBank.d760.s0|DDI-DrugBank.d760.s0.e0|DDI-DrugBank.d760.s0.e8|0|null
+DDI-DrugBank.d760.s0|DDI-DrugBank.d760.s0.e0|DDI-DrugBank.d760.s0.e9|0|null
+DDI-DrugBank.d760.s0|DDI-DrugBank.d760.s0.e0|DDI-DrugBank.d760.s0.e10|0|null
+DDI-DrugBank.d760.s0|DDI-DrugBank.d760.s0.e0|DDI-DrugBank.d760.s0.e11|0|null
+DDI-DrugBank.d760.s0|DDI-DrugBank.d760.s0.e1|DDI-DrugBank.d760.s0.e2|0|null
+DDI-DrugBank.d760.s0|DDI-DrugBank.d760.s0.e1|DDI-DrugBank.d760.s0.e3|0|null
+DDI-DrugBank.d760.s0|DDI-DrugBank.d760.s0.e1|DDI-DrugBank.d760.s0.e4|0|null
+DDI-DrugBank.d760.s0|DDI-DrugBank.d760.s0.e1|DDI-DrugBank.d760.s0.e5|0|null
+DDI-DrugBank.d760.s0|DDI-DrugBank.d760.s0.e1|DDI-DrugBank.d760.s0.e6|0|null
+DDI-DrugBank.d760.s0|DDI-DrugBank.d760.s0.e1|DDI-DrugBank.d760.s0.e7|0|null
+DDI-DrugBank.d760.s0|DDI-DrugBank.d760.s0.e1|DDI-DrugBank.d760.s0.e8|0|null
+DDI-DrugBank.d760.s0|DDI-DrugBank.d760.s0.e1|DDI-DrugBank.d760.s0.e9|0|null
+DDI-DrugBank.d760.s0|DDI-DrugBank.d760.s0.e1|DDI-DrugBank.d760.s0.e10|0|null
+DDI-DrugBank.d760.s0|DDI-DrugBank.d760.s0.e1|DDI-DrugBank.d760.s0.e11|0|null
+DDI-DrugBank.d760.s0|DDI-DrugBank.d760.s0.e2|DDI-DrugBank.d760.s0.e3|0|null
+DDI-DrugBank.d760.s0|DDI-DrugBank.d760.s0.e2|DDI-DrugBank.d760.s0.e4|0|null
+DDI-DrugBank.d760.s0|DDI-DrugBank.d760.s0.e2|DDI-DrugBank.d760.s0.e5|0|null
+DDI-DrugBank.d760.s0|DDI-DrugBank.d760.s0.e2|DDI-DrugBank.d760.s0.e6|0|null
+DDI-DrugBank.d760.s0|DDI-DrugBank.d760.s0.e2|DDI-DrugBank.d760.s0.e7|0|null
+DDI-DrugBank.d760.s0|DDI-DrugBank.d760.s0.e2|DDI-DrugBank.d760.s0.e8|0|null
+DDI-DrugBank.d760.s0|DDI-DrugBank.d760.s0.e2|DDI-DrugBank.d760.s0.e9|0|null
+DDI-DrugBank.d760.s0|DDI-DrugBank.d760.s0.e2|DDI-DrugBank.d760.s0.e10|0|null
+DDI-DrugBank.d760.s0|DDI-DrugBank.d760.s0.e2|DDI-DrugBank.d760.s0.e11|0|null
+DDI-DrugBank.d760.s0|DDI-DrugBank.d760.s0.e3|DDI-DrugBank.d760.s0.e4|0|null
+DDI-DrugBank.d760.s0|DDI-DrugBank.d760.s0.e3|DDI-DrugBank.d760.s0.e5|0|null
+DDI-DrugBank.d760.s0|DDI-DrugBank.d760.s0.e3|DDI-DrugBank.d760.s0.e6|0|null
+DDI-DrugBank.d760.s0|DDI-DrugBank.d760.s0.e3|DDI-DrugBank.d760.s0.e7|0|null
+DDI-DrugBank.d760.s0|DDI-DrugBank.d760.s0.e3|DDI-DrugBank.d760.s0.e8|0|null
+DDI-DrugBank.d760.s0|DDI-DrugBank.d760.s0.e3|DDI-DrugBank.d760.s0.e9|0|null
+DDI-DrugBank.d760.s0|DDI-DrugBank.d760.s0.e3|DDI-DrugBank.d760.s0.e10|0|null
+DDI-DrugBank.d760.s0|DDI-DrugBank.d760.s0.e3|DDI-DrugBank.d760.s0.e11|0|null
+DDI-DrugBank.d760.s0|DDI-DrugBank.d760.s0.e4|DDI-DrugBank.d760.s0.e5|0|null
+DDI-DrugBank.d760.s0|DDI-DrugBank.d760.s0.e4|DDI-DrugBank.d760.s0.e6|0|null
+DDI-DrugBank.d760.s0|DDI-DrugBank.d760.s0.e4|DDI-DrugBank.d760.s0.e7|0|null
+DDI-DrugBank.d760.s0|DDI-DrugBank.d760.s0.e4|DDI-DrugBank.d760.s0.e8|0|null
+DDI-DrugBank.d760.s0|DDI-DrugBank.d760.s0.e4|DDI-DrugBank.d760.s0.e9|0|null
+DDI-DrugBank.d760.s0|DDI-DrugBank.d760.s0.e4|DDI-DrugBank.d760.s0.e10|0|null
+DDI-DrugBank.d760.s0|DDI-DrugBank.d760.s0.e4|DDI-DrugBank.d760.s0.e11|0|null
+DDI-DrugBank.d760.s0|DDI-DrugBank.d760.s0.e5|DDI-DrugBank.d760.s0.e6|0|null
+DDI-DrugBank.d760.s0|DDI-DrugBank.d760.s0.e5|DDI-DrugBank.d760.s0.e7|0|null
+DDI-DrugBank.d760.s0|DDI-DrugBank.d760.s0.e5|DDI-DrugBank.d760.s0.e8|0|null
+DDI-DrugBank.d760.s0|DDI-DrugBank.d760.s0.e5|DDI-DrugBank.d760.s0.e9|0|null
+DDI-DrugBank.d760.s0|DDI-DrugBank.d760.s0.e5|DDI-DrugBank.d760.s0.e10|0|null
+DDI-DrugBank.d760.s0|DDI-DrugBank.d760.s0.e5|DDI-DrugBank.d760.s0.e11|0|null
+DDI-DrugBank.d760.s0|DDI-DrugBank.d760.s0.e6|DDI-DrugBank.d760.s0.e7|0|null
+DDI-DrugBank.d760.s0|DDI-DrugBank.d760.s0.e6|DDI-DrugBank.d760.s0.e8|0|null
+DDI-DrugBank.d760.s0|DDI-DrugBank.d760.s0.e6|DDI-DrugBank.d760.s0.e9|0|null
+DDI-DrugBank.d760.s0|DDI-DrugBank.d760.s0.e6|DDI-DrugBank.d760.s0.e10|0|null
+DDI-DrugBank.d760.s0|DDI-DrugBank.d760.s0.e6|DDI-DrugBank.d760.s0.e11|0|null
+DDI-DrugBank.d760.s0|DDI-DrugBank.d760.s0.e7|DDI-DrugBank.d760.s0.e8|0|null
+DDI-DrugBank.d760.s0|DDI-DrugBank.d760.s0.e7|DDI-DrugBank.d760.s0.e9|0|null
+DDI-DrugBank.d760.s0|DDI-DrugBank.d760.s0.e7|DDI-DrugBank.d760.s0.e10|0|null
+DDI-DrugBank.d760.s0|DDI-DrugBank.d760.s0.e7|DDI-DrugBank.d760.s0.e11|0|null
+DDI-DrugBank.d760.s0|DDI-DrugBank.d760.s0.e8|DDI-DrugBank.d760.s0.e9|0|null
+DDI-DrugBank.d760.s0|DDI-DrugBank.d760.s0.e8|DDI-DrugBank.d760.s0.e10|0|null
+DDI-DrugBank.d760.s0|DDI-DrugBank.d760.s0.e8|DDI-DrugBank.d760.s0.e11|0|null
+DDI-DrugBank.d760.s0|DDI-DrugBank.d760.s0.e9|DDI-DrugBank.d760.s0.e10|0|null
+DDI-DrugBank.d760.s0|DDI-DrugBank.d760.s0.e9|DDI-DrugBank.d760.s0.e11|0|null
+DDI-DrugBank.d760.s0|DDI-DrugBank.d760.s0.e10|DDI-DrugBank.d760.s0.e11|0|null
+DDI-DrugBank.d644.s2|DDI-DrugBank.d644.s2.e0|DDI-DrugBank.d644.s2.e1|0|null
+DDI-DrugBank.d644.s2|DDI-DrugBank.d644.s2.e0|DDI-DrugBank.d644.s2.e2|0|null
+DDI-DrugBank.d644.s2|DDI-DrugBank.d644.s2.e0|DDI-DrugBank.d644.s2.e3|0|null
+DDI-DrugBank.d644.s2|DDI-DrugBank.d644.s2.e0|DDI-DrugBank.d644.s2.e4|0|null
+DDI-DrugBank.d644.s2|DDI-DrugBank.d644.s2.e0|DDI-DrugBank.d644.s2.e5|0|null
+DDI-DrugBank.d644.s2|DDI-DrugBank.d644.s2.e0|DDI-DrugBank.d644.s2.e6|0|null
+[('Drugs', 0, 4), ('that', 6, 9), ('may', 11, 13), ('decrease', 15, 22), ('the', 24, 26), ('effects', 28, 34), ('of', 36, 37), ('this', 39, 42), ('medicine', 44, 51), ('include', 53, 59), (':', 60, 60), ('Rifampin', 62, 69), ('barbiturates', 71, 82), ('phenytoin', 84, 92), ('(', 94, 94), ('Dilantin', 95, 102), (')', 103, 103), ('carbamazepine', 105, 117), ('(', 119, 119), ('Tegretol', 120, 127), (')', 128, 128), ('Estrogens', 130, 138), ('may', 140, 142), ('decrease', 144, 151), ('the', 153, 155), ('effects', 157, 163), ('of', 165, 166), ('benzodiazepines', 168, 182), ('(', 184, 184), ('lorezepam', 185, 193), ('oxezepam', 195, 202), ('temezepam', 204, 212), (')', 213, 213), ('.', 214, 214)]
+{'DDI-DrugBank.d644.s2.e0': ['62', '69'], 'DDI-DrugBank.d644.s2.e1': ['71', '82'], 'DDI-DrugBank.d644.s2.e2': ['84', '92'], 'DDI-DrugBank.d644.s2.e3': ['95', '102'], 'DDI-DrugBank.d644.s2.e4': ['105', '117'], 'DDI-DrugBank.d644.s2.e5': ['120', '127'], 'DDI-DrugBank.d644.s2.e6': ['130', '138'], 'DDI-DrugBank.d644.s2.e7': ['168', '182'], 'DDI-DrugBank.d644.s2.e8': ['185', '193'], 'DDI-DrugBank.d644.s2.e9': ['195', '202'], 'DDI-DrugBank.d644.s2.e10': ['204', '212']}
+[['barbiturates', 71, 82, 'VBZ', 'barbiturate'], ['phenytoin', 84, 92, 'FW', 'phenytoin'], ['(', 94, 94, '(', '('], ['Dilantin', 95, 102, 'NNP', 'Dilantin'], [')', 103, 103, ')', ')'], ['carbamazepine', 105, 117, 'NN', 'carbamazepine'], ['(', 119, 119, '(', '('], ['Tegretol', 120, 127, 'NNP', 'Tegretol'], [')', 128, 128, ')', ')'], ['Estrogens', 130, 138, 'NNP', 'Estrogens'], ['may', 140, 142, 'MD', 'may'], ['decrease', 144, 151, 'VB', 'decrease'], ['the', 153, 155, 'DT', 'the'], ['effects', 157, 163, 'NNS', 'effect'], ['of', 165, 166, 'IN', 'of']]
+DDI-DrugBank.d644.s2|DDI-DrugBank.d644.s2.e0|DDI-DrugBank.d644.s2.e7|1|effect
+[('Drugs', 0, 4), ('that', 6, 9), ('may', 11, 13), ('decrease', 15, 22), ('the', 24, 26), ('effects', 28, 34), ('of', 36, 37), ('this', 39, 42), ('medicine', 44, 51), ('include', 53, 59), (':', 60, 60), ('Rifampin', 62, 69), ('barbiturates', 71, 82), ('phenytoin', 84, 92), ('(', 94, 94), ('Dilantin', 95, 102), (')', 103, 103), ('carbamazepine', 105, 117), ('(', 119, 119), ('Tegretol', 120, 127), (')', 128, 128), ('Estrogens', 130, 138), ('may', 140, 142), ('decrease', 144, 151), ('the', 153, 155), ('effects', 157, 163), ('of', 165, 166), ('benzodiazepines', 168, 182), ('(', 184, 184), ('lorezepam', 185, 193), ('oxezepam', 195, 202), ('temezepam', 204, 212), (')', 213, 213), ('.', 214, 214)]
+{'DDI-DrugBank.d644.s2.e0': ['62', '69'], 'DDI-DrugBank.d644.s2.e1': ['71', '82'], 'DDI-DrugBank.d644.s2.e2': ['84', '92'], 'DDI-DrugBank.d644.s2.e3': ['95', '102'], 'DDI-DrugBank.d644.s2.e4': ['105', '117'], 'DDI-DrugBank.d644.s2.e5': ['120', '127'], 'DDI-DrugBank.d644.s2.e6': ['130', '138'], 'DDI-DrugBank.d644.s2.e7': ['168', '182'], 'DDI-DrugBank.d644.s2.e8': ['185', '193'], 'DDI-DrugBank.d644.s2.e9': ['195', '202'], 'DDI-DrugBank.d644.s2.e10': ['204', '212']}
+[['barbiturates', 71, 82, 'VBZ', 'barbiturate'], ['phenytoin', 84, 92, 'FW', 'phenytoin'], ['(', 94, 94, '(', '('], ['Dilantin', 95, 102, 'NNP', 'Dilantin'], [')', 103, 103, ')', ')'], ['carbamazepine', 105, 117, 'NN', 'carbamazepine'], ['(', 119, 119, '(', '('], ['Tegretol', 120, 127, 'NNP', 'Tegretol'], [')', 128, 128, ')', ')'], ['Estrogens', 130, 138, 'NNP', 'Estrogens'], ['may', 140, 142, 'MD', 'may'], ['decrease', 144, 151, 'VB', 'decrease'], ['the', 153, 155, 'DT', 'the'], ['effects', 157, 163, 'NNS', 'effect'], ['of', 165, 166, 'IN', 'of'], ['benzodiazepines', 168, 182, 'NNS', 'benzodiazepine'], ['(', 184, 184, '(', '(']]
+DDI-DrugBank.d644.s2|DDI-DrugBank.d644.s2.e0|DDI-DrugBank.d644.s2.e8|1|effect
+[('Drugs', 0, 4), ('that', 6, 9), ('may', 11, 13), ('decrease', 15, 22), ('the', 24, 26), ('effects', 28, 34), ('of', 36, 37), ('this', 39, 42), ('medicine', 44, 51), ('include', 53, 59), (':', 60, 60), ('Rifampin', 62, 69), ('barbiturates', 71, 82), ('phenytoin', 84, 92), ('(', 94, 94), ('Dilantin', 95, 102), (')', 103, 103), ('carbamazepine', 105, 117), ('(', 119, 119), ('Tegretol', 120, 127), (')', 128, 128), ('Estrogens', 130, 138), ('may', 140, 142), ('decrease', 144, 151), ('the', 153, 155), ('effects', 157, 163), ('of', 165, 166), ('benzodiazepines', 168, 182), ('(', 184, 184), ('lorezepam', 185, 193), ('oxezepam', 195, 202), ('temezepam', 204, 212), (')', 213, 213), ('.', 214, 214)]
+{'DDI-DrugBank.d644.s2.e0': ['62', '69'], 'DDI-DrugBank.d644.s2.e1': ['71', '82'], 'DDI-DrugBank.d644.s2.e2': ['84', '92'], 'DDI-DrugBank.d644.s2.e3': ['95', '102'], 'DDI-DrugBank.d644.s2.e4': ['105', '117'], 'DDI-DrugBank.d644.s2.e5': ['120', '127'], 'DDI-DrugBank.d644.s2.e6': ['130', '138'], 'DDI-DrugBank.d644.s2.e7': ['168', '182'], 'DDI-DrugBank.d644.s2.e8': ['185', '193'], 'DDI-DrugBank.d644.s2.e9': ['195', '202'], 'DDI-DrugBank.d644.s2.e10': ['204', '212']}
+[['barbiturates', 71, 82, 'VBZ', 'barbiturate'], ['phenytoin', 84, 92, 'FW', 'phenytoin'], ['(', 94, 94, '(', '('], ['Dilantin', 95, 102, 'NNP', 'Dilantin'], [')', 103, 103, ')', ')'], ['carbamazepine', 105, 117, 'NN', 'carbamazepine'], ['(', 119, 119, '(', '('], ['Tegretol', 120, 127, 'NNP', 'Tegretol'], [')', 128, 128, ')', ')'], ['Estrogens', 130, 138, 'NNP', 'Estrogens'], ['may', 140, 142, 'MD', 'may'], ['decrease', 144, 151, 'VB', 'decrease'], ['the', 153, 155, 'DT', 'the'], ['effects', 157, 163, 'NNS', 'effect'], ['of', 165, 166, 'IN', 'of'], ['benzodiazepines', 168, 182, 'NNS', 'benzodiazepine'], ['(', 184, 184, '(', '('], ['lorezepam', 185, 193, 'JJ', 'lorezepam']]
+DDI-DrugBank.d644.s2|DDI-DrugBank.d644.s2.e0|DDI-DrugBank.d644.s2.e9|1|effect
+[('Drugs', 0, 4), ('that', 6, 9), ('may', 11, 13), ('decrease', 15, 22), ('the', 24, 26), ('effects', 28, 34), ('of', 36, 37), ('this', 39, 42), ('medicine', 44, 51), ('include', 53, 59), (':', 60, 60), ('Rifampin', 62, 69), ('barbiturates', 71, 82), ('phenytoin', 84, 92), ('(', 94, 94), ('Dilantin', 95, 102), (')', 103, 103), ('carbamazepine', 105, 117), ('(', 119, 119), ('Tegretol', 120, 127), (')', 128, 128), ('Estrogens', 130, 138), ('may', 140, 142), ('decrease', 144, 151), ('the', 153, 155), ('effects', 157, 163), ('of', 165, 166), ('benzodiazepines', 168, 182), ('(', 184, 184), ('lorezepam', 185, 193), ('oxezepam', 195, 202), ('temezepam', 204, 212), (')', 213, 213), ('.', 214, 214)]
+{'DDI-DrugBank.d644.s2.e0': ['62', '69'], 'DDI-DrugBank.d644.s2.e1': ['71', '82'], 'DDI-DrugBank.d644.s2.e2': ['84', '92'], 'DDI-DrugBank.d644.s2.e3': ['95', '102'], 'DDI-DrugBank.d644.s2.e4': ['105', '117'], 'DDI-DrugBank.d644.s2.e5': ['120', '127'], 'DDI-DrugBank.d644.s2.e6': ['130', '138'], 'DDI-DrugBank.d644.s2.e7': ['168', '182'], 'DDI-DrugBank.d644.s2.e8': ['185', '193'], 'DDI-DrugBank.d644.s2.e9': ['195', '202'], 'DDI-DrugBank.d644.s2.e10': ['204', '212']}
+[['barbiturates', 71, 82, 'VBZ', 'barbiturate'], ['phenytoin', 84, 92, 'FW', 'phenytoin'], ['(', 94, 94, '(', '('], ['Dilantin', 95, 102, 'NNP', 'Dilantin'], [')', 103, 103, ')', ')'], ['carbamazepine', 105, 117, 'NN', 'carbamazepine'], ['(', 119, 119, '(', '('], ['Tegretol', 120, 127, 'NNP', 'Tegretol'], [')', 128, 128, ')', ')'], ['Estrogens', 130, 138, 'NNP', 'Estrogens'], ['may', 140, 142, 'MD', 'may'], ['decrease', 144, 151, 'VB', 'decrease'], ['the', 153, 155, 'DT', 'the'], ['effects', 157, 163, 'NNS', 'effect'], ['of', 165, 166, 'IN', 'of'], ['benzodiazepines', 168, 182, 'NNS', 'benzodiazepine'], ['(', 184, 184, '(', '('], ['lorezepam', 185, 193, 'JJ', 'lorezepam'], ['oxezepam', 195, 202, 'RB', 'oxezepam']]
+DDI-DrugBank.d644.s2|DDI-DrugBank.d644.s2.e0|DDI-DrugBank.d644.s2.e10|1|effect
+DDI-DrugBank.d644.s2|DDI-DrugBank.d644.s2.e1|DDI-DrugBank.d644.s2.e2|0|null
+DDI-DrugBank.d644.s2|DDI-DrugBank.d644.s2.e1|DDI-DrugBank.d644.s2.e3|0|null
+DDI-DrugBank.d644.s2|DDI-DrugBank.d644.s2.e1|DDI-DrugBank.d644.s2.e4|0|null
+DDI-DrugBank.d644.s2|DDI-DrugBank.d644.s2.e1|DDI-DrugBank.d644.s2.e5|0|null
+DDI-DrugBank.d644.s2|DDI-DrugBank.d644.s2.e1|DDI-DrugBank.d644.s2.e6|0|null
+[('Drugs', 0, 4), ('that', 6, 9), ('may', 11, 13), ('decrease', 15, 22), ('the', 24, 26), ('effects', 28, 34), ('of', 36, 37), ('this', 39, 42), ('medicine', 44, 51), ('include', 53, 59), (':', 60, 60), ('Rifampin', 62, 69), ('barbiturates', 71, 82), ('phenytoin', 84, 92), ('(', 94, 94), ('Dilantin', 95, 102), (')', 103, 103), ('carbamazepine', 105, 117), ('(', 119, 119), ('Tegretol', 120, 127), (')', 128, 128), ('Estrogens', 130, 138), ('may', 140, 142), ('decrease', 144, 151), ('the', 153, 155), ('effects', 157, 163), ('of', 165, 166), ('benzodiazepines', 168, 182), ('(', 184, 184), ('lorezepam', 185, 193), ('oxezepam', 195, 202), ('temezepam', 204, 212), (')', 213, 213), ('.', 214, 214)]
+{'DDI-DrugBank.d644.s2.e0': ['62', '69'], 'DDI-DrugBank.d644.s2.e1': ['71', '82'], 'DDI-DrugBank.d644.s2.e2': ['84', '92'], 'DDI-DrugBank.d644.s2.e3': ['95', '102'], 'DDI-DrugBank.d644.s2.e4': ['105', '117'], 'DDI-DrugBank.d644.s2.e5': ['120', '127'], 'DDI-DrugBank.d644.s2.e6': ['130', '138'], 'DDI-DrugBank.d644.s2.e7': ['168', '182'], 'DDI-DrugBank.d644.s2.e8': ['185', '193'], 'DDI-DrugBank.d644.s2.e9': ['195', '202'], 'DDI-DrugBank.d644.s2.e10': ['204', '212']}
+[['phenytoin', 84, 92, 'FW', 'phenytoin'], ['(', 94, 94, '(', '('], ['Dilantin', 95, 102, 'NNP', 'Dilantin'], [')', 103, 103, ')', ')'], ['carbamazepine', 105, 117, 'NN', 'carbamazepine'], ['(', 119, 119, '(', '('], ['Tegretol', 120, 127, 'NNP', 'Tegretol'], [')', 128, 128, ')', ')'], ['Estrogens', 130, 138, 'NNP', 'Estrogens'], ['may', 140, 142, 'MD', 'may'], ['decrease', 144, 151, 'VB', 'decrease'], ['the', 153, 155, 'DT', 'the'], ['effects', 157, 163, 'NNS', 'effect'], ['of', 165, 166, 'IN', 'of']]
+DDI-DrugBank.d644.s2|DDI-DrugBank.d644.s2.e1|DDI-DrugBank.d644.s2.e7|1|effect
+[('Drugs', 0, 4), ('that', 6, 9), ('may', 11, 13), ('decrease', 15, 22), ('the', 24, 26), ('effects', 28, 34), ('of', 36, 37), ('this', 39, 42), ('medicine', 44, 51), ('include', 53, 59), (':', 60, 60), ('Rifampin', 62, 69), ('barbiturates', 71, 82), ('phenytoin', 84, 92), ('(', 94, 94), ('Dilantin', 95, 102), (')', 103, 103), ('carbamazepine', 105, 117), ('(', 119, 119), ('Tegretol', 120, 127), (')', 128, 128), ('Estrogens', 130, 138), ('may', 140, 142), ('decrease', 144, 151), ('the', 153, 155), ('effects', 157, 163), ('of', 165, 166), ('benzodiazepines', 168, 182), ('(', 184, 184), ('lorezepam', 185, 193), ('oxezepam', 195, 202), ('temezepam', 204, 212), (')', 213, 213), ('.', 214, 214)]
+{'DDI-DrugBank.d644.s2.e0': ['62', '69'], 'DDI-DrugBank.d644.s2.e1': ['71', '82'], 'DDI-DrugBank.d644.s2.e2': ['84', '92'], 'DDI-DrugBank.d644.s2.e3': ['95', '102'], 'DDI-DrugBank.d644.s2.e4': ['105', '117'], 'DDI-DrugBank.d644.s2.e5': ['120', '127'], 'DDI-DrugBank.d644.s2.e6': ['130', '138'], 'DDI-DrugBank.d644.s2.e7': ['168', '182'], 'DDI-DrugBank.d644.s2.e8': ['185', '193'], 'DDI-DrugBank.d644.s2.e9': ['195', '202'], 'DDI-DrugBank.d644.s2.e10': ['204', '212']}
+[['phenytoin', 84, 92, 'FW', 'phenytoin'], ['(', 94, 94, '(', '('], ['Dilantin', 95, 102, 'NNP', 'Dilantin'], [')', 103, 103, ')', ')'], ['carbamazepine', 105, 117, 'NN', 'carbamazepine'], ['(', 119, 119, '(', '('], ['Tegretol', 120, 127, 'NNP', 'Tegretol'], [')', 128, 128, ')', ')'], ['Estrogens', 130, 138, 'NNP', 'Estrogens'], ['may', 140, 142, 'MD', 'may'], ['decrease', 144, 151, 'VB', 'decrease'], ['the', 153, 155, 'DT', 'the'], ['effects', 157, 163, 'NNS', 'effect'], ['of', 165, 166, 'IN', 'of'], ['benzodiazepines', 168, 182, 'NNS', 'benzodiazepine'], ['(', 184, 184, '(', '(']]
+DDI-DrugBank.d644.s2|DDI-DrugBank.d644.s2.e1|DDI-DrugBank.d644.s2.e8|1|effect
+[('Drugs', 0, 4), ('that', 6, 9), ('may', 11, 13), ('decrease', 15, 22), ('the', 24, 26), ('effects', 28, 34), ('of', 36, 37), ('this', 39, 42), ('medicine', 44, 51), ('include', 53, 59), (':', 60, 60), ('Rifampin', 62, 69), ('barbiturates', 71, 82), ('phenytoin', 84, 92), ('(', 94, 94), ('Dilantin', 95, 102), (')', 103, 103), ('carbamazepine', 105, 117), ('(', 119, 119), ('Tegretol', 120, 127), (')', 128, 128), ('Estrogens', 130, 138), ('may', 140, 142), ('decrease', 144, 151), ('the', 153, 155), ('effects', 157, 163), ('of', 165, 166), ('benzodiazepines', 168, 182), ('(', 184, 184), ('lorezepam', 185, 193), ('oxezepam', 195, 202), ('temezepam', 204, 212), (')', 213, 213), ('.', 214, 214)]
+{'DDI-DrugBank.d644.s2.e0': ['62', '69'], 'DDI-DrugBank.d644.s2.e1': ['71', '82'], 'DDI-DrugBank.d644.s2.e2': ['84', '92'], 'DDI-DrugBank.d644.s2.e3': ['95', '102'], 'DDI-DrugBank.d644.s2.e4': ['105', '117'], 'DDI-DrugBank.d644.s2.e5': ['120', '127'], 'DDI-DrugBank.d644.s2.e6': ['130', '138'], 'DDI-DrugBank.d644.s2.e7': ['168', '182'], 'DDI-DrugBank.d644.s2.e8': ['185', '193'], 'DDI-DrugBank.d644.s2.e9': ['195', '202'], 'DDI-DrugBank.d644.s2.e10': ['204', '212']}
+[['phenytoin', 84, 92, 'FW', 'phenytoin'], ['(', 94, 94, '(', '('], ['Dilantin', 95, 102, 'NNP', 'Dilantin'], [')', 103, 103, ')', ')'], ['carbamazepine', 105, 117, 'NN', 'carbamazepine'], ['(', 119, 119, '(', '('], ['Tegretol', 120, 127, 'NNP', 'Tegretol'], [')', 128, 128, ')', ')'], ['Estrogens', 130, 138, 'NNP', 'Estrogens'], ['may', 140, 142, 'MD', 'may'], ['decrease', 144, 151, 'VB', 'decrease'], ['the', 153, 155, 'DT', 'the'], ['effects', 157, 163, 'NNS', 'effect'], ['of', 165, 166, 'IN', 'of'], ['benzodiazepines', 168, 182, 'NNS', 'benzodiazepine'], ['(', 184, 184, '(', '('], ['lorezepam', 185, 193, 'JJ', 'lorezepam']]
+DDI-DrugBank.d644.s2|DDI-DrugBank.d644.s2.e1|DDI-DrugBank.d644.s2.e9|1|effect
+[('Drugs', 0, 4), ('that', 6, 9), ('may', 11, 13), ('decrease', 15, 22), ('the', 24, 26), ('effects', 28, 34), ('of', 36, 37), ('this', 39, 42), ('medicine', 44, 51), ('include', 53, 59), (':', 60, 60), ('Rifampin', 62, 69), ('barbiturates', 71, 82), ('phenytoin', 84, 92), ('(', 94, 94), ('Dilantin', 95, 102), (')', 103, 103), ('carbamazepine', 105, 117), ('(', 119, 119), ('Tegretol', 120, 127), (')', 128, 128), ('Estrogens', 130, 138), ('may', 140, 142), ('decrease', 144, 151), ('the', 153, 155), ('effects', 157, 163), ('of', 165, 166), ('benzodiazepines', 168, 182), ('(', 184, 184), ('lorezepam', 185, 193), ('oxezepam', 195, 202), ('temezepam', 204, 212), (')', 213, 213), ('.', 214, 214)]
+{'DDI-DrugBank.d644.s2.e0': ['62', '69'], 'DDI-DrugBank.d644.s2.e1': ['71', '82'], 'DDI-DrugBank.d644.s2.e2': ['84', '92'], 'DDI-DrugBank.d644.s2.e3': ['95', '102'], 'DDI-DrugBank.d644.s2.e4': ['105', '117'], 'DDI-DrugBank.d644.s2.e5': ['120', '127'], 'DDI-DrugBank.d644.s2.e6': ['130', '138'], 'DDI-DrugBank.d644.s2.e7': ['168', '182'], 'DDI-DrugBank.d644.s2.e8': ['185', '193'], 'DDI-DrugBank.d644.s2.e9': ['195', '202'], 'DDI-DrugBank.d644.s2.e10': ['204', '212']}
+[['phenytoin', 84, 92, 'FW', 'phenytoin'], ['(', 94, 94, '(', '('], ['Dilantin', 95, 102, 'NNP', 'Dilantin'], [')', 103, 103, ')', ')'], ['carbamazepine', 105, 117, 'NN', 'carbamazepine'], ['(', 119, 119, '(', '('], ['Tegretol', 120, 127, 'NNP', 'Tegretol'], [')', 128, 128, ')', ')'], ['Estrogens', 130, 138, 'NNP', 'Estrogens'], ['may', 140, 142, 'MD', 'may'], ['decrease', 144, 151, 'VB', 'decrease'], ['the', 153, 155, 'DT', 'the'], ['effects', 157, 163, 'NNS', 'effect'], ['of', 165, 166, 'IN', 'of'], ['benzodiazepines', 168, 182, 'NNS', 'benzodiazepine'], ['(', 184, 184, '(', '('], ['lorezepam', 185, 193, 'JJ', 'lorezepam'], ['oxezepam', 195, 202, 'RB', 'oxezepam']]
+DDI-DrugBank.d644.s2|DDI-DrugBank.d644.s2.e1|DDI-DrugBank.d644.s2.e10|1|effect
+DDI-DrugBank.d644.s2|DDI-DrugBank.d644.s2.e2|DDI-DrugBank.d644.s2.e3|0|null
+DDI-DrugBank.d644.s2|DDI-DrugBank.d644.s2.e2|DDI-DrugBank.d644.s2.e4|0|null
+DDI-DrugBank.d644.s2|DDI-DrugBank.d644.s2.e2|DDI-DrugBank.d644.s2.e5|0|null
+DDI-DrugBank.d644.s2|DDI-DrugBank.d644.s2.e2|DDI-DrugBank.d644.s2.e6|0|null
+[('Drugs', 0, 4), ('that', 6, 9), ('may', 11, 13), ('decrease', 15, 22), ('the', 24, 26), ('effects', 28, 34), ('of', 36, 37), ('this', 39, 42), ('medicine', 44, 51), ('include', 53, 59), (':', 60, 60), ('Rifampin', 62, 69), ('barbiturates', 71, 82), ('phenytoin', 84, 92), ('(', 94, 94), ('Dilantin', 95, 102), (')', 103, 103), ('carbamazepine', 105, 117), ('(', 119, 119), ('Tegretol', 120, 127), (')', 128, 128), ('Estrogens', 130, 138), ('may', 140, 142), ('decrease', 144, 151), ('the', 153, 155), ('effects', 157, 163), ('of', 165, 166), ('benzodiazepines', 168, 182), ('(', 184, 184), ('lorezepam', 185, 193), ('oxezepam', 195, 202), ('temezepam', 204, 212), (')', 213, 213), ('.', 214, 214)]
+{'DDI-DrugBank.d644.s2.e0': ['62', '69'], 'DDI-DrugBank.d644.s2.e1': ['71', '82'], 'DDI-DrugBank.d644.s2.e2': ['84', '92'], 'DDI-DrugBank.d644.s2.e3': ['95', '102'], 'DDI-DrugBank.d644.s2.e4': ['105', '117'], 'DDI-DrugBank.d644.s2.e5': ['120', '127'], 'DDI-DrugBank.d644.s2.e6': ['130', '138'], 'DDI-DrugBank.d644.s2.e7': ['168', '182'], 'DDI-DrugBank.d644.s2.e8': ['185', '193'], 'DDI-DrugBank.d644.s2.e9': ['195', '202'], 'DDI-DrugBank.d644.s2.e10': ['204', '212']}
+[['(', 94, 94, '(', '('], ['Dilantin', 95, 102, 'NNP', 'Dilantin'], [')', 103, 103, ')', ')'], ['carbamazepine', 105, 117, 'NN', 'carbamazepine'], ['(', 119, 119, '(', '('], ['Tegretol', 120, 127, 'NNP', 'Tegretol'], [')', 128, 128, ')', ')'], ['Estrogens', 130, 138, 'NNP', 'Estrogens'], ['may', 140, 142, 'MD', 'may'], ['decrease', 144, 151, 'VB', 'decrease'], ['the', 153, 155, 'DT', 'the'], ['effects', 157, 163, 'NNS', 'effect'], ['of', 165, 166, 'IN', 'of']]
+DDI-DrugBank.d644.s2|DDI-DrugBank.d644.s2.e2|DDI-DrugBank.d644.s2.e7|1|effect
+[('Drugs', 0, 4), ('that', 6, 9), ('may', 11, 13), ('decrease', 15, 22), ('the', 24, 26), ('effects', 28, 34), ('of', 36, 37), ('this', 39, 42), ('medicine', 44, 51), ('include', 53, 59), (':', 60, 60), ('Rifampin', 62, 69), ('barbiturates', 71, 82), ('phenytoin', 84, 92), ('(', 94, 94), ('Dilantin', 95, 102), (')', 103, 103), ('carbamazepine', 105, 117), ('(', 119, 119), ('Tegretol', 120, 127), (')', 128, 128), ('Estrogens', 130, 138), ('may', 140, 142), ('decrease', 144, 151), ('the', 153, 155), ('effects', 157, 163), ('of', 165, 166), ('benzodiazepines', 168, 182), ('(', 184, 184), ('lorezepam', 185, 193), ('oxezepam', 195, 202), ('temezepam', 204, 212), (')', 213, 213), ('.', 214, 214)]
+{'DDI-DrugBank.d644.s2.e0': ['62', '69'], 'DDI-DrugBank.d644.s2.e1': ['71', '82'], 'DDI-DrugBank.d644.s2.e2': ['84', '92'], 'DDI-DrugBank.d644.s2.e3': ['95', '102'], 'DDI-DrugBank.d644.s2.e4': ['105', '117'], 'DDI-DrugBank.d644.s2.e5': ['120', '127'], 'DDI-DrugBank.d644.s2.e6': ['130', '138'], 'DDI-DrugBank.d644.s2.e7': ['168', '182'], 'DDI-DrugBank.d644.s2.e8': ['185', '193'], 'DDI-DrugBank.d644.s2.e9': ['195', '202'], 'DDI-DrugBank.d644.s2.e10': ['204', '212']}
+[['(', 94, 94, '(', '('], ['Dilantin', 95, 102, 'NNP', 'Dilantin'], [')', 103, 103, ')', ')'], ['carbamazepine', 105, 117, 'NN', 'carbamazepine'], ['(', 119, 119, '(', '('], ['Tegretol', 120, 127, 'NNP', 'Tegretol'], [')', 128, 128, ')', ')'], ['Estrogens', 130, 138, 'NNP', 'Estrogens'], ['may', 140, 142, 'MD', 'may'], ['decrease', 144, 151, 'VB', 'decrease'], ['the', 153, 155, 'DT', 'the'], ['effects', 157, 163, 'NNS', 'effect'], ['of', 165, 166, 'IN', 'of'], ['benzodiazepines', 168, 182, 'NNS', 'benzodiazepine'], ['(', 184, 184, '(', '(']]
+DDI-DrugBank.d644.s2|DDI-DrugBank.d644.s2.e2|DDI-DrugBank.d644.s2.e8|1|effect
+[('Drugs', 0, 4), ('that', 6, 9), ('may', 11, 13), ('decrease', 15, 22), ('the', 24, 26), ('effects', 28, 34), ('of', 36, 37), ('this', 39, 42), ('medicine', 44, 51), ('include', 53, 59), (':', 60, 60), ('Rifampin', 62, 69), ('barbiturates', 71, 82), ('phenytoin', 84, 92), ('(', 94, 94), ('Dilantin', 95, 102), (')', 103, 103), ('carbamazepine', 105, 117), ('(', 119, 119), ('Tegretol', 120, 127), (')', 128, 128), ('Estrogens', 130, 138), ('may', 140, 142), ('decrease', 144, 151), ('the', 153, 155), ('effects', 157, 163), ('of', 165, 166), ('benzodiazepines', 168, 182), ('(', 184, 184), ('lorezepam', 185, 193), ('oxezepam', 195, 202), ('temezepam', 204, 212), (')', 213, 213), ('.', 214, 214)]
+{'DDI-DrugBank.d644.s2.e0': ['62', '69'], 'DDI-DrugBank.d644.s2.e1': ['71', '82'], 'DDI-DrugBank.d644.s2.e2': ['84', '92'], 'DDI-DrugBank.d644.s2.e3': ['95', '102'], 'DDI-DrugBank.d644.s2.e4': ['105', '117'], 'DDI-DrugBank.d644.s2.e5': ['120', '127'], 'DDI-DrugBank.d644.s2.e6': ['130', '138'], 'DDI-DrugBank.d644.s2.e7': ['168', '182'], 'DDI-DrugBank.d644.s2.e8': ['185', '193'], 'DDI-DrugBank.d644.s2.e9': ['195', '202'], 'DDI-DrugBank.d644.s2.e10': ['204', '212']}
+[['(', 94, 94, '(', '('], ['Dilantin', 95, 102, 'NNP', 'Dilantin'], [')', 103, 103, ')', ')'], ['carbamazepine', 105, 117, 'NN', 'carbamazepine'], ['(', 119, 119, '(', '('], ['Tegretol', 120, 127, 'NNP', 'Tegretol'], [')', 128, 128, ')', ')'], ['Estrogens', 130, 138, 'NNP', 'Estrogens'], ['may', 140, 142, 'MD', 'may'], ['decrease', 144, 151, 'VB', 'decrease'], ['the', 153, 155, 'DT', 'the'], ['effects', 157, 163, 'NNS', 'effect'], ['of', 165, 166, 'IN', 'of'], ['benzodiazepines', 168, 182, 'NNS', 'benzodiazepine'], ['(', 184, 184, '(', '('], ['lorezepam', 185, 193, 'JJ', 'lorezepam']]
+DDI-DrugBank.d644.s2|DDI-DrugBank.d644.s2.e2|DDI-DrugBank.d644.s2.e9|1|effect
+[('Drugs', 0, 4), ('that', 6, 9), ('may', 11, 13), ('decrease', 15, 22), ('the', 24, 26), ('effects', 28, 34), ('of', 36, 37), ('this', 39, 42), ('medicine', 44, 51), ('include', 53, 59), (':', 60, 60), ('Rifampin', 62, 69), ('barbiturates', 71, 82), ('phenytoin', 84, 92), ('(', 94, 94), ('Dilantin', 95, 102), (')', 103, 103), ('carbamazepine', 105, 117), ('(', 119, 119), ('Tegretol', 120, 127), (')', 128, 128), ('Estrogens', 130, 138), ('may', 140, 142), ('decrease', 144, 151), ('the', 153, 155), ('effects', 157, 163), ('of', 165, 166), ('benzodiazepines', 168, 182), ('(', 184, 184), ('lorezepam', 185, 193), ('oxezepam', 195, 202), ('temezepam', 204, 212), (')', 213, 213), ('.', 214, 214)]
+{'DDI-DrugBank.d644.s2.e0': ['62', '69'], 'DDI-DrugBank.d644.s2.e1': ['71', '82'], 'DDI-DrugBank.d644.s2.e2': ['84', '92'], 'DDI-DrugBank.d644.s2.e3': ['95', '102'], 'DDI-DrugBank.d644.s2.e4': ['105', '117'], 'DDI-DrugBank.d644.s2.e5': ['120', '127'], 'DDI-DrugBank.d644.s2.e6': ['130', '138'], 'DDI-DrugBank.d644.s2.e7': ['168', '182'], 'DDI-DrugBank.d644.s2.e8': ['185', '193'], 'DDI-DrugBank.d644.s2.e9': ['195', '202'], 'DDI-DrugBank.d644.s2.e10': ['204', '212']}
+[['(', 94, 94, '(', '('], ['Dilantin', 95, 102, 'NNP', 'Dilantin'], [')', 103, 103, ')', ')'], ['carbamazepine', 105, 117, 'NN', 'carbamazepine'], ['(', 119, 119, '(', '('], ['Tegretol', 120, 127, 'NNP', 'Tegretol'], [')', 128, 128, ')', ')'], ['Estrogens', 130, 138, 'NNP', 'Estrogens'], ['may', 140, 142, 'MD', 'may'], ['decrease', 144, 151, 'VB', 'decrease'], ['the', 153, 155, 'DT', 'the'], ['effects', 157, 163, 'NNS', 'effect'], ['of', 165, 166, 'IN', 'of'], ['benzodiazepines', 168, 182, 'NNS', 'benzodiazepine'], ['(', 184, 184, '(', '('], ['lorezepam', 185, 193, 'JJ', 'lorezepam'], ['oxezepam', 195, 202, 'RB', 'oxezepam']]
+DDI-DrugBank.d644.s2|DDI-DrugBank.d644.s2.e2|DDI-DrugBank.d644.s2.e10|1|effect
+DDI-DrugBank.d644.s2|DDI-DrugBank.d644.s2.e3|DDI-DrugBank.d644.s2.e4|0|null
+DDI-DrugBank.d644.s2|DDI-DrugBank.d644.s2.e3|DDI-DrugBank.d644.s2.e5|0|null
+DDI-DrugBank.d644.s2|DDI-DrugBank.d644.s2.e3|DDI-DrugBank.d644.s2.e6|0|null
+[('Drugs', 0, 4), ('that', 6, 9), ('may', 11, 13), ('decrease', 15, 22), ('the', 24, 26), ('effects', 28, 34), ('of', 36, 37), ('this', 39, 42), ('medicine', 44, 51), ('include', 53, 59), (':', 60, 60), ('Rifampin', 62, 69), ('barbiturates', 71, 82), ('phenytoin', 84, 92), ('(', 94, 94), ('Dilantin', 95, 102), (')', 103, 103), ('carbamazepine', 105, 117), ('(', 119, 119), ('Tegretol', 120, 127), (')', 128, 128), ('Estrogens', 130, 138), ('may', 140, 142), ('decrease', 144, 151), ('the', 153, 155), ('effects', 157, 163), ('of', 165, 166), ('benzodiazepines', 168, 182), ('(', 184, 184), ('lorezepam', 185, 193), ('oxezepam', 195, 202), ('temezepam', 204, 212), (')', 213, 213), ('.', 214, 214)]
+{'DDI-DrugBank.d644.s2.e0': ['62', '69'], 'DDI-DrugBank.d644.s2.e1': ['71', '82'], 'DDI-DrugBank.d644.s2.e2': ['84', '92'], 'DDI-DrugBank.d644.s2.e3': ['95', '102'], 'DDI-DrugBank.d644.s2.e4': ['105', '117'], 'DDI-DrugBank.d644.s2.e5': ['120', '127'], 'DDI-DrugBank.d644.s2.e6': ['130', '138'], 'DDI-DrugBank.d644.s2.e7': ['168', '182'], 'DDI-DrugBank.d644.s2.e8': ['185', '193'], 'DDI-DrugBank.d644.s2.e9': ['195', '202'], 'DDI-DrugBank.d644.s2.e10': ['204', '212']}
+[[')', 103, 103, ')', ')'], ['carbamazepine', 105, 117, 'NN', 'carbamazepine'], ['(', 119, 119, '(', '('], ['Tegretol', 120, 127, 'NNP', 'Tegretol'], [')', 128, 128, ')', ')'], ['Estrogens', 130, 138, 'NNP', 'Estrogens'], ['may', 140, 142, 'MD', 'may'], ['decrease', 144, 151, 'VB', 'decrease'], ['the', 153, 155, 'DT', 'the'], ['effects', 157, 163, 'NNS', 'effect'], ['of', 165, 166, 'IN', 'of']]
+DDI-DrugBank.d644.s2|DDI-DrugBank.d644.s2.e3|DDI-DrugBank.d644.s2.e7|1|effect
+[('Drugs', 0, 4), ('that', 6, 9), ('may', 11, 13), ('decrease', 15, 22), ('the', 24, 26), ('effects', 28, 34), ('of', 36, 37), ('this', 39, 42), ('medicine', 44, 51), ('include', 53, 59), (':', 60, 60), ('Rifampin', 62, 69), ('barbiturates', 71, 82), ('phenytoin', 84, 92), ('(', 94, 94), ('Dilantin', 95, 102), (')', 103, 103), ('carbamazepine', 105, 117), ('(', 119, 119), ('Tegretol', 120, 127), (')', 128, 128), ('Estrogens', 130, 138), ('may', 140, 142), ('decrease', 144, 151), ('the', 153, 155), ('effects', 157, 163), ('of', 165, 166), ('benzodiazepines', 168, 182), ('(', 184, 184), ('lorezepam', 185, 193), ('oxezepam', 195, 202), ('temezepam', 204, 212), (')', 213, 213), ('.', 214, 214)]
+{'DDI-DrugBank.d644.s2.e0': ['62', '69'], 'DDI-DrugBank.d644.s2.e1': ['71', '82'], 'DDI-DrugBank.d644.s2.e2': ['84', '92'], 'DDI-DrugBank.d644.s2.e3': ['95', '102'], 'DDI-DrugBank.d644.s2.e4': ['105', '117'], 'DDI-DrugBank.d644.s2.e5': ['120', '127'], 'DDI-DrugBank.d644.s2.e6': ['130', '138'], 'DDI-DrugBank.d644.s2.e7': ['168', '182'], 'DDI-DrugBank.d644.s2.e8': ['185', '193'], 'DDI-DrugBank.d644.s2.e9': ['195', '202'], 'DDI-DrugBank.d644.s2.e10': ['204', '212']}
+[[')', 103, 103, ')', ')'], ['carbamazepine', 105, 117, 'NN', 'carbamazepine'], ['(', 119, 119, '(', '('], ['Tegretol', 120, 127, 'NNP', 'Tegretol'], [')', 128, 128, ')', ')'], ['Estrogens', 130, 138, 'NNP', 'Estrogens'], ['may', 140, 142, 'MD', 'may'], ['decrease', 144, 151, 'VB', 'decrease'], ['the', 153, 155, 'DT', 'the'], ['effects', 157, 163, 'NNS', 'effect'], ['of', 165, 166, 'IN', 'of'], ['benzodiazepines', 168, 182, 'NNS', 'benzodiazepine'], ['(', 184, 184, '(', '(']]
+DDI-DrugBank.d644.s2|DDI-DrugBank.d644.s2.e3|DDI-DrugBank.d644.s2.e8|1|effect
+[('Drugs', 0, 4), ('that', 6, 9), ('may', 11, 13), ('decrease', 15, 22), ('the', 24, 26), ('effects', 28, 34), ('of', 36, 37), ('this', 39, 42), ('medicine', 44, 51), ('include', 53, 59), (':', 60, 60), ('Rifampin', 62, 69), ('barbiturates', 71, 82), ('phenytoin', 84, 92), ('(', 94, 94), ('Dilantin', 95, 102), (')', 103, 103), ('carbamazepine', 105, 117), ('(', 119, 119), ('Tegretol', 120, 127), (')', 128, 128), ('Estrogens', 130, 138), ('may', 140, 142), ('decrease', 144, 151), ('the', 153, 155), ('effects', 157, 163), ('of', 165, 166), ('benzodiazepines', 168, 182), ('(', 184, 184), ('lorezepam', 185, 193), ('oxezepam', 195, 202), ('temezepam', 204, 212), (')', 213, 213), ('.', 214, 214)]
+{'DDI-DrugBank.d644.s2.e0': ['62', '69'], 'DDI-DrugBank.d644.s2.e1': ['71', '82'], 'DDI-DrugBank.d644.s2.e2': ['84', '92'], 'DDI-DrugBank.d644.s2.e3': ['95', '102'], 'DDI-DrugBank.d644.s2.e4': ['105', '117'], 'DDI-DrugBank.d644.s2.e5': ['120', '127'], 'DDI-DrugBank.d644.s2.e6': ['130', '138'], 'DDI-DrugBank.d644.s2.e7': ['168', '182'], 'DDI-DrugBank.d644.s2.e8': ['185', '193'], 'DDI-DrugBank.d644.s2.e9': ['195', '202'], 'DDI-DrugBank.d644.s2.e10': ['204', '212']}
+[[')', 103, 103, ')', ')'], ['carbamazepine', 105, 117, 'NN', 'carbamazepine'], ['(', 119, 119, '(', '('], ['Tegretol', 120, 127, 'NNP', 'Tegretol'], [')', 128, 128, ')', ')'], ['Estrogens', 130, 138, 'NNP', 'Estrogens'], ['may', 140, 142, 'MD', 'may'], ['decrease', 144, 151, 'VB', 'decrease'], ['the', 153, 155, 'DT', 'the'], ['effects', 157, 163, 'NNS', 'effect'], ['of', 165, 166, 'IN', 'of'], ['benzodiazepines', 168, 182, 'NNS', 'benzodiazepine'], ['(', 184, 184, '(', '('], ['lorezepam', 185, 193, 'JJ', 'lorezepam']]
+DDI-DrugBank.d644.s2|DDI-DrugBank.d644.s2.e3|DDI-DrugBank.d644.s2.e9|1|effect
+[('Drugs', 0, 4), ('that', 6, 9), ('may', 11, 13), ('decrease', 15, 22), ('the', 24, 26), ('effects', 28, 34), ('of', 36, 37), ('this', 39, 42), ('medicine', 44, 51), ('include', 53, 59), (':', 60, 60), ('Rifampin', 62, 69), ('barbiturates', 71, 82), ('phenytoin', 84, 92), ('(', 94, 94), ('Dilantin', 95, 102), (')', 103, 103), ('carbamazepine', 105, 117), ('(', 119, 119), ('Tegretol', 120, 127), (')', 128, 128), ('Estrogens', 130, 138), ('may', 140, 142), ('decrease', 144, 151), ('the', 153, 155), ('effects', 157, 163), ('of', 165, 166), ('benzodiazepines', 168, 182), ('(', 184, 184), ('lorezepam', 185, 193), ('oxezepam', 195, 202), ('temezepam', 204, 212), (')', 213, 213), ('.', 214, 214)]
+{'DDI-DrugBank.d644.s2.e0': ['62', '69'], 'DDI-DrugBank.d644.s2.e1': ['71', '82'], 'DDI-DrugBank.d644.s2.e2': ['84', '92'], 'DDI-DrugBank.d644.s2.e3': ['95', '102'], 'DDI-DrugBank.d644.s2.e4': ['105', '117'], 'DDI-DrugBank.d644.s2.e5': ['120', '127'], 'DDI-DrugBank.d644.s2.e6': ['130', '138'], 'DDI-DrugBank.d644.s2.e7': ['168', '182'], 'DDI-DrugBank.d644.s2.e8': ['185', '193'], 'DDI-DrugBank.d644.s2.e9': ['195', '202'], 'DDI-DrugBank.d644.s2.e10': ['204', '212']}
+[[')', 103, 103, ')', ')'], ['carbamazepine', 105, 117, 'NN', 'carbamazepine'], ['(', 119, 119, '(', '('], ['Tegretol', 120, 127, 'NNP', 'Tegretol'], [')', 128, 128, ')', ')'], ['Estrogens', 130, 138, 'NNP', 'Estrogens'], ['may', 140, 142, 'MD', 'may'], ['decrease', 144, 151, 'VB', 'decrease'], ['the', 153, 155, 'DT', 'the'], ['effects', 157, 163, 'NNS', 'effect'], ['of', 165, 166, 'IN', 'of'], ['benzodiazepines', 168, 182, 'NNS', 'benzodiazepine'], ['(', 184, 184, '(', '('], ['lorezepam', 185, 193, 'JJ', 'lorezepam'], ['oxezepam', 195, 202, 'RB', 'oxezepam']]
+DDI-DrugBank.d644.s2|DDI-DrugBank.d644.s2.e3|DDI-DrugBank.d644.s2.e10|1|effect
+DDI-DrugBank.d644.s2|DDI-DrugBank.d644.s2.e4|DDI-DrugBank.d644.s2.e5|0|null
+DDI-DrugBank.d644.s2|DDI-DrugBank.d644.s2.e4|DDI-DrugBank.d644.s2.e6|0|null
+[('Drugs', 0, 4), ('that', 6, 9), ('may', 11, 13), ('decrease', 15, 22), ('the', 24, 26), ('effects', 28, 34), ('of', 36, 37), ('this', 39, 42), ('medicine', 44, 51), ('include', 53, 59), (':', 60, 60), ('Rifampin', 62, 69), ('barbiturates', 71, 82), ('phenytoin', 84, 92), ('(', 94, 94), ('Dilantin', 95, 102), (')', 103, 103), ('carbamazepine', 105, 117), ('(', 119, 119), ('Tegretol', 120, 127), (')', 128, 128), ('Estrogens', 130, 138), ('may', 140, 142), ('decrease', 144, 151), ('the', 153, 155), ('effects', 157, 163), ('of', 165, 166), ('benzodiazepines', 168, 182), ('(', 184, 184), ('lorezepam', 185, 193), ('oxezepam', 195, 202), ('temezepam', 204, 212), (')', 213, 213), ('.', 214, 214)]
+{'DDI-DrugBank.d644.s2.e0': ['62', '69'], 'DDI-DrugBank.d644.s2.e1': ['71', '82'], 'DDI-DrugBank.d644.s2.e2': ['84', '92'], 'DDI-DrugBank.d644.s2.e3': ['95', '102'], 'DDI-DrugBank.d644.s2.e4': ['105', '117'], 'DDI-DrugBank.d644.s2.e5': ['120', '127'], 'DDI-DrugBank.d644.s2.e6': ['130', '138'], 'DDI-DrugBank.d644.s2.e7': ['168', '182'], 'DDI-DrugBank.d644.s2.e8': ['185', '193'], 'DDI-DrugBank.d644.s2.e9': ['195', '202'], 'DDI-DrugBank.d644.s2.e10': ['204', '212']}
+[['(', 119, 119, '(', '('], ['Tegretol', 120, 127, 'NNP', 'Tegretol'], [')', 128, 128, ')', ')'], ['Estrogens', 130, 138, 'NNP', 'Estrogens'], ['may', 140, 142, 'MD', 'may'], ['decrease', 144, 151, 'VB', 'decrease'], ['the', 153, 155, 'DT', 'the'], ['effects', 157, 163, 'NNS', 'effect'], ['of', 165, 166, 'IN', 'of']]
+DDI-DrugBank.d644.s2|DDI-DrugBank.d644.s2.e4|DDI-DrugBank.d644.s2.e7|1|effect
+[('Drugs', 0, 4), ('that', 6, 9), ('may', 11, 13), ('decrease', 15, 22), ('the', 24, 26), ('effects', 28, 34), ('of', 36, 37), ('this', 39, 42), ('medicine', 44, 51), ('include', 53, 59), (':', 60, 60), ('Rifampin', 62, 69), ('barbiturates', 71, 82), ('phenytoin', 84, 92), ('(', 94, 94), ('Dilantin', 95, 102), (')', 103, 103), ('carbamazepine', 105, 117), ('(', 119, 119), ('Tegretol', 120, 127), (')', 128, 128), ('Estrogens', 130, 138), ('may', 140, 142), ('decrease', 144, 151), ('the', 153, 155), ('effects', 157, 163), ('of', 165, 166), ('benzodiazepines', 168, 182), ('(', 184, 184), ('lorezepam', 185, 193), ('oxezepam', 195, 202), ('temezepam', 204, 212), (')', 213, 213), ('.', 214, 214)]
+{'DDI-DrugBank.d644.s2.e0': ['62', '69'], 'DDI-DrugBank.d644.s2.e1': ['71', '82'], 'DDI-DrugBank.d644.s2.e2': ['84', '92'], 'DDI-DrugBank.d644.s2.e3': ['95', '102'], 'DDI-DrugBank.d644.s2.e4': ['105', '117'], 'DDI-DrugBank.d644.s2.e5': ['120', '127'], 'DDI-DrugBank.d644.s2.e6': ['130', '138'], 'DDI-DrugBank.d644.s2.e7': ['168', '182'], 'DDI-DrugBank.d644.s2.e8': ['185', '193'], 'DDI-DrugBank.d644.s2.e9': ['195', '202'], 'DDI-DrugBank.d644.s2.e10': ['204', '212']}
+[['(', 119, 119, '(', '('], ['Tegretol', 120, 127, 'NNP', 'Tegretol'], [')', 128, 128, ')', ')'], ['Estrogens', 130, 138, 'NNP', 'Estrogens'], ['may', 140, 142, 'MD', 'may'], ['decrease', 144, 151, 'VB', 'decrease'], ['the', 153, 155, 'DT', 'the'], ['effects', 157, 163, 'NNS', 'effect'], ['of', 165, 166, 'IN', 'of'], ['benzodiazepines', 168, 182, 'NNS', 'benzodiazepine'], ['(', 184, 184, '(', '(']]
+DDI-DrugBank.d644.s2|DDI-DrugBank.d644.s2.e4|DDI-DrugBank.d644.s2.e8|1|effect
+[('Drugs', 0, 4), ('that', 6, 9), ('may', 11, 13), ('decrease', 15, 22), ('the', 24, 26), ('effects', 28, 34), ('of', 36, 37), ('this', 39, 42), ('medicine', 44, 51), ('include', 53, 59), (':', 60, 60), ('Rifampin', 62, 69), ('barbiturates', 71, 82), ('phenytoin', 84, 92), ('(', 94, 94), ('Dilantin', 95, 102), (')', 103, 103), ('carbamazepine', 105, 117), ('(', 119, 119), ('Tegretol', 120, 127), (')', 128, 128), ('Estrogens', 130, 138), ('may', 140, 142), ('decrease', 144, 151), ('the', 153, 155), ('effects', 157, 163), ('of', 165, 166), ('benzodiazepines', 168, 182), ('(', 184, 184), ('lorezepam', 185, 193), ('oxezepam', 195, 202), ('temezepam', 204, 212), (')', 213, 213), ('.', 214, 214)]
+{'DDI-DrugBank.d644.s2.e0': ['62', '69'], 'DDI-DrugBank.d644.s2.e1': ['71', '82'], 'DDI-DrugBank.d644.s2.e2': ['84', '92'], 'DDI-DrugBank.d644.s2.e3': ['95', '102'], 'DDI-DrugBank.d644.s2.e4': ['105', '117'], 'DDI-DrugBank.d644.s2.e5': ['120', '127'], 'DDI-DrugBank.d644.s2.e6': ['130', '138'], 'DDI-DrugBank.d644.s2.e7': ['168', '182'], 'DDI-DrugBank.d644.s2.e8': ['185', '193'], 'DDI-DrugBank.d644.s2.e9': ['195', '202'], 'DDI-DrugBank.d644.s2.e10': ['204', '212']}
+[['(', 119, 119, '(', '('], ['Tegretol', 120, 127, 'NNP', 'Tegretol'], [')', 128, 128, ')', ')'], ['Estrogens', 130, 138, 'NNP', 'Estrogens'], ['may', 140, 142, 'MD', 'may'], ['decrease', 144, 151, 'VB', 'decrease'], ['the', 153, 155, 'DT', 'the'], ['effects', 157, 163, 'NNS', 'effect'], ['of', 165, 166, 'IN', 'of'], ['benzodiazepines', 168, 182, 'NNS', 'benzodiazepine'], ['(', 184, 184, '(', '('], ['lorezepam', 185, 193, 'JJ', 'lorezepam']]
+DDI-DrugBank.d644.s2|DDI-DrugBank.d644.s2.e4|DDI-DrugBank.d644.s2.e9|1|effect
+[('Drugs', 0, 4), ('that', 6, 9), ('may', 11, 13), ('decrease', 15, 22), ('the', 24, 26), ('effects', 28, 34), ('of', 36, 37), ('this', 39, 42), ('medicine', 44, 51), ('include', 53, 59), (':', 60, 60), ('Rifampin', 62, 69), ('barbiturates', 71, 82), ('phenytoin', 84, 92), ('(', 94, 94), ('Dilantin', 95, 102), (')', 103, 103), ('carbamazepine', 105, 117), ('(', 119, 119), ('Tegretol', 120, 127), (')', 128, 128), ('Estrogens', 130, 138), ('may', 140, 142), ('decrease', 144, 151), ('the', 153, 155), ('effects', 157, 163), ('of', 165, 166), ('benzodiazepines', 168, 182), ('(', 184, 184), ('lorezepam', 185, 193), ('oxezepam', 195, 202), ('temezepam', 204, 212), (')', 213, 213), ('.', 214, 214)]
+{'DDI-DrugBank.d644.s2.e0': ['62', '69'], 'DDI-DrugBank.d644.s2.e1': ['71', '82'], 'DDI-DrugBank.d644.s2.e2': ['84', '92'], 'DDI-DrugBank.d644.s2.e3': ['95', '102'], 'DDI-DrugBank.d644.s2.e4': ['105', '117'], 'DDI-DrugBank.d644.s2.e5': ['120', '127'], 'DDI-DrugBank.d644.s2.e6': ['130', '138'], 'DDI-DrugBank.d644.s2.e7': ['168', '182'], 'DDI-DrugBank.d644.s2.e8': ['185', '193'], 'DDI-DrugBank.d644.s2.e9': ['195', '202'], 'DDI-DrugBank.d644.s2.e10': ['204', '212']}
+[['(', 119, 119, '(', '('], ['Tegretol', 120, 127, 'NNP', 'Tegretol'], [')', 128, 128, ')', ')'], ['Estrogens', 130, 138, 'NNP', 'Estrogens'], ['may', 140, 142, 'MD', 'may'], ['decrease', 144, 151, 'VB', 'decrease'], ['the', 153, 155, 'DT', 'the'], ['effects', 157, 163, 'NNS', 'effect'], ['of', 165, 166, 'IN', 'of'], ['benzodiazepines', 168, 182, 'NNS', 'benzodiazepine'], ['(', 184, 184, '(', '('], ['lorezepam', 185, 193, 'JJ', 'lorezepam'], ['oxezepam', 195, 202, 'RB', 'oxezepam']]
+DDI-DrugBank.d644.s2|DDI-DrugBank.d644.s2.e4|DDI-DrugBank.d644.s2.e10|1|effect
+DDI-DrugBank.d644.s2|DDI-DrugBank.d644.s2.e5|DDI-DrugBank.d644.s2.e6|0|null
+[('Drugs', 0, 4), ('that', 6, 9), ('may', 11, 13), ('decrease', 15, 22), ('the', 24, 26), ('effects', 28, 34), ('of', 36, 37), ('this', 39, 42), ('medicine', 44, 51), ('include', 53, 59), (':', 60, 60), ('Rifampin', 62, 69), ('barbiturates', 71, 82), ('phenytoin', 84, 92), ('(', 94, 94), ('Dilantin', 95, 102), (')', 103, 103), ('carbamazepine', 105, 117), ('(', 119, 119), ('Tegretol', 120, 127), (')', 128, 128), ('Estrogens', 130, 138), ('may', 140, 142), ('decrease', 144, 151), ('the', 153, 155), ('effects', 157, 163), ('of', 165, 166), ('benzodiazepines', 168, 182), ('(', 184, 184), ('lorezepam', 185, 193), ('oxezepam', 195, 202), ('temezepam', 204, 212), (')', 213, 213), ('.', 214, 214)]
+{'DDI-DrugBank.d644.s2.e0': ['62', '69'], 'DDI-DrugBank.d644.s2.e1': ['71', '82'], 'DDI-DrugBank.d644.s2.e2': ['84', '92'], 'DDI-DrugBank.d644.s2.e3': ['95', '102'], 'DDI-DrugBank.d644.s2.e4': ['105', '117'], 'DDI-DrugBank.d644.s2.e5': ['120', '127'], 'DDI-DrugBank.d644.s2.e6': ['130', '138'], 'DDI-DrugBank.d644.s2.e7': ['168', '182'], 'DDI-DrugBank.d644.s2.e8': ['185', '193'], 'DDI-DrugBank.d644.s2.e9': ['195', '202'], 'DDI-DrugBank.d644.s2.e10': ['204', '212']}
+[[')', 128, 128, ')', ')'], ['Estrogens', 130, 138, 'NNP', 'Estrogens'], ['may', 140, 142, 'MD', 'may'], ['decrease', 144, 151, 'VB', 'decrease'], ['the', 153, 155, 'DT', 'the'], ['effects', 157, 163, 'NNS', 'effect'], ['of', 165, 166, 'IN', 'of']]
+DDI-DrugBank.d644.s2|DDI-DrugBank.d644.s2.e5|DDI-DrugBank.d644.s2.e7|1|effect
+[('Drugs', 0, 4), ('that', 6, 9), ('may', 11, 13), ('decrease', 15, 22), ('the', 24, 26), ('effects', 28, 34), ('of', 36, 37), ('this', 39, 42), ('medicine', 44, 51), ('include', 53, 59), (':', 60, 60), ('Rifampin', 62, 69), ('barbiturates', 71, 82), ('phenytoin', 84, 92), ('(', 94, 94), ('Dilantin', 95, 102), (')', 103, 103), ('carbamazepine', 105, 117), ('(', 119, 119), ('Tegretol', 120, 127), (')', 128, 128), ('Estrogens', 130, 138), ('may', 140, 142), ('decrease', 144, 151), ('the', 153, 155), ('effects', 157, 163), ('of', 165, 166), ('benzodiazepines', 168, 182), ('(', 184, 184), ('lorezepam', 185, 193), ('oxezepam', 195, 202), ('temezepam', 204, 212), (')', 213, 213), ('.', 214, 214)]
+{'DDI-DrugBank.d644.s2.e0': ['62', '69'], 'DDI-DrugBank.d644.s2.e1': ['71', '82'], 'DDI-DrugBank.d644.s2.e2': ['84', '92'], 'DDI-DrugBank.d644.s2.e3': ['95', '102'], 'DDI-DrugBank.d644.s2.e4': ['105', '117'], 'DDI-DrugBank.d644.s2.e5': ['120', '127'], 'DDI-DrugBank.d644.s2.e6': ['130', '138'], 'DDI-DrugBank.d644.s2.e7': ['168', '182'], 'DDI-DrugBank.d644.s2.e8': ['185', '193'], 'DDI-DrugBank.d644.s2.e9': ['195', '202'], 'DDI-DrugBank.d644.s2.e10': ['204', '212']}
+[[')', 128, 128, ')', ')'], ['Estrogens', 130, 138, 'NNP', 'Estrogens'], ['may', 140, 142, 'MD', 'may'], ['decrease', 144, 151, 'VB', 'decrease'], ['the', 153, 155, 'DT', 'the'], ['effects', 157, 163, 'NNS', 'effect'], ['of', 165, 166, 'IN', 'of'], ['benzodiazepines', 168, 182, 'NNS', 'benzodiazepine'], ['(', 184, 184, '(', '(']]
+DDI-DrugBank.d644.s2|DDI-DrugBank.d644.s2.e5|DDI-DrugBank.d644.s2.e8|1|effect
+[('Drugs', 0, 4), ('that', 6, 9), ('may', 11, 13), ('decrease', 15, 22), ('the', 24, 26), ('effects', 28, 34), ('of', 36, 37), ('this', 39, 42), ('medicine', 44, 51), ('include', 53, 59), (':', 60, 60), ('Rifampin', 62, 69), ('barbiturates', 71, 82), ('phenytoin', 84, 92), ('(', 94, 94), ('Dilantin', 95, 102), (')', 103, 103), ('carbamazepine', 105, 117), ('(', 119, 119), ('Tegretol', 120, 127), (')', 128, 128), ('Estrogens', 130, 138), ('may', 140, 142), ('decrease', 144, 151), ('the', 153, 155), ('effects', 157, 163), ('of', 165, 166), ('benzodiazepines', 168, 182), ('(', 184, 184), ('lorezepam', 185, 193), ('oxezepam', 195, 202), ('temezepam', 204, 212), (')', 213, 213), ('.', 214, 214)]
+{'DDI-DrugBank.d644.s2.e0': ['62', '69'], 'DDI-DrugBank.d644.s2.e1': ['71', '82'], 'DDI-DrugBank.d644.s2.e2': ['84', '92'], 'DDI-DrugBank.d644.s2.e3': ['95', '102'], 'DDI-DrugBank.d644.s2.e4': ['105', '117'], 'DDI-DrugBank.d644.s2.e5': ['120', '127'], 'DDI-DrugBank.d644.s2.e6': ['130', '138'], 'DDI-DrugBank.d644.s2.e7': ['168', '182'], 'DDI-DrugBank.d644.s2.e8': ['185', '193'], 'DDI-DrugBank.d644.s2.e9': ['195', '202'], 'DDI-DrugBank.d644.s2.e10': ['204', '212']}
+[[')', 128, 128, ')', ')'], ['Estrogens', 130, 138, 'NNP', 'Estrogens'], ['may', 140, 142, 'MD', 'may'], ['decrease', 144, 151, 'VB', 'decrease'], ['the', 153, 155, 'DT', 'the'], ['effects', 157, 163, 'NNS', 'effect'], ['of', 165, 166, 'IN', 'of'], ['benzodiazepines', 168, 182, 'NNS', 'benzodiazepine'], ['(', 184, 184, '(', '('], ['lorezepam', 185, 193, 'JJ', 'lorezepam']]
+DDI-DrugBank.d644.s2|DDI-DrugBank.d644.s2.e5|DDI-DrugBank.d644.s2.e9|1|effect
+[('Drugs', 0, 4), ('that', 6, 9), ('may', 11, 13), ('decrease', 15, 22), ('the', 24, 26), ('effects', 28, 34), ('of', 36, 37), ('this', 39, 42), ('medicine', 44, 51), ('include', 53, 59), (':', 60, 60), ('Rifampin', 62, 69), ('barbiturates', 71, 82), ('phenytoin', 84, 92), ('(', 94, 94), ('Dilantin', 95, 102), (')', 103, 103), ('carbamazepine', 105, 117), ('(', 119, 119), ('Tegretol', 120, 127), (')', 128, 128), ('Estrogens', 130, 138), ('may', 140, 142), ('decrease', 144, 151), ('the', 153, 155), ('effects', 157, 163), ('of', 165, 166), ('benzodiazepines', 168, 182), ('(', 184, 184), ('lorezepam', 185, 193), ('oxezepam', 195, 202), ('temezepam', 204, 212), (')', 213, 213), ('.', 214, 214)]
+{'DDI-DrugBank.d644.s2.e0': ['62', '69'], 'DDI-DrugBank.d644.s2.e1': ['71', '82'], 'DDI-DrugBank.d644.s2.e2': ['84', '92'], 'DDI-DrugBank.d644.s2.e3': ['95', '102'], 'DDI-DrugBank.d644.s2.e4': ['105', '117'], 'DDI-DrugBank.d644.s2.e5': ['120', '127'], 'DDI-DrugBank.d644.s2.e6': ['130', '138'], 'DDI-DrugBank.d644.s2.e7': ['168', '182'], 'DDI-DrugBank.d644.s2.e8': ['185', '193'], 'DDI-DrugBank.d644.s2.e9': ['195', '202'], 'DDI-DrugBank.d644.s2.e10': ['204', '212']}
+[[')', 128, 128, ')', ')'], ['Estrogens', 130, 138, 'NNP', 'Estrogens'], ['may', 140, 142, 'MD', 'may'], ['decrease', 144, 151, 'VB', 'decrease'], ['the', 153, 155, 'DT', 'the'], ['effects', 157, 163, 'NNS', 'effect'], ['of', 165, 166, 'IN', 'of'], ['benzodiazepines', 168, 182, 'NNS', 'benzodiazepine'], ['(', 184, 184, '(', '('], ['lorezepam', 185, 193, 'JJ', 'lorezepam'], ['oxezepam', 195, 202, 'RB', 'oxezepam']]
+DDI-DrugBank.d644.s2|DDI-DrugBank.d644.s2.e5|DDI-DrugBank.d644.s2.e10|1|effect
+[('Drugs', 0, 4), ('that', 6, 9), ('may', 11, 13), ('decrease', 15, 22), ('the', 24, 26), ('effects', 28, 34), ('of', 36, 37), ('this', 39, 42), ('medicine', 44, 51), ('include', 53, 59), (':', 60, 60), ('Rifampin', 62, 69), ('barbiturates', 71, 82), ('phenytoin', 84, 92), ('(', 94, 94), ('Dilantin', 95, 102), (')', 103, 103), ('carbamazepine', 105, 117), ('(', 119, 119), ('Tegretol', 120, 127), (')', 128, 128), ('Estrogens', 130, 138), ('may', 140, 142), ('decrease', 144, 151), ('the', 153, 155), ('effects', 157, 163), ('of', 165, 166), ('benzodiazepines', 168, 182), ('(', 184, 184), ('lorezepam', 185, 193), ('oxezepam', 195, 202), ('temezepam', 204, 212), (')', 213, 213), ('.', 214, 214)]
+{'DDI-DrugBank.d644.s2.e0': ['62', '69'], 'DDI-DrugBank.d644.s2.e1': ['71', '82'], 'DDI-DrugBank.d644.s2.e2': ['84', '92'], 'DDI-DrugBank.d644.s2.e3': ['95', '102'], 'DDI-DrugBank.d644.s2.e4': ['105', '117'], 'DDI-DrugBank.d644.s2.e5': ['120', '127'], 'DDI-DrugBank.d644.s2.e6': ['130', '138'], 'DDI-DrugBank.d644.s2.e7': ['168', '182'], 'DDI-DrugBank.d644.s2.e8': ['185', '193'], 'DDI-DrugBank.d644.s2.e9': ['195', '202'], 'DDI-DrugBank.d644.s2.e10': ['204', '212']}
+[['may', 140, 142, 'MD', 'may'], ['decrease', 144, 151, 'VB', 'decrease'], ['the', 153, 155, 'DT', 'the'], ['effects', 157, 163, 'NNS', 'effect'], ['of', 165, 166, 'IN', 'of']]
+DDI-DrugBank.d644.s2|DDI-DrugBank.d644.s2.e6|DDI-DrugBank.d644.s2.e7|1|effect
+[('Drugs', 0, 4), ('that', 6, 9), ('may', 11, 13), ('decrease', 15, 22), ('the', 24, 26), ('effects', 28, 34), ('of', 36, 37), ('this', 39, 42), ('medicine', 44, 51), ('include', 53, 59), (':', 60, 60), ('Rifampin', 62, 69), ('barbiturates', 71, 82), ('phenytoin', 84, 92), ('(', 94, 94), ('Dilantin', 95, 102), (')', 103, 103), ('carbamazepine', 105, 117), ('(', 119, 119), ('Tegretol', 120, 127), (')', 128, 128), ('Estrogens', 130, 138), ('may', 140, 142), ('decrease', 144, 151), ('the', 153, 155), ('effects', 157, 163), ('of', 165, 166), ('benzodiazepines', 168, 182), ('(', 184, 184), ('lorezepam', 185, 193), ('oxezepam', 195, 202), ('temezepam', 204, 212), (')', 213, 213), ('.', 214, 214)]
+{'DDI-DrugBank.d644.s2.e0': ['62', '69'], 'DDI-DrugBank.d644.s2.e1': ['71', '82'], 'DDI-DrugBank.d644.s2.e2': ['84', '92'], 'DDI-DrugBank.d644.s2.e3': ['95', '102'], 'DDI-DrugBank.d644.s2.e4': ['105', '117'], 'DDI-DrugBank.d644.s2.e5': ['120', '127'], 'DDI-DrugBank.d644.s2.e6': ['130', '138'], 'DDI-DrugBank.d644.s2.e7': ['168', '182'], 'DDI-DrugBank.d644.s2.e8': ['185', '193'], 'DDI-DrugBank.d644.s2.e9': ['195', '202'], 'DDI-DrugBank.d644.s2.e10': ['204', '212']}
+[['may', 140, 142, 'MD', 'may'], ['decrease', 144, 151, 'VB', 'decrease'], ['the', 153, 155, 'DT', 'the'], ['effects', 157, 163, 'NNS', 'effect'], ['of', 165, 166, 'IN', 'of'], ['benzodiazepines', 168, 182, 'NNS', 'benzodiazepine'], ['(', 184, 184, '(', '(']]
+DDI-DrugBank.d644.s2|DDI-DrugBank.d644.s2.e6|DDI-DrugBank.d644.s2.e8|1|effect
+[('Drugs', 0, 4), ('that', 6, 9), ('may', 11, 13), ('decrease', 15, 22), ('the', 24, 26), ('effects', 28, 34), ('of', 36, 37), ('this', 39, 42), ('medicine', 44, 51), ('include', 53, 59), (':', 60, 60), ('Rifampin', 62, 69), ('barbiturates', 71, 82), ('phenytoin', 84, 92), ('(', 94, 94), ('Dilantin', 95, 102), (')', 103, 103), ('carbamazepine', 105, 117), ('(', 119, 119), ('Tegretol', 120, 127), (')', 128, 128), ('Estrogens', 130, 138), ('may', 140, 142), ('decrease', 144, 151), ('the', 153, 155), ('effects', 157, 163), ('of', 165, 166), ('benzodiazepines', 168, 182), ('(', 184, 184), ('lorezepam', 185, 193), ('oxezepam', 195, 202), ('temezepam', 204, 212), (')', 213, 213), ('.', 214, 214)]
+{'DDI-DrugBank.d644.s2.e0': ['62', '69'], 'DDI-DrugBank.d644.s2.e1': ['71', '82'], 'DDI-DrugBank.d644.s2.e2': ['84', '92'], 'DDI-DrugBank.d644.s2.e3': ['95', '102'], 'DDI-DrugBank.d644.s2.e4': ['105', '117'], 'DDI-DrugBank.d644.s2.e5': ['120', '127'], 'DDI-DrugBank.d644.s2.e6': ['130', '138'], 'DDI-DrugBank.d644.s2.e7': ['168', '182'], 'DDI-DrugBank.d644.s2.e8': ['185', '193'], 'DDI-DrugBank.d644.s2.e9': ['195', '202'], 'DDI-DrugBank.d644.s2.e10': ['204', '212']}
+[['may', 140, 142, 'MD', 'may'], ['decrease', 144, 151, 'VB', 'decrease'], ['the', 153, 155, 'DT', 'the'], ['effects', 157, 163, 'NNS', 'effect'], ['of', 165, 166, 'IN', 'of'], ['benzodiazepines', 168, 182, 'NNS', 'benzodiazepine'], ['(', 184, 184, '(', '('], ['lorezepam', 185, 193, 'JJ', 'lorezepam']]
+DDI-DrugBank.d644.s2|DDI-DrugBank.d644.s2.e6|DDI-DrugBank.d644.s2.e9|1|effect
+[('Drugs', 0, 4), ('that', 6, 9), ('may', 11, 13), ('decrease', 15, 22), ('the', 24, 26), ('effects', 28, 34), ('of', 36, 37), ('this', 39, 42), ('medicine', 44, 51), ('include', 53, 59), (':', 60, 60), ('Rifampin', 62, 69), ('barbiturates', 71, 82), ('phenytoin', 84, 92), ('(', 94, 94), ('Dilantin', 95, 102), (')', 103, 103), ('carbamazepine', 105, 117), ('(', 119, 119), ('Tegretol', 120, 127), (')', 128, 128), ('Estrogens', 130, 138), ('may', 140, 142), ('decrease', 144, 151), ('the', 153, 155), ('effects', 157, 163), ('of', 165, 166), ('benzodiazepines', 168, 182), ('(', 184, 184), ('lorezepam', 185, 193), ('oxezepam', 195, 202), ('temezepam', 204, 212), (')', 213, 213), ('.', 214, 214)]
+{'DDI-DrugBank.d644.s2.e0': ['62', '69'], 'DDI-DrugBank.d644.s2.e1': ['71', '82'], 'DDI-DrugBank.d644.s2.e2': ['84', '92'], 'DDI-DrugBank.d644.s2.e3': ['95', '102'], 'DDI-DrugBank.d644.s2.e4': ['105', '117'], 'DDI-DrugBank.d644.s2.e5': ['120', '127'], 'DDI-DrugBank.d644.s2.e6': ['130', '138'], 'DDI-DrugBank.d644.s2.e7': ['168', '182'], 'DDI-DrugBank.d644.s2.e8': ['185', '193'], 'DDI-DrugBank.d644.s2.e9': ['195', '202'], 'DDI-DrugBank.d644.s2.e10': ['204', '212']}
+[['may', 140, 142, 'MD', 'may'], ['decrease', 144, 151, 'VB', 'decrease'], ['the', 153, 155, 'DT', 'the'], ['effects', 157, 163, 'NNS', 'effect'], ['of', 165, 166, 'IN', 'of'], ['benzodiazepines', 168, 182, 'NNS', 'benzodiazepine'], ['(', 184, 184, '(', '('], ['lorezepam', 185, 193, 'JJ', 'lorezepam'], ['oxezepam', 195, 202, 'RB', 'oxezepam']]
+DDI-DrugBank.d644.s2|DDI-DrugBank.d644.s2.e6|DDI-DrugBank.d644.s2.e10|1|effect
+DDI-DrugBank.d644.s2|DDI-DrugBank.d644.s2.e7|DDI-DrugBank.d644.s2.e8|0|null
+DDI-DrugBank.d644.s2|DDI-DrugBank.d644.s2.e7|DDI-DrugBank.d644.s2.e9|0|null
+DDI-DrugBank.d644.s2|DDI-DrugBank.d644.s2.e7|DDI-DrugBank.d644.s2.e10|0|null
+DDI-DrugBank.d644.s2|DDI-DrugBank.d644.s2.e8|DDI-DrugBank.d644.s2.e9|0|null
+DDI-DrugBank.d644.s2|DDI-DrugBank.d644.s2.e8|DDI-DrugBank.d644.s2.e10|0|null
+DDI-DrugBank.d644.s2|DDI-DrugBank.d644.s2.e9|DDI-DrugBank.d644.s2.e10|0|null
+DDI-DrugBank.d644.s4|DDI-DrugBank.d644.s4.e0|DDI-DrugBank.d644.s4.e1|0|null
+DDI-DrugBank.d663.s1|DDI-DrugBank.d663.s1.e0|DDI-DrugBank.d663.s1.e1|0|null
+[('in', 0, 1), ('10', 3, 4), ('of', 6, 7), ('the', 9, 11), ('12', 13, 14), ('patients', 16, 23), (',', 24, 24), ('this', 26, 29), ('occurred', 31, 38), ('when', 40, 43), ('LUCENTIS', 45, 52), ('was', 54, 56), ('administered', 58, 69), ('7', 71, 71), ('days', 73, 76), ('(', 78, 78), ('2', 82, 82), ('days', 84, 87), (')', 88, 88), ('after', 90, 94), ('verteporfin', 96, 106), ('PDT', 108, 110), ('.', 111, 111)]
+{'DDI-DrugBank.d663.s3.e0': ['45', '52'], 'DDI-DrugBank.d663.s3.e1': ['96', '106']}
+[['was', 54, 56, 'VBD', 'wa'], ['administered', 58, 69, 'VBN', 'administered'], ['7', 71, 71, 'CD', '7'], ['days', 73, 76, 'NNS', 'day'], ['(', 78, 78, '(', '('], ['2', 82, 82, 'CD', '2'], ['days', 84, 87, 'NNS', 'day'], [')', 88, 88, ')', ')'], ['after', 90, 94, 'IN', 'after']]
+DDI-DrugBank.d663.s3|DDI-DrugBank.d663.s3.e0|DDI-DrugBank.d663.s3.e1|1|effect
+DDI-DrugBank.d594.s0|DDI-DrugBank.d594.s0.e0|DDI-DrugBank.d594.s0.e1|0|null
+DDI-DrugBank.d718.s0|DDI-DrugBank.d718.s0.e0|DDI-DrugBank.d718.s0.e1|0|null
+DDI-DrugBank.d718.s0|DDI-DrugBank.d718.s0.e0|DDI-DrugBank.d718.s0.e2|0|null
+DDI-DrugBank.d718.s0|DDI-DrugBank.d718.s0.e0|DDI-DrugBank.d718.s0.e3|0|null
+DDI-DrugBank.d718.s0|DDI-DrugBank.d718.s0.e0|DDI-DrugBank.d718.s0.e4|0|null
+DDI-DrugBank.d718.s0|DDI-DrugBank.d718.s0.e0|DDI-DrugBank.d718.s0.e5|0|null
+DDI-DrugBank.d718.s0|DDI-DrugBank.d718.s0.e0|DDI-DrugBank.d718.s0.e6|0|null
+DDI-DrugBank.d718.s0|DDI-DrugBank.d718.s0.e0|DDI-DrugBank.d718.s0.e7|0|null
+DDI-DrugBank.d718.s0|DDI-DrugBank.d718.s0.e0|DDI-DrugBank.d718.s0.e8|0|null
+DDI-DrugBank.d718.s0|DDI-DrugBank.d718.s0.e0|DDI-DrugBank.d718.s0.e9|1|advise
+DDI-DrugBank.d718.s0|DDI-DrugBank.d718.s0.e1|DDI-DrugBank.d718.s0.e2|0|null
+DDI-DrugBank.d718.s0|DDI-DrugBank.d718.s0.e1|DDI-DrugBank.d718.s0.e3|0|null
+DDI-DrugBank.d718.s0|DDI-DrugBank.d718.s0.e1|DDI-DrugBank.d718.s0.e4|0|null
+DDI-DrugBank.d718.s0|DDI-DrugBank.d718.s0.e1|DDI-DrugBank.d718.s0.e5|0|null
+DDI-DrugBank.d718.s0|DDI-DrugBank.d718.s0.e1|DDI-DrugBank.d718.s0.e6|0|null
+DDI-DrugBank.d718.s0|DDI-DrugBank.d718.s0.e1|DDI-DrugBank.d718.s0.e7|0|null
+DDI-DrugBank.d718.s0|DDI-DrugBank.d718.s0.e1|DDI-DrugBank.d718.s0.e8|0|null
+DDI-DrugBank.d718.s0|DDI-DrugBank.d718.s0.e1|DDI-DrugBank.d718.s0.e9|1|advise
+DDI-DrugBank.d718.s0|DDI-DrugBank.d718.s0.e2|DDI-DrugBank.d718.s0.e3|0|null
+DDI-DrugBank.d718.s0|DDI-DrugBank.d718.s0.e2|DDI-DrugBank.d718.s0.e4|0|null
+DDI-DrugBank.d718.s0|DDI-DrugBank.d718.s0.e2|DDI-DrugBank.d718.s0.e5|0|null
+DDI-DrugBank.d718.s0|DDI-DrugBank.d718.s0.e2|DDI-DrugBank.d718.s0.e6|0|null
+DDI-DrugBank.d718.s0|DDI-DrugBank.d718.s0.e2|DDI-DrugBank.d718.s0.e7|0|null
+DDI-DrugBank.d718.s0|DDI-DrugBank.d718.s0.e2|DDI-DrugBank.d718.s0.e8|0|null
+DDI-DrugBank.d718.s0|DDI-DrugBank.d718.s0.e2|DDI-DrugBank.d718.s0.e9|1|advise
+DDI-DrugBank.d718.s0|DDI-DrugBank.d718.s0.e3|DDI-DrugBank.d718.s0.e4|0|null
+DDI-DrugBank.d718.s0|DDI-DrugBank.d718.s0.e3|DDI-DrugBank.d718.s0.e5|0|null
+DDI-DrugBank.d718.s0|DDI-DrugBank.d718.s0.e3|DDI-DrugBank.d718.s0.e6|0|null
+DDI-DrugBank.d718.s0|DDI-DrugBank.d718.s0.e3|DDI-DrugBank.d718.s0.e7|0|null
+DDI-DrugBank.d718.s0|DDI-DrugBank.d718.s0.e3|DDI-DrugBank.d718.s0.e8|0|null
+DDI-DrugBank.d718.s0|DDI-DrugBank.d718.s0.e3|DDI-DrugBank.d718.s0.e9|1|advise
+DDI-DrugBank.d718.s0|DDI-DrugBank.d718.s0.e4|DDI-DrugBank.d718.s0.e5|0|null
+DDI-DrugBank.d718.s0|DDI-DrugBank.d718.s0.e4|DDI-DrugBank.d718.s0.e6|0|null
+DDI-DrugBank.d718.s0|DDI-DrugBank.d718.s0.e4|DDI-DrugBank.d718.s0.e7|0|null
+DDI-DrugBank.d718.s0|DDI-DrugBank.d718.s0.e4|DDI-DrugBank.d718.s0.e8|0|null
+DDI-DrugBank.d718.s0|DDI-DrugBank.d718.s0.e4|DDI-DrugBank.d718.s0.e9|1|advise
+DDI-DrugBank.d718.s0|DDI-DrugBank.d718.s0.e5|DDI-DrugBank.d718.s0.e6|0|null
+DDI-DrugBank.d718.s0|DDI-DrugBank.d718.s0.e5|DDI-DrugBank.d718.s0.e7|0|null
+DDI-DrugBank.d718.s0|DDI-DrugBank.d718.s0.e5|DDI-DrugBank.d718.s0.e8|0|null
+DDI-DrugBank.d718.s0|DDI-DrugBank.d718.s0.e5|DDI-DrugBank.d718.s0.e9|1|advise
+DDI-DrugBank.d718.s0|DDI-DrugBank.d718.s0.e6|DDI-DrugBank.d718.s0.e7|0|null
+DDI-DrugBank.d718.s0|DDI-DrugBank.d718.s0.e6|DDI-DrugBank.d718.s0.e8|0|null
+DDI-DrugBank.d718.s0|DDI-DrugBank.d718.s0.e6|DDI-DrugBank.d718.s0.e9|1|advise
+DDI-DrugBank.d718.s0|DDI-DrugBank.d718.s0.e7|DDI-DrugBank.d718.s0.e8|0|null
+DDI-DrugBank.d718.s0|DDI-DrugBank.d718.s0.e7|DDI-DrugBank.d718.s0.e9|1|advise
+DDI-DrugBank.d718.s0|DDI-DrugBank.d718.s0.e8|DDI-DrugBank.d718.s0.e9|1|advise
+DDI-DrugBank.d718.s1|DDI-DrugBank.d718.s1.e0|DDI-DrugBank.d718.s1.e1|0|null
+DDI-DrugBank.d718.s1|DDI-DrugBank.d718.s1.e0|DDI-DrugBank.d718.s1.e2|0|null
+DDI-DrugBank.d718.s1|DDI-DrugBank.d718.s1.e1|DDI-DrugBank.d718.s1.e2|0|null
+DDI-DrugBank.d593.s0|DDI-DrugBank.d593.s0.e0|DDI-DrugBank.d593.s0.e1|0|null
+DDI-DrugBank.d593.s0|DDI-DrugBank.d593.s0.e0|DDI-DrugBank.d593.s0.e2|0|null
+DDI-DrugBank.d593.s0|DDI-DrugBank.d593.s0.e0|DDI-DrugBank.d593.s0.e3|0|null
+DDI-DrugBank.d593.s0|DDI-DrugBank.d593.s0.e0|DDI-DrugBank.d593.s0.e4|0|null
+DDI-DrugBank.d593.s0|DDI-DrugBank.d593.s0.e0|DDI-DrugBank.d593.s0.e5|0|null
+DDI-DrugBank.d593.s0|DDI-DrugBank.d593.s0.e1|DDI-DrugBank.d593.s0.e2|0|null
+DDI-DrugBank.d593.s0|DDI-DrugBank.d593.s0.e1|DDI-DrugBank.d593.s0.e3|0|null
+DDI-DrugBank.d593.s0|DDI-DrugBank.d593.s0.e1|DDI-DrugBank.d593.s0.e4|0|null
+DDI-DrugBank.d593.s0|DDI-DrugBank.d593.s0.e1|DDI-DrugBank.d593.s0.e5|0|null
+DDI-DrugBank.d593.s0|DDI-DrugBank.d593.s0.e2|DDI-DrugBank.d593.s0.e3|0|null
+DDI-DrugBank.d593.s0|DDI-DrugBank.d593.s0.e2|DDI-DrugBank.d593.s0.e4|0|null
+DDI-DrugBank.d593.s0|DDI-DrugBank.d593.s0.e2|DDI-DrugBank.d593.s0.e5|0|null
+DDI-DrugBank.d593.s0|DDI-DrugBank.d593.s0.e3|DDI-DrugBank.d593.s0.e4|0|null
+DDI-DrugBank.d593.s0|DDI-DrugBank.d593.s0.e3|DDI-DrugBank.d593.s0.e5|0|null
+DDI-DrugBank.d593.s0|DDI-DrugBank.d593.s0.e4|DDI-DrugBank.d593.s0.e5|0|null
+DDI-DrugBank.d684.s3|DDI-DrugBank.d684.s3.e0|DDI-DrugBank.d684.s3.e1|0|null
+DDI-DrugBank.d684.s3|DDI-DrugBank.d684.s3.e0|DDI-DrugBank.d684.s3.e2|0|null
+DDI-DrugBank.d684.s3|DDI-DrugBank.d684.s3.e0|DDI-DrugBank.d684.s3.e3|0|null
+DDI-DrugBank.d684.s3|DDI-DrugBank.d684.s3.e0|DDI-DrugBank.d684.s3.e4|0|null
+DDI-DrugBank.d684.s3|DDI-DrugBank.d684.s3.e0|DDI-DrugBank.d684.s3.e5|0|null
+DDI-DrugBank.d684.s3|DDI-DrugBank.d684.s3.e1|DDI-DrugBank.d684.s3.e2|0|null
+DDI-DrugBank.d684.s3|DDI-DrugBank.d684.s3.e1|DDI-DrugBank.d684.s3.e3|0|null
+DDI-DrugBank.d684.s3|DDI-DrugBank.d684.s3.e1|DDI-DrugBank.d684.s3.e4|0|null
+DDI-DrugBank.d684.s3|DDI-DrugBank.d684.s3.e1|DDI-DrugBank.d684.s3.e5|0|null
+DDI-DrugBank.d684.s3|DDI-DrugBank.d684.s3.e2|DDI-DrugBank.d684.s3.e3|0|null
+DDI-DrugBank.d684.s3|DDI-DrugBank.d684.s3.e2|DDI-DrugBank.d684.s3.e4|0|null
+DDI-DrugBank.d684.s3|DDI-DrugBank.d684.s3.e2|DDI-DrugBank.d684.s3.e5|0|null
+DDI-DrugBank.d684.s3|DDI-DrugBank.d684.s3.e3|DDI-DrugBank.d684.s3.e4|0|null
+DDI-DrugBank.d684.s3|DDI-DrugBank.d684.s3.e3|DDI-DrugBank.d684.s3.e5|0|null
+DDI-DrugBank.d684.s3|DDI-DrugBank.d684.s3.e4|DDI-DrugBank.d684.s3.e5|0|null
+DDI-DrugBank.d657.s0|DDI-DrugBank.d657.s0.e0|DDI-DrugBank.d657.s0.e1|0|null
+DDI-DrugBank.d657.s0|DDI-DrugBank.d657.s0.e0|DDI-DrugBank.d657.s0.e2|0|null
+DDI-DrugBank.d657.s0|DDI-DrugBank.d657.s0.e0|DDI-DrugBank.d657.s0.e3|0|null
+DDI-DrugBank.d657.s0|DDI-DrugBank.d657.s0.e0|DDI-DrugBank.d657.s0.e4|0|null
+DDI-DrugBank.d657.s0|DDI-DrugBank.d657.s0.e0|DDI-DrugBank.d657.s0.e5|0|null
+DDI-DrugBank.d657.s0|DDI-DrugBank.d657.s0.e1|DDI-DrugBank.d657.s0.e2|0|null
+DDI-DrugBank.d657.s0|DDI-DrugBank.d657.s0.e1|DDI-DrugBank.d657.s0.e3|0|null
+DDI-DrugBank.d657.s0|DDI-DrugBank.d657.s0.e1|DDI-DrugBank.d657.s0.e4|0|null
+DDI-DrugBank.d657.s0|DDI-DrugBank.d657.s0.e1|DDI-DrugBank.d657.s0.e5|0|null
+DDI-DrugBank.d657.s0|DDI-DrugBank.d657.s0.e2|DDI-DrugBank.d657.s0.e3|0|null
+DDI-DrugBank.d657.s0|DDI-DrugBank.d657.s0.e2|DDI-DrugBank.d657.s0.e4|0|null
+DDI-DrugBank.d657.s0|DDI-DrugBank.d657.s0.e2|DDI-DrugBank.d657.s0.e5|0|null
+DDI-DrugBank.d657.s0|DDI-DrugBank.d657.s0.e3|DDI-DrugBank.d657.s0.e4|0|null
+DDI-DrugBank.d657.s0|DDI-DrugBank.d657.s0.e3|DDI-DrugBank.d657.s0.e5|0|null
+DDI-DrugBank.d657.s0|DDI-DrugBank.d657.s0.e4|DDI-DrugBank.d657.s0.e5|0|null
+DDI-DrugBank.d657.s1|DDI-DrugBank.d657.s1.e0|DDI-DrugBank.d657.s1.e1|0|null
+DDI-DrugBank.d705.s0|DDI-DrugBank.d705.s0.e0|DDI-DrugBank.d705.s0.e1|0|null
+DDI-DrugBank.d705.s1|DDI-DrugBank.d705.s1.e0|DDI-DrugBank.d705.s1.e1|0|null
+DDI-DrugBank.d705.s1|DDI-DrugBank.d705.s1.e0|DDI-DrugBank.d705.s1.e2|1|advise
+DDI-DrugBank.d705.s1|DDI-DrugBank.d705.s1.e1|DDI-DrugBank.d705.s1.e2|1|advise
+DDI-DrugBank.d662.s0|DDI-DrugBank.d662.s0.e0|DDI-DrugBank.d662.s0.e1|1|advise
+DDI-DrugBank.d662.s3|DDI-DrugBank.d662.s3.e0|DDI-DrugBank.d662.s3.e1|0|null
+DDI-DrugBank.d673.s0|DDI-DrugBank.d673.s0.e0|DDI-DrugBank.d673.s0.e1|0|null
+DDI-DrugBank.d673.s0|DDI-DrugBank.d673.s0.e0|DDI-DrugBank.d673.s0.e2|0|null
+DDI-DrugBank.d673.s0|DDI-DrugBank.d673.s0.e1|DDI-DrugBank.d673.s0.e2|0|null
+DDI-DrugBank.d673.s1|DDI-DrugBank.d673.s1.e0|DDI-DrugBank.d673.s1.e1|0|null
+DDI-DrugBank.d664.s0|DDI-DrugBank.d664.s0.e0|DDI-DrugBank.d664.s0.e1|0|null
+DDI-DrugBank.d664.s0|DDI-DrugBank.d664.s0.e0|DDI-DrugBank.d664.s0.e2|0|null
+DDI-DrugBank.d664.s0|DDI-DrugBank.d664.s0.e1|DDI-DrugBank.d664.s0.e2|0|null
+[('Therefore', 0, 8), (',', 9, 9), ('warfarin', 11, 18), ('dose', 20, 23), ('changes', 25, 31), ('and', 33, 35), ('monitoring', 37, 46), ('for', 48, 50), ('the', 52, 54), ('effects', 56, 62), ('of', 64, 65), ('warfarin', 67, 74), ('on', 76, 77), ('blood', 79, 83), ('clotting', 85, 92), ('are', 94, 96), ('necessary', 98, 106), ('.', 107, 107)]
+{'DDI-DrugBank.d664.s1.e0': ['11', '18'], 'DDI-DrugBank.d664.s1.e1': ['67', '74']}
+[['dose', 20, 23, 'JJ', 'dose'], ['changes', 25, 31, 'NNS', 'change'], ['and', 33, 35, 'CC', 'and'], ['monitoring', 37, 46, 'NN', 'monitoring'], ['for', 48, 50, 'IN', 'for'], ['the', 52, 54, 'DT', 'the'], ['effects', 56, 62, 'NNS', 'effect'], ['of', 64, 65, 'IN', 'of']]
+DDI-DrugBank.d664.s1|DDI-DrugBank.d664.s1.e0|DDI-DrugBank.d664.s1.e1|1|effect
+DDI-DrugBank.d768.s3|DDI-DrugBank.d768.s3.e0|DDI-DrugBank.d768.s3.e1|0|null
+[('In', 0, 1), ('controlled', 3, 12), ('clinical', 14, 21), ('trials', 23, 28), (',', 29, 29), ('ALOXI', 31, 35), ('injection', 37, 45), ('has', 47, 49), ('been', 51, 54), ('safely', 56, 61), ('administered', 63, 74), ('with', 76, 79), ('corticosteroids', 81, 95), (',', 96, 96), ('analgesics', 98, 107), (',', 108, 108), ('antiemetics/antinauseants', 110, 134), (',', 135, 135), ('antispasmodics', 137, 150), ('and', 152, 154), ('anticholinergic', 156, 170), ('agents', 172, 177), ('.', 178, 178)]
+{'DDI-DrugBank.d768.s4.e0': ['31', '35'], 'DDI-DrugBank.d768.s4.e1': ['81', '95'], 'DDI-DrugBank.d768.s4.e2': ['98', '107'], 'DDI-DrugBank.d768.s4.e3': ['110', '120'], 'DDI-DrugBank.d768.s4.e4': ['122', '134'], 'DDI-DrugBank.d768.s4.e5': ['137', '150'], 'DDI-DrugBank.d768.s4.e6': ['156', '177']}
+[['injection', 37, 45, 'NN', 'injection'], ['has', 47, 49, 'VBZ', 'ha'], ['been', 51, 54, 'VBN', 'been'], ['safely', 56, 61, 'RB', 'safely'], ['administered', 63, 74, 'VBN', 'administered'], ['with', 76, 79, 'IN', 'with']]
+DDI-DrugBank.d768.s4|DDI-DrugBank.d768.s4.e0|DDI-DrugBank.d768.s4.e1|1|effect
+[('In', 0, 1), ('controlled', 3, 12), ('clinical', 14, 21), ('trials', 23, 28), (',', 29, 29), ('ALOXI', 31, 35), ('injection', 37, 45), ('has', 47, 49), ('been', 51, 54), ('safely', 56, 61), ('administered', 63, 74), ('with', 76, 79), ('corticosteroids', 81, 95), (',', 96, 96), ('analgesics', 98, 107), (',', 108, 108), ('antiemetics/antinauseants', 110, 134), (',', 135, 135), ('antispasmodics', 137, 150), ('and', 152, 154), ('anticholinergic', 156, 170), ('agents', 172, 177), ('.', 178, 178)]
+{'DDI-DrugBank.d768.s4.e0': ['31', '35'], 'DDI-DrugBank.d768.s4.e1': ['81', '95'], 'DDI-DrugBank.d768.s4.e2': ['98', '107'], 'DDI-DrugBank.d768.s4.e3': ['110', '120'], 'DDI-DrugBank.d768.s4.e4': ['122', '134'], 'DDI-DrugBank.d768.s4.e5': ['137', '150'], 'DDI-DrugBank.d768.s4.e6': ['156', '177']}
+[['injection', 37, 45, 'NN', 'injection'], ['has', 47, 49, 'VBZ', 'ha'], ['been', 51, 54, 'VBN', 'been'], ['safely', 56, 61, 'RB', 'safely'], ['administered', 63, 74, 'VBN', 'administered'], ['with', 76, 79, 'IN', 'with'], ['corticosteroids', 81, 95, 'NNS', 'corticosteroid'], [',', 96, 96, ',', ',']]
+DDI-DrugBank.d768.s4|DDI-DrugBank.d768.s4.e0|DDI-DrugBank.d768.s4.e2|1|effect
+[('In', 0, 1), ('controlled', 3, 12), ('clinical', 14, 21), ('trials', 23, 28), (',', 29, 29), ('ALOXI', 31, 35), ('injection', 37, 45), ('has', 47, 49), ('been', 51, 54), ('safely', 56, 61), ('administered', 63, 74), ('with', 76, 79), ('corticosteroids', 81, 95), (',', 96, 96), ('analgesics', 98, 107), (',', 108, 108), ('antiemetics/antinauseants', 110, 134), (',', 135, 135), ('antispasmodics', 137, 150), ('and', 152, 154), ('anticholinergic', 156, 170), ('agents', 172, 177), ('.', 178, 178)]
+{'DDI-DrugBank.d768.s4.e0': ['31', '35'], 'DDI-DrugBank.d768.s4.e1': ['81', '95'], 'DDI-DrugBank.d768.s4.e2': ['98', '107'], 'DDI-DrugBank.d768.s4.e3': ['110', '120'], 'DDI-DrugBank.d768.s4.e4': ['122', '134'], 'DDI-DrugBank.d768.s4.e5': ['137', '150'], 'DDI-DrugBank.d768.s4.e6': ['156', '177']}
+[['injection', 37, 45, 'NN', 'injection'], ['has', 47, 49, 'VBZ', 'ha'], ['been', 51, 54, 'VBN', 'been'], ['safely', 56, 61, 'RB', 'safely'], ['administered', 63, 74, 'VBN', 'administered'], ['with', 76, 79, 'IN', 'with'], ['corticosteroids', 81, 95, 'NNS', 'corticosteroid'], [',', 96, 96, ',', ','], ['analgesics', 98, 107, 'NNS', 'analgesic'], [',', 108, 108, ',', ',']]
+DDI-DrugBank.d768.s4|DDI-DrugBank.d768.s4.e0|DDI-DrugBank.d768.s4.e3|1|effect
+[('In', 0, 1), ('controlled', 3, 12), ('clinical', 14, 21), ('trials', 23, 28), (',', 29, 29), ('ALOXI', 31, 35), ('injection', 37, 45), ('has', 47, 49), ('been', 51, 54), ('safely', 56, 61), ('administered', 63, 74), ('with', 76, 79), ('corticosteroids', 81, 95), (',', 96, 96), ('analgesics', 98, 107), (',', 108, 108), ('antiemetics/antinauseants', 110, 134), (',', 135, 135), ('antispasmodics', 137, 150), ('and', 152, 154), ('anticholinergic', 156, 170), ('agents', 172, 177), ('.', 178, 178)]
+{'DDI-DrugBank.d768.s4.e0': ['31', '35'], 'DDI-DrugBank.d768.s4.e1': ['81', '95'], 'DDI-DrugBank.d768.s4.e2': ['98', '107'], 'DDI-DrugBank.d768.s4.e3': ['110', '120'], 'DDI-DrugBank.d768.s4.e4': ['122', '134'], 'DDI-DrugBank.d768.s4.e5': ['137', '150'], 'DDI-DrugBank.d768.s4.e6': ['156', '177']}
+[['injection', 37, 45, 'NN', 'injection'], ['has', 47, 49, 'VBZ', 'ha'], ['been', 51, 54, 'VBN', 'been'], ['safely', 56, 61, 'RB', 'safely'], ['administered', 63, 74, 'VBN', 'administered'], ['with', 76, 79, 'IN', 'with'], ['corticosteroids', 81, 95, 'NNS', 'corticosteroid'], [',', 96, 96, ',', ','], ['analgesics', 98, 107, 'NNS', 'analgesic'], [',', 108, 108, ',', ','], ['antiemetics/antinauseants', 110, 134, 'NNS', 'antiemetics/antinauseants'], [',', 135, 135, ',', ','], ['antispasmodics', 137, 150, 'NNS', 'antispasmodic'], ['and', 152, 154, 'CC', 'and'], ['anticholinergic', 156, 170, 'JJ', 'anticholinergic'], ['agents', 172, 177, 'NNS', 'agent'], ['.', 178, 178, '.', '.']]
+DDI-DrugBank.d768.s4|DDI-DrugBank.d768.s4.e0|DDI-DrugBank.d768.s4.e4|1|effect
+[('In', 0, 1), ('controlled', 3, 12), ('clinical', 14, 21), ('trials', 23, 28), (',', 29, 29), ('ALOXI', 31, 35), ('injection', 37, 45), ('has', 47, 49), ('been', 51, 54), ('safely', 56, 61), ('administered', 63, 74), ('with', 76, 79), ('corticosteroids', 81, 95), (',', 96, 96), ('analgesics', 98, 107), (',', 108, 108), ('antiemetics/antinauseants', 110, 134), (',', 135, 135), ('antispasmodics', 137, 150), ('and', 152, 154), ('anticholinergic', 156, 170), ('agents', 172, 177), ('.', 178, 178)]
+{'DDI-DrugBank.d768.s4.e0': ['31', '35'], 'DDI-DrugBank.d768.s4.e1': ['81', '95'], 'DDI-DrugBank.d768.s4.e2': ['98', '107'], 'DDI-DrugBank.d768.s4.e3': ['110', '120'], 'DDI-DrugBank.d768.s4.e4': ['122', '134'], 'DDI-DrugBank.d768.s4.e5': ['137', '150'], 'DDI-DrugBank.d768.s4.e6': ['156', '177']}
+[['injection', 37, 45, 'NN', 'injection'], ['has', 47, 49, 'VBZ', 'ha'], ['been', 51, 54, 'VBN', 'been'], ['safely', 56, 61, 'RB', 'safely'], ['administered', 63, 74, 'VBN', 'administered'], ['with', 76, 79, 'IN', 'with'], ['corticosteroids', 81, 95, 'NNS', 'corticosteroid'], [',', 96, 96, ',', ','], ['analgesics', 98, 107, 'NNS', 'analgesic'], [',', 108, 108, ',', ','], ['antiemetics/antinauseants', 110, 134, 'NNS', 'antiemetics/antinauseants'], [',', 135, 135, ',', ',']]
+DDI-DrugBank.d768.s4|DDI-DrugBank.d768.s4.e0|DDI-DrugBank.d768.s4.e5|1|effect
+[('In', 0, 1), ('controlled', 3, 12), ('clinical', 14, 21), ('trials', 23, 28), (',', 29, 29), ('ALOXI', 31, 35), ('injection', 37, 45), ('has', 47, 49), ('been', 51, 54), ('safely', 56, 61), ('administered', 63, 74), ('with', 76, 79), ('corticosteroids', 81, 95), (',', 96, 96), ('analgesics', 98, 107), (',', 108, 108), ('antiemetics/antinauseants', 110, 134), (',', 135, 135), ('antispasmodics', 137, 150), ('and', 152, 154), ('anticholinergic', 156, 170), ('agents', 172, 177), ('.', 178, 178)]
+{'DDI-DrugBank.d768.s4.e0': ['31', '35'], 'DDI-DrugBank.d768.s4.e1': ['81', '95'], 'DDI-DrugBank.d768.s4.e2': ['98', '107'], 'DDI-DrugBank.d768.s4.e3': ['110', '120'], 'DDI-DrugBank.d768.s4.e4': ['122', '134'], 'DDI-DrugBank.d768.s4.e5': ['137', '150'], 'DDI-DrugBank.d768.s4.e6': ['156', '177']}
+[['injection', 37, 45, 'NN', 'injection'], ['has', 47, 49, 'VBZ', 'ha'], ['been', 51, 54, 'VBN', 'been'], ['safely', 56, 61, 'RB', 'safely'], ['administered', 63, 74, 'VBN', 'administered'], ['with', 76, 79, 'IN', 'with'], ['corticosteroids', 81, 95, 'NNS', 'corticosteroid'], [',', 96, 96, ',', ','], ['analgesics', 98, 107, 'NNS', 'analgesic'], [',', 108, 108, ',', ','], ['antiemetics/antinauseants', 110, 134, 'NNS', 'antiemetics/antinauseants'], [',', 135, 135, ',', ','], ['antispasmodics', 137, 150, 'NNS', 'antispasmodic'], ['and', 152, 154, 'CC', 'and']]
+DDI-DrugBank.d768.s4|DDI-DrugBank.d768.s4.e0|DDI-DrugBank.d768.s4.e6|1|effect
+DDI-DrugBank.d768.s4|DDI-DrugBank.d768.s4.e1|DDI-DrugBank.d768.s4.e2|0|null
+DDI-DrugBank.d768.s4|DDI-DrugBank.d768.s4.e1|DDI-DrugBank.d768.s4.e3|0|null
+DDI-DrugBank.d768.s4|DDI-DrugBank.d768.s4.e1|DDI-DrugBank.d768.s4.e4|0|null
+DDI-DrugBank.d768.s4|DDI-DrugBank.d768.s4.e1|DDI-DrugBank.d768.s4.e5|0|null
+DDI-DrugBank.d768.s4|DDI-DrugBank.d768.s4.e1|DDI-DrugBank.d768.s4.e6|0|null
+DDI-DrugBank.d768.s4|DDI-DrugBank.d768.s4.e2|DDI-DrugBank.d768.s4.e3|0|null
+DDI-DrugBank.d768.s4|DDI-DrugBank.d768.s4.e2|DDI-DrugBank.d768.s4.e4|0|null
+DDI-DrugBank.d768.s4|DDI-DrugBank.d768.s4.e2|DDI-DrugBank.d768.s4.e5|0|null
+DDI-DrugBank.d768.s4|DDI-DrugBank.d768.s4.e2|DDI-DrugBank.d768.s4.e6|0|null
+DDI-DrugBank.d768.s4|DDI-DrugBank.d768.s4.e3|DDI-DrugBank.d768.s4.e4|0|null
+DDI-DrugBank.d768.s4|DDI-DrugBank.d768.s4.e3|DDI-DrugBank.d768.s4.e5|0|null
+DDI-DrugBank.d768.s4|DDI-DrugBank.d768.s4.e3|DDI-DrugBank.d768.s4.e6|0|null
+DDI-DrugBank.d768.s4|DDI-DrugBank.d768.s4.e4|DDI-DrugBank.d768.s4.e5|0|null
+DDI-DrugBank.d768.s4|DDI-DrugBank.d768.s4.e4|DDI-DrugBank.d768.s4.e6|0|null
+DDI-DrugBank.d768.s4|DDI-DrugBank.d768.s4.e5|DDI-DrugBank.d768.s4.e6|0|null
+DDI-DrugBank.d768.s5|DDI-DrugBank.d768.s5.e0|DDI-DrugBank.d768.s5.e1|0|null
+DDI-DrugBank.d768.s5|DDI-DrugBank.d768.s5.e0|DDI-DrugBank.d768.s5.e2|0|null
+DDI-DrugBank.d768.s5|DDI-DrugBank.d768.s5.e0|DDI-DrugBank.d768.s5.e3|0|null
+DDI-DrugBank.d768.s5|DDI-DrugBank.d768.s5.e0|DDI-DrugBank.d768.s5.e4|0|null
+DDI-DrugBank.d768.s5|DDI-DrugBank.d768.s5.e0|DDI-DrugBank.d768.s5.e5|0|null
+DDI-DrugBank.d768.s5|DDI-DrugBank.d768.s5.e0|DDI-DrugBank.d768.s5.e6|0|null
+DDI-DrugBank.d768.s5|DDI-DrugBank.d768.s5.e1|DDI-DrugBank.d768.s5.e2|0|null
+DDI-DrugBank.d768.s5|DDI-DrugBank.d768.s5.e1|DDI-DrugBank.d768.s5.e3|0|null
+DDI-DrugBank.d768.s5|DDI-DrugBank.d768.s5.e1|DDI-DrugBank.d768.s5.e4|0|null
+DDI-DrugBank.d768.s5|DDI-DrugBank.d768.s5.e1|DDI-DrugBank.d768.s5.e5|0|null
+DDI-DrugBank.d768.s5|DDI-DrugBank.d768.s5.e1|DDI-DrugBank.d768.s5.e6|0|null
+DDI-DrugBank.d768.s5|DDI-DrugBank.d768.s5.e2|DDI-DrugBank.d768.s5.e3|0|null
+DDI-DrugBank.d768.s5|DDI-DrugBank.d768.s5.e2|DDI-DrugBank.d768.s5.e4|0|null
+DDI-DrugBank.d768.s5|DDI-DrugBank.d768.s5.e2|DDI-DrugBank.d768.s5.e5|0|null
+DDI-DrugBank.d768.s5|DDI-DrugBank.d768.s5.e2|DDI-DrugBank.d768.s5.e6|0|null
+DDI-DrugBank.d768.s5|DDI-DrugBank.d768.s5.e3|DDI-DrugBank.d768.s5.e4|0|null
+DDI-DrugBank.d768.s5|DDI-DrugBank.d768.s5.e3|DDI-DrugBank.d768.s5.e5|0|null
+DDI-DrugBank.d768.s5|DDI-DrugBank.d768.s5.e3|DDI-DrugBank.d768.s5.e6|0|null
+DDI-DrugBank.d768.s5|DDI-DrugBank.d768.s5.e4|DDI-DrugBank.d768.s5.e5|0|null
+DDI-DrugBank.d768.s5|DDI-DrugBank.d768.s5.e4|DDI-DrugBank.d768.s5.e6|0|null
+DDI-DrugBank.d768.s5|DDI-DrugBank.d768.s5.e5|DDI-DrugBank.d768.s5.e6|0|null
+DDI-DrugBank.d574.s0|DDI-DrugBank.d574.s0.e0|DDI-DrugBank.d574.s0.e1|0|null
+DDI-DrugBank.d574.s0|DDI-DrugBank.d574.s0.e0|DDI-DrugBank.d574.s0.e2|0|null
+DDI-DrugBank.d574.s0|DDI-DrugBank.d574.s0.e0|DDI-DrugBank.d574.s0.e3|0|null
+DDI-DrugBank.d574.s0|DDI-DrugBank.d574.s0.e1|DDI-DrugBank.d574.s0.e2|0|null
+DDI-DrugBank.d574.s0|DDI-DrugBank.d574.s0.e1|DDI-DrugBank.d574.s0.e3|0|null
+DDI-DrugBank.d574.s0|DDI-DrugBank.d574.s0.e2|DDI-DrugBank.d574.s0.e3|0|null
+DDI-DrugBank.d589.s0|DDI-DrugBank.d589.s0.e0|DDI-DrugBank.d589.s0.e1|0|null
+DDI-DrugBank.d646.s0|DDI-DrugBank.d646.s0.e0|DDI-DrugBank.d646.s0.e1|0|null
+DDI-DrugBank.d646.s0|DDI-DrugBank.d646.s0.e0|DDI-DrugBank.d646.s0.e2|0|null
+DDI-DrugBank.d646.s0|DDI-DrugBank.d646.s0.e1|DDI-DrugBank.d646.s0.e2|0|null
+DDI-DrugBank.d646.s1|DDI-DrugBank.d646.s1.e0|DDI-DrugBank.d646.s1.e1|0|null
+DDI-DrugBank.d646.s1|DDI-DrugBank.d646.s1.e0|DDI-DrugBank.d646.s1.e2|0|null
+DDI-DrugBank.d646.s1|DDI-DrugBank.d646.s1.e0|DDI-DrugBank.d646.s1.e3|0|null
+DDI-DrugBank.d646.s1|DDI-DrugBank.d646.s1.e1|DDI-DrugBank.d646.s1.e2|0|null
+DDI-DrugBank.d646.s1|DDI-DrugBank.d646.s1.e1|DDI-DrugBank.d646.s1.e3|0|null
+DDI-DrugBank.d646.s1|DDI-DrugBank.d646.s1.e2|DDI-DrugBank.d646.s1.e3|0|null
+DDI-DrugBank.d592.s2|DDI-DrugBank.d592.s2.e0|DDI-DrugBank.d592.s2.e1|1|advise
+DDI-DrugBank.d772.s0|DDI-DrugBank.d772.s0.e0|DDI-DrugBank.d772.s0.e1|0|null
+[('TERAZOL', 0, 6), ('7', 8, 8), ('Vaginal', 10, 16), ('Cream', 18, 22), ('0.4', 24, 26), ('%', 27, 27), ('and', 29, 31), ('TERAZOL', 33, 39), ('3', 41, 41), ('Vaginal', 43, 49), ('Suppositories', 51, 63), ('80', 65, 66), ('mg', 68, 69), ('The', 71, 73), ('therapeutic', 75, 85), ('effect', 87, 92), ('of', 94, 95), ('these', 97, 101), ('products', 103, 110), ('is', 112, 113), ('not', 115, 117), ('affected', 119, 126), ('by', 128, 129), ('oral', 131, 134), ('contraceptive', 136, 148), ('usage', 150, 154), ('.', 155, 155)]
+{'DDI-DrugBank.d772.s0.e0': ['0', '6'], 'DDI-DrugBank.d772.s0.e1': ['33', '39'], 'DDI-DrugBank.d772.s0.e2': ['136', '148']}
+[['7', 8, 8, 'CD', '7'], ['Vaginal', 10, 16, 'NNP', 'Vaginal'], ['Cream', 18, 22, 'NNP', 'Cream'], ['0.4', 24, 26, 'CD', '0.4'], ['%', 27, 27, 'NN', '%'], ['and', 29, 31, 'CC', 'and'], ['TERAZOL', 33, 39, 'NNP', 'TERAZOL'], ['3', 41, 41, 'CD', '3'], ['Vaginal', 43, 49, 'NNP', 'Vaginal'], ['Suppositories', 51, 63, 'NNPS', 'Suppositories'], ['80', 65, 66, 'CD', '80'], ['mg', 68, 69, 'VBD', 'mg'], ['The', 71, 73, 'DT', 'The'], ['therapeutic', 75, 85, 'JJ', 'therapeutic'], ['effect', 87, 92, 'NN', 'effect'], ['of', 94, 95, 'IN', 'of'], ['these', 97, 101, 'DT', 'these'], ['products', 103, 110, 'NNS', 'product'], ['is', 112, 113, 'VBZ', 'is'], ['not', 115, 117, 'RB', 'not'], ['affected', 119, 126, 'VBN', 'affected'], ['by', 128, 129, 'IN', 'by'], ['oral', 131, 134, 'JJ', 'oral']]
+DDI-DrugBank.d772.s0|DDI-DrugBank.d772.s0.e0|DDI-DrugBank.d772.s0.e2|1|effect
+[('TERAZOL', 0, 6), ('7', 8, 8), ('Vaginal', 10, 16), ('Cream', 18, 22), ('0.4', 24, 26), ('%', 27, 27), ('and', 29, 31), ('TERAZOL', 33, 39), ('3', 41, 41), ('Vaginal', 43, 49), ('Suppositories', 51, 63), ('80', 65, 66), ('mg', 68, 69), ('The', 71, 73), ('therapeutic', 75, 85), ('effect', 87, 92), ('of', 94, 95), ('these', 97, 101), ('products', 103, 110), ('is', 112, 113), ('not', 115, 117), ('affected', 119, 126), ('by', 128, 129), ('oral', 131, 134), ('contraceptive', 136, 148), ('usage', 150, 154), ('.', 155, 155)]
+{'DDI-DrugBank.d772.s0.e0': ['0', '6'], 'DDI-DrugBank.d772.s0.e1': ['33', '39'], 'DDI-DrugBank.d772.s0.e2': ['136', '148']}
+[['3', 41, 41, 'CD', '3'], ['Vaginal', 43, 49, 'NNP', 'Vaginal'], ['Suppositories', 51, 63, 'NNPS', 'Suppositories'], ['80', 65, 66, 'CD', '80'], ['mg', 68, 69, 'VBD', 'mg'], ['The', 71, 73, 'DT', 'The'], ['therapeutic', 75, 85, 'JJ', 'therapeutic'], ['effect', 87, 92, 'NN', 'effect'], ['of', 94, 95, 'IN', 'of'], ['these', 97, 101, 'DT', 'these'], ['products', 103, 110, 'NNS', 'product'], ['is', 112, 113, 'VBZ', 'is'], ['not', 115, 117, 'RB', 'not'], ['affected', 119, 126, 'VBN', 'affected'], ['by', 128, 129, 'IN', 'by'], ['oral', 131, 134, 'JJ', 'oral']]
+DDI-DrugBank.d772.s0|DDI-DrugBank.d772.s0.e1|DDI-DrugBank.d772.s0.e2|1|effect
+DDI-DrugBank.d772.s1|DDI-DrugBank.d772.s1.e0|DDI-DrugBank.d772.s1.e1|0|null
+DDI-DrugBank.d772.s1|DDI-DrugBank.d772.s1.e0|DDI-DrugBank.d772.s1.e2|0|null
+DDI-DrugBank.d772.s1|DDI-DrugBank.d772.s1.e0|DDI-DrugBank.d772.s1.e3|0|null
+[('TERAZOL', 0, 6), ('3', 8, 8), ('Vaginal', 10, 16), ('Cream', 18, 22), ('0.8', 24, 26), ('%', 27, 27), ('The', 29, 31), ('levels', 33, 38), ('of', 40, 41), ('estradiol', 43, 51), ('(', 53, 53), ('E2', 54, 55), (')', 56, 56), ('and', 58, 60), ('progesterone', 62, 73), ('did', 75, 77), ('not', 79, 81), ('differ', 83, 88), ('significantly', 90, 102), ('when', 104, 107), ('0.8', 109, 111), ('%', 112, 112), ('terconazole', 114, 124), ('vaginal', 126, 132), ('cream', 134, 138), ('was', 140, 142), ('administered', 144, 155), ('to', 157, 158), ('healthy', 160, 166), ('female', 168, 173), ('volunteers', 175, 184), ('established', 186, 196), ('on', 198, 199), ('a', 201, 201), ('low', 203, 205), ('dose', 207, 210), ('oral', 212, 215), ('contraceptive', 217, 229), ('.', 230, 230)]
+{'DDI-DrugBank.d772.s1.e0': ['0', '6'], 'DDI-DrugBank.d772.s1.e1': ['43', '51'], 'DDI-DrugBank.d772.s1.e2': ['62', '73'], 'DDI-DrugBank.d772.s1.e3': ['114', '124'], 'DDI-DrugBank.d772.s1.e4': ['217', '229']}
+[['3', 8, 8, 'CD', '3'], ['Vaginal', 10, 16, 'NNP', 'Vaginal'], ['Cream', 18, 22, 'NNP', 'Cream'], ['0.8', 24, 26, 'CD', '0.8'], ['%', 27, 27, 'NN', '%'], ['The', 29, 31, 'DT', 'The'], ['levels', 33, 38, 'NNS', 'level'], ['of', 40, 41, 'IN', 'of'], ['estradiol', 43, 51, 'NN', 'estradiol'], ['(', 53, 53, '(', '('], ['E2', 54, 55, 'NNP', 'E2'], [')', 56, 56, ')', ')'], ['and', 58, 60, 'CC', 'and'], ['progesterone', 62, 73, 'NN', 'progesterone'], ['did', 75, 77, 'VBD', 'did'], ['not', 79, 81, 'RB', 'not'], ['differ', 83, 88, 'VB', 'differ'], ['significantly', 90, 102, 'RB', 'significantly'], ['when', 104, 107, 'WRB', 'when'], ['0.8', 109, 111, 'CD', '0.8'], ['%', 112, 112, 'NN', '%'], ['terconazole', 114, 124, 'JJ', 'terconazole'], ['vaginal', 126, 132, 'JJ', 'vaginal'], ['cream', 134, 138, 'NN', 'cream'], ['was', 140, 142, 'VBD', 'wa'], ['administered', 144, 155, 'VBN', 'administered'], ['to', 157, 158, 'TO', 'to'], ['healthy', 160, 166, 'JJ', 'healthy'], ['female', 168, 173, 'NN', 'female'], ['volunteers', 175, 184, 'NNS', 'volunteer'], ['established', 186, 196, 'VBN', 'established'], ['on', 198, 199, 'IN', 'on'], ['a', 201, 201, 'DT', 'a'], ['low', 203, 205, 'JJ', 'low'], ['dose', 207, 210, 'JJ', 'dose'], ['oral', 212, 215, 'JJ', 'oral']]
+DDI-DrugBank.d772.s1|DDI-DrugBank.d772.s1.e0|DDI-DrugBank.d772.s1.e4|1|effect
+DDI-DrugBank.d772.s1|DDI-DrugBank.d772.s1.e1|DDI-DrugBank.d772.s1.e2|0|null
+DDI-DrugBank.d772.s1|DDI-DrugBank.d772.s1.e1|DDI-DrugBank.d772.s1.e3|0|null
+[('TERAZOL', 0, 6), ('3', 8, 8), ('Vaginal', 10, 16), ('Cream', 18, 22), ('0.8', 24, 26), ('%', 27, 27), ('The', 29, 31), ('levels', 33, 38), ('of', 40, 41), ('estradiol', 43, 51), ('(', 53, 53), ('E2', 54, 55), (')', 56, 56), ('and', 58, 60), ('progesterone', 62, 73), ('did', 75, 77), ('not', 79, 81), ('differ', 83, 88), ('significantly', 90, 102), ('when', 104, 107), ('0.8', 109, 111), ('%', 112, 112), ('terconazole', 114, 124), ('vaginal', 126, 132), ('cream', 134, 138), ('was', 140, 142), ('administered', 144, 155), ('to', 157, 158), ('healthy', 160, 166), ('female', 168, 173), ('volunteers', 175, 184), ('established', 186, 196), ('on', 198, 199), ('a', 201, 201), ('low', 203, 205), ('dose', 207, 210), ('oral', 212, 215), ('contraceptive', 217, 229), ('.', 230, 230)]
+{'DDI-DrugBank.d772.s1.e0': ['0', '6'], 'DDI-DrugBank.d772.s1.e1': ['43', '51'], 'DDI-DrugBank.d772.s1.e2': ['62', '73'], 'DDI-DrugBank.d772.s1.e3': ['114', '124'], 'DDI-DrugBank.d772.s1.e4': ['217', '229']}
+[['(', 53, 53, '(', '('], ['E2', 54, 55, 'NNP', 'E2'], [')', 56, 56, ')', ')'], ['and', 58, 60, 'CC', 'and'], ['progesterone', 62, 73, 'NN', 'progesterone'], ['did', 75, 77, 'VBD', 'did'], ['not', 79, 81, 'RB', 'not'], ['differ', 83, 88, 'VB', 'differ'], ['significantly', 90, 102, 'RB', 'significantly'], ['when', 104, 107, 'WRB', 'when'], ['0.8', 109, 111, 'CD', '0.8'], ['%', 112, 112, 'NN', '%'], ['terconazole', 114, 124, 'JJ', 'terconazole'], ['vaginal', 126, 132, 'JJ', 'vaginal'], ['cream', 134, 138, 'NN', 'cream'], ['was', 140, 142, 'VBD', 'wa'], ['administered', 144, 155, 'VBN', 'administered'], ['to', 157, 158, 'TO', 'to'], ['healthy', 160, 166, 'JJ', 'healthy'], ['female', 168, 173, 'NN', 'female'], ['volunteers', 175, 184, 'NNS', 'volunteer'], ['established', 186, 196, 'VBN', 'established'], ['on', 198, 199, 'IN', 'on'], ['a', 201, 201, 'DT', 'a'], ['low', 203, 205, 'JJ', 'low'], ['dose', 207, 210, 'JJ', 'dose'], ['oral', 212, 215, 'JJ', 'oral']]
+DDI-DrugBank.d772.s1|DDI-DrugBank.d772.s1.e1|DDI-DrugBank.d772.s1.e4|1|effect
+DDI-DrugBank.d772.s1|DDI-DrugBank.d772.s1.e2|DDI-DrugBank.d772.s1.e3|0|null
+[('TERAZOL', 0, 6), ('3', 8, 8), ('Vaginal', 10, 16), ('Cream', 18, 22), ('0.8', 24, 26), ('%', 27, 27), ('The', 29, 31), ('levels', 33, 38), ('of', 40, 41), ('estradiol', 43, 51), ('(', 53, 53), ('E2', 54, 55), (')', 56, 56), ('and', 58, 60), ('progesterone', 62, 73), ('did', 75, 77), ('not', 79, 81), ('differ', 83, 88), ('significantly', 90, 102), ('when', 104, 107), ('0.8', 109, 111), ('%', 112, 112), ('terconazole', 114, 124), ('vaginal', 126, 132), ('cream', 134, 138), ('was', 140, 142), ('administered', 144, 155), ('to', 157, 158), ('healthy', 160, 166), ('female', 168, 173), ('volunteers', 175, 184), ('established', 186, 196), ('on', 198, 199), ('a', 201, 201), ('low', 203, 205), ('dose', 207, 210), ('oral', 212, 215), ('contraceptive', 217, 229), ('.', 230, 230)]
+{'DDI-DrugBank.d772.s1.e0': ['0', '6'], 'DDI-DrugBank.d772.s1.e1': ['43', '51'], 'DDI-DrugBank.d772.s1.e2': ['62', '73'], 'DDI-DrugBank.d772.s1.e3': ['114', '124'], 'DDI-DrugBank.d772.s1.e4': ['217', '229']}
+[['did', 75, 77, 'VBD', 'did'], ['not', 79, 81, 'RB', 'not'], ['differ', 83, 88, 'VB', 'differ'], ['significantly', 90, 102, 'RB', 'significantly'], ['when', 104, 107, 'WRB', 'when'], ['0.8', 109, 111, 'CD', '0.8'], ['%', 112, 112, 'NN', '%'], ['terconazole', 114, 124, 'JJ', 'terconazole'], ['vaginal', 126, 132, 'JJ', 'vaginal'], ['cream', 134, 138, 'NN', 'cream'], ['was', 140, 142, 'VBD', 'wa'], ['administered', 144, 155, 'VBN', 'administered'], ['to', 157, 158, 'TO', 'to'], ['healthy', 160, 166, 'JJ', 'healthy'], ['female', 168, 173, 'NN', 'female'], ['volunteers', 175, 184, 'NNS', 'volunteer'], ['established', 186, 196, 'VBN', 'established'], ['on', 198, 199, 'IN', 'on'], ['a', 201, 201, 'DT', 'a'], ['low', 203, 205, 'JJ', 'low'], ['dose', 207, 210, 'JJ', 'dose'], ['oral', 212, 215, 'JJ', 'oral']]
+DDI-DrugBank.d772.s1|DDI-DrugBank.d772.s1.e2|DDI-DrugBank.d772.s1.e4|1|effect
+[('TERAZOL', 0, 6), ('3', 8, 8), ('Vaginal', 10, 16), ('Cream', 18, 22), ('0.8', 24, 26), ('%', 27, 27), ('The', 29, 31), ('levels', 33, 38), ('of', 40, 41), ('estradiol', 43, 51), ('(', 53, 53), ('E2', 54, 55), (')', 56, 56), ('and', 58, 60), ('progesterone', 62, 73), ('did', 75, 77), ('not', 79, 81), ('differ', 83, 88), ('significantly', 90, 102), ('when', 104, 107), ('0.8', 109, 111), ('%', 112, 112), ('terconazole', 114, 124), ('vaginal', 126, 132), ('cream', 134, 138), ('was', 140, 142), ('administered', 144, 155), ('to', 157, 158), ('healthy', 160, 166), ('female', 168, 173), ('volunteers', 175, 184), ('established', 186, 196), ('on', 198, 199), ('a', 201, 201), ('low', 203, 205), ('dose', 207, 210), ('oral', 212, 215), ('contraceptive', 217, 229), ('.', 230, 230)]
+{'DDI-DrugBank.d772.s1.e0': ['0', '6'], 'DDI-DrugBank.d772.s1.e1': ['43', '51'], 'DDI-DrugBank.d772.s1.e2': ['62', '73'], 'DDI-DrugBank.d772.s1.e3': ['114', '124'], 'DDI-DrugBank.d772.s1.e4': ['217', '229']}
+[['vaginal', 126, 132, 'JJ', 'vaginal'], ['cream', 134, 138, 'NN', 'cream'], ['was', 140, 142, 'VBD', 'wa'], ['administered', 144, 155, 'VBN', 'administered'], ['to', 157, 158, 'TO', 'to'], ['healthy', 160, 166, 'JJ', 'healthy'], ['female', 168, 173, 'NN', 'female'], ['volunteers', 175, 184, 'NNS', 'volunteer'], ['established', 186, 196, 'VBN', 'established'], ['on', 198, 199, 'IN', 'on'], ['a', 201, 201, 'DT', 'a'], ['low', 203, 205, 'JJ', 'low'], ['dose', 207, 210, 'JJ', 'dose'], ['oral', 212, 215, 'JJ', 'oral']]
+DDI-DrugBank.d772.s1|DDI-DrugBank.d772.s1.e3|DDI-DrugBank.d772.s1.e4|1|effect
+DDI-DrugBank.d681.s0|DDI-DrugBank.d681.s0.e0|DDI-DrugBank.d681.s0.e1|0|null
+DDI-DrugBank.d681.s0|DDI-DrugBank.d681.s0.e0|DDI-DrugBank.d681.s0.e2|0|null
+DDI-DrugBank.d681.s0|DDI-DrugBank.d681.s0.e0|DDI-DrugBank.d681.s0.e3|0|null
+DDI-DrugBank.d681.s0|DDI-DrugBank.d681.s0.e1|DDI-DrugBank.d681.s0.e2|0|null
+DDI-DrugBank.d681.s0|DDI-DrugBank.d681.s0.e1|DDI-DrugBank.d681.s0.e3|0|null
+DDI-DrugBank.d681.s0|DDI-DrugBank.d681.s0.e2|DDI-DrugBank.d681.s0.e3|0|null
+[('The', 0, 2), ('pharmacokinetic', 4, 18), ('profile', 20, 26), ('of', 28, 29), ('temazepam', 31, 39), ('does', 41, 44), ('not', 46, 48), ('appear', 50, 55), ('to', 57, 58), ('be', 60, 61), ('altered', 63, 69), ('by', 71, 72), ('orally', 74, 79), ('administered', 81, 92), ('cimetidine', 94, 103), ('dosed', 105, 109), ('according', 111, 119), ('to', 121, 122), ('labeling', 124, 131), ('.', 132, 132)]
+{'DDI-DrugBank.d730.s0.e0': ['31', '39'], 'DDI-DrugBank.d730.s0.e1': ['94', '103']}
+[['does', 41, 44, 'VBZ', 'doe'], ['not', 46, 48, 'RB', 'not'], ['appear', 50, 55, 'VB', 'appear'], ['to', 57, 58, 'TO', 'to'], ['be', 60, 61, 'VB', 'be'], ['altered', 63, 69, 'VBN', 'altered'], ['by', 71, 72, 'IN', 'by'], ['orally', 74, 79, 'RB', 'orally'], ['administered', 81, 92, 'VBN', 'administered']]
+DDI-DrugBank.d730.s0|DDI-DrugBank.d730.s0.e0|DDI-DrugBank.d730.s0.e1|1|effect
+[('Drug', 0, 3), ('Interactions', 5, 16), (':', 17, 17), ('Pirenzepine', 20, 30), ('may', 32, 34), ('interact', 36, 43), ('with', 45, 48), ('the', 50, 52), ('following', 54, 62), ('drugs', 64, 68), (',', 69, 69), ('which', 71, 75), ('may', 77, 79), ('affect', 81, 86), ('the', 88, 90), ('effect', 92, 97), ('of', 99, 100), ('Pirenzepine', 102, 112), ('or', 114, 115), ('whose', 117, 121), ('effects', 123, 129), ('may', 131, 133), ('be', 135, 136), ('affected', 138, 145), ('.', 146, 146)]
+{'DDI-DrugBank.d701.s0.e0': ['20', '30'], 'DDI-DrugBank.d701.s0.e1': ['102', '112']}
+[['may', 32, 34, 'MD', 'may'], ['interact', 36, 43, 'VB', 'interact'], ['with', 45, 48, 'IN', 'with'], ['the', 50, 52, 'DT', 'the'], ['following', 54, 62, 'VBG', 'following'], ['drugs', 64, 68, 'NNS', 'drug'], [',', 69, 69, ',', ','], ['which', 71, 75, 'WDT', 'which'], ['may', 77, 79, 'MD', 'may'], ['affect', 81, 86, 'VB', 'affect'], ['the', 88, 90, 'DT', 'the'], ['effect', 92, 97, 'NN', 'effect'], ['of', 99, 100, 'IN', 'of']]
+DDI-DrugBank.d701.s0|DDI-DrugBank.d701.s0.e0|DDI-DrugBank.d701.s0.e1|1|effect
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e0|DDI-DrugBank.d701.s1.e1|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e0|DDI-DrugBank.d701.s1.e2|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e0|DDI-DrugBank.d701.s1.e3|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e0|DDI-DrugBank.d701.s1.e4|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e0|DDI-DrugBank.d701.s1.e5|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e0|DDI-DrugBank.d701.s1.e6|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e0|DDI-DrugBank.d701.s1.e7|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e0|DDI-DrugBank.d701.s1.e8|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e0|DDI-DrugBank.d701.s1.e9|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e0|DDI-DrugBank.d701.s1.e10|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e0|DDI-DrugBank.d701.s1.e11|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e0|DDI-DrugBank.d701.s1.e12|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e0|DDI-DrugBank.d701.s1.e13|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e0|DDI-DrugBank.d701.s1.e14|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e0|DDI-DrugBank.d701.s1.e15|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e0|DDI-DrugBank.d701.s1.e16|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e1|DDI-DrugBank.d701.s1.e2|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e1|DDI-DrugBank.d701.s1.e3|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e1|DDI-DrugBank.d701.s1.e4|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e1|DDI-DrugBank.d701.s1.e5|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e1|DDI-DrugBank.d701.s1.e6|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e1|DDI-DrugBank.d701.s1.e7|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e1|DDI-DrugBank.d701.s1.e8|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e1|DDI-DrugBank.d701.s1.e9|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e1|DDI-DrugBank.d701.s1.e10|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e1|DDI-DrugBank.d701.s1.e11|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e1|DDI-DrugBank.d701.s1.e12|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e1|DDI-DrugBank.d701.s1.e13|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e1|DDI-DrugBank.d701.s1.e14|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e1|DDI-DrugBank.d701.s1.e15|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e1|DDI-DrugBank.d701.s1.e16|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e2|DDI-DrugBank.d701.s1.e3|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e2|DDI-DrugBank.d701.s1.e4|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e2|DDI-DrugBank.d701.s1.e5|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e2|DDI-DrugBank.d701.s1.e6|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e2|DDI-DrugBank.d701.s1.e7|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e2|DDI-DrugBank.d701.s1.e8|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e2|DDI-DrugBank.d701.s1.e9|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e2|DDI-DrugBank.d701.s1.e10|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e2|DDI-DrugBank.d701.s1.e11|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e2|DDI-DrugBank.d701.s1.e12|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e2|DDI-DrugBank.d701.s1.e13|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e2|DDI-DrugBank.d701.s1.e14|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e2|DDI-DrugBank.d701.s1.e15|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e2|DDI-DrugBank.d701.s1.e16|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e3|DDI-DrugBank.d701.s1.e4|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e3|DDI-DrugBank.d701.s1.e5|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e3|DDI-DrugBank.d701.s1.e6|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e3|DDI-DrugBank.d701.s1.e7|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e3|DDI-DrugBank.d701.s1.e8|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e3|DDI-DrugBank.d701.s1.e9|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e3|DDI-DrugBank.d701.s1.e10|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e3|DDI-DrugBank.d701.s1.e11|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e3|DDI-DrugBank.d701.s1.e12|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e3|DDI-DrugBank.d701.s1.e13|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e3|DDI-DrugBank.d701.s1.e14|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e3|DDI-DrugBank.d701.s1.e15|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e3|DDI-DrugBank.d701.s1.e16|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e4|DDI-DrugBank.d701.s1.e5|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e4|DDI-DrugBank.d701.s1.e6|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e4|DDI-DrugBank.d701.s1.e7|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e4|DDI-DrugBank.d701.s1.e8|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e4|DDI-DrugBank.d701.s1.e9|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e4|DDI-DrugBank.d701.s1.e10|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e4|DDI-DrugBank.d701.s1.e11|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e4|DDI-DrugBank.d701.s1.e12|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e4|DDI-DrugBank.d701.s1.e13|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e4|DDI-DrugBank.d701.s1.e14|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e4|DDI-DrugBank.d701.s1.e15|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e4|DDI-DrugBank.d701.s1.e16|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e5|DDI-DrugBank.d701.s1.e6|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e5|DDI-DrugBank.d701.s1.e7|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e5|DDI-DrugBank.d701.s1.e8|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e5|DDI-DrugBank.d701.s1.e9|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e5|DDI-DrugBank.d701.s1.e10|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e5|DDI-DrugBank.d701.s1.e11|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e5|DDI-DrugBank.d701.s1.e12|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e5|DDI-DrugBank.d701.s1.e13|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e5|DDI-DrugBank.d701.s1.e14|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e5|DDI-DrugBank.d701.s1.e15|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e5|DDI-DrugBank.d701.s1.e16|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e6|DDI-DrugBank.d701.s1.e7|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e6|DDI-DrugBank.d701.s1.e8|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e6|DDI-DrugBank.d701.s1.e9|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e6|DDI-DrugBank.d701.s1.e10|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e6|DDI-DrugBank.d701.s1.e11|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e6|DDI-DrugBank.d701.s1.e12|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e6|DDI-DrugBank.d701.s1.e13|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e6|DDI-DrugBank.d701.s1.e14|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e6|DDI-DrugBank.d701.s1.e15|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e6|DDI-DrugBank.d701.s1.e16|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e7|DDI-DrugBank.d701.s1.e8|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e7|DDI-DrugBank.d701.s1.e9|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e7|DDI-DrugBank.d701.s1.e10|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e7|DDI-DrugBank.d701.s1.e11|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e7|DDI-DrugBank.d701.s1.e12|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e7|DDI-DrugBank.d701.s1.e13|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e7|DDI-DrugBank.d701.s1.e14|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e7|DDI-DrugBank.d701.s1.e15|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e7|DDI-DrugBank.d701.s1.e16|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e8|DDI-DrugBank.d701.s1.e9|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e8|DDI-DrugBank.d701.s1.e10|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e8|DDI-DrugBank.d701.s1.e11|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e8|DDI-DrugBank.d701.s1.e12|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e8|DDI-DrugBank.d701.s1.e13|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e8|DDI-DrugBank.d701.s1.e14|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e8|DDI-DrugBank.d701.s1.e15|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e8|DDI-DrugBank.d701.s1.e16|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e9|DDI-DrugBank.d701.s1.e10|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e9|DDI-DrugBank.d701.s1.e11|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e9|DDI-DrugBank.d701.s1.e12|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e9|DDI-DrugBank.d701.s1.e13|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e9|DDI-DrugBank.d701.s1.e14|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e9|DDI-DrugBank.d701.s1.e15|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e9|DDI-DrugBank.d701.s1.e16|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e10|DDI-DrugBank.d701.s1.e11|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e10|DDI-DrugBank.d701.s1.e12|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e10|DDI-DrugBank.d701.s1.e13|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e10|DDI-DrugBank.d701.s1.e14|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e10|DDI-DrugBank.d701.s1.e15|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e10|DDI-DrugBank.d701.s1.e16|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e11|DDI-DrugBank.d701.s1.e12|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e11|DDI-DrugBank.d701.s1.e13|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e11|DDI-DrugBank.d701.s1.e14|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e11|DDI-DrugBank.d701.s1.e15|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e11|DDI-DrugBank.d701.s1.e16|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e12|DDI-DrugBank.d701.s1.e13|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e12|DDI-DrugBank.d701.s1.e14|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e12|DDI-DrugBank.d701.s1.e15|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e12|DDI-DrugBank.d701.s1.e16|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e13|DDI-DrugBank.d701.s1.e14|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e13|DDI-DrugBank.d701.s1.e15|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e13|DDI-DrugBank.d701.s1.e16|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e14|DDI-DrugBank.d701.s1.e15|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e14|DDI-DrugBank.d701.s1.e16|0|null
+DDI-DrugBank.d701.s1|DDI-DrugBank.d701.s1.e15|DDI-DrugBank.d701.s1.e16|0|null
+DDI-DrugBank.d586.s3|DDI-DrugBank.d586.s3.e0|DDI-DrugBank.d586.s3.e1|0|null
+DDI-DrugBank.d586.s3|DDI-DrugBank.d586.s3.e0|DDI-DrugBank.d586.s3.e2|0|null
+DDI-DrugBank.d586.s3|DDI-DrugBank.d586.s3.e0|DDI-DrugBank.d586.s3.e3|0|null
+DDI-DrugBank.d586.s3|DDI-DrugBank.d586.s3.e0|DDI-DrugBank.d586.s3.e4|0|null
+DDI-DrugBank.d586.s3|DDI-DrugBank.d586.s3.e0|DDI-DrugBank.d586.s3.e5|0|null
+DDI-DrugBank.d586.s3|DDI-DrugBank.d586.s3.e1|DDI-DrugBank.d586.s3.e2|0|null
+DDI-DrugBank.d586.s3|DDI-DrugBank.d586.s3.e1|DDI-DrugBank.d586.s3.e3|0|null
+DDI-DrugBank.d586.s3|DDI-DrugBank.d586.s3.e1|DDI-DrugBank.d586.s3.e4|0|null
+DDI-DrugBank.d586.s3|DDI-DrugBank.d586.s3.e1|DDI-DrugBank.d586.s3.e5|0|null
+DDI-DrugBank.d586.s3|DDI-DrugBank.d586.s3.e2|DDI-DrugBank.d586.s3.e3|0|null
+DDI-DrugBank.d586.s3|DDI-DrugBank.d586.s3.e2|DDI-DrugBank.d586.s3.e4|0|null
+DDI-DrugBank.d586.s3|DDI-DrugBank.d586.s3.e2|DDI-DrugBank.d586.s3.e5|0|null
+DDI-DrugBank.d586.s3|DDI-DrugBank.d586.s3.e3|DDI-DrugBank.d586.s3.e4|0|null
+DDI-DrugBank.d586.s3|DDI-DrugBank.d586.s3.e3|DDI-DrugBank.d586.s3.e5|0|null
+DDI-DrugBank.d586.s3|DDI-DrugBank.d586.s3.e4|DDI-DrugBank.d586.s3.e5|0|null
+DDI-DrugBank.d626.s0|DDI-DrugBank.d626.s0.e0|DDI-DrugBank.d626.s0.e1|1|advise
+[('Concomitant', 0, 10), ('administration', 12, 25), ('of', 27, 28), ('a', 30, 30), ('loop', 32, 35), ('diuretic', 37, 44), ('had', 46, 48), ('no', 50, 51), ('effect', 53, 58), ('on', 60, 61), ('the', 63, 65), ('calcium-lowering', 67, 82), ('action', 84, 89), ('of', 91, 92), ('Aredia', 94, 99), ('.', 100, 100)]
+{'DDI-DrugBank.d707.s0.e0': ['32', '44'], 'DDI-DrugBank.d707.s0.e1': ['94', '99']}
+[['diuretic', 37, 44, 'NN', 'diuretic'], ['had', 46, 48, 'VBD', 'had'], ['no', 50, 51, 'DT', 'no'], ['effect', 53, 58, 'NN', 'effect'], ['on', 60, 61, 'IN', 'on'], ['the', 63, 65, 'DT', 'the'], ['calcium-lowering', 67, 82, 'JJ', 'calcium-lowering'], ['action', 84, 89, 'NN', 'action'], ['of', 91, 92, 'IN', 'of']]
+DDI-DrugBank.d707.s0|DDI-DrugBank.d707.s0.e0|DDI-DrugBank.d707.s0.e1|1|effect
+DDI-DrugBank.d692.s1|DDI-DrugBank.d692.s1.e0|DDI-DrugBank.d692.s1.e1|0|null
+DDI-DrugBank.d764.s0|DDI-DrugBank.d764.s0.e0|DDI-DrugBank.d764.s0.e1|0|null

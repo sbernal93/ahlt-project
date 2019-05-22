@@ -1,0 +1,34 @@
+0 -> initial settings
+1-8 -> adding features for tokens before, after, and in between
+9 -> 6000 maxnull
+10 -> removing some features
+11 -> restore features, add interest_pos
+12 -> removing features of clues
+13 -> add RB and VBP to interest
+14 -> remove maxnull
+15 -> adding clues features
+16 -> not adding stop words
+17 -> removing some features
+18 -> tokens to lower case
+19 -> changing c2
+19-27 -> updating trainer
+28 -> adding distance features
+29 -> more features
+30 -> sentence as features
+31 -> minfreq to 0.001
+32 -> minfreq to 1
+33 -> max_iterations to 90000
+34 -> minfreq 0.001
+35 -> c2 0.9
+36 -> minfreq 0.001
+37 -> c2 to 2
+38 -> c2 to 10, minfreq to 0.00001
+39 -> c2 to 1
+40 -> c2 to 4
+41 -> using arow
+42 -> changin gamma to 5
+43 -> gamma to 10
+44 -> gamma to 7, variance 0.1
+45 -> variance 0.001
+46 -> to 0.0001
+47 -> MedLine

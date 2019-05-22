@@ -9,6 +9,7 @@ from keras.utils import to_categorical
 from keras.models import Model, Input
 from keras.layers import LSTM, Embedding, Dense, TimeDistributed, Dropout, Bidirectional, concatenate
 from keras_contrib.layers import CRF
+from keras.optimizers import RMSprop
 
 import matplotlib.pyplot as plt
 
@@ -136,6 +137,30 @@ if __name__ == '__main__':
 
     X_pos = [[pos2idx[w[4]] for w in s] for s in sentences]
     X_pos = pad_sequences(maxlen=max_len, sequences=X_pos, padding="post", value=n_pos-1)
+
+    suff3 = list(set(x[2].values))
+    suff3.append("ENDPAD")
+    n_suff3 = len(suff3)
+    suff32idx = {s: i + 1 for i, s in enumerate(suff3)}
+
+    X_suff3 = [[suff32idx[w[2]] for w in s] for s in sentences]
+    X_suff3 = pad_sequences(maxlen=max_len, sequences=X_suff3, padding="post", value=n_suff3-1)
+
+    suff4 = list(set(x[3].values))
+    suff4.append("ENDPAD")
+    n_suff4 = len(suff4)
+    suff42idx = {s: i + 1 for i, s in enumerate(suff4)}
+
+    X_suff4 = [[suff42idx[w[3]] for w in s] for s in sentences]
+    X_suff4 = pad_sequences(maxlen=max_len, sequences=X_suff4, padding="post", value=n_suff4-1)
+
+    tktypes = list(set(x[5].values))
+    tktypes.append("ENDPAD")
+    n_tktypes = len(tktypes)
+    tktypes2idx = {s: i + 1 for i, s in enumerate(tktypes)}
+
+    X_tktypes = [[tktypes2idx[w[5]] for w in s] for s in sentences]
+    X_tktypes = pad_sequences(maxlen=max_len, sequences=X_tktypes, padding="post", value=n_tktypes-1)
     #docs.append("UNKNOWN")
 
     #X = [[word2idx[w[0]] for w in s] for s in sentences]
@@ -188,24 +213,59 @@ if __name__ == '__main__':
     pos_emb = Embedding(input_dim=n_pos, output_dim=100,
                         input_length=max_len, mask_zero=True)(pos_in)
 
-    concat = concatenate([word_emb, pos_emb])
+    suff3_in = Input(shape=(max_len,))
+    suff3_emb = Embedding(input_dim=n_suff3, output_dim=100,
+                        input_length=max_len, mask_zero=True)(suff3_in)
 
-    model = Bidirectional(LSTM(units=32, return_sequences=True,
-                               recurrent_dropout=0.5))(concat)  # variational biLSTM
-    model = TimeDistributed(Dense(20, activation="relu"))(model)  # a dense layer as suggested by neuralNer
-    crf = CRF(n_tags)  # CRF layer
+    suff4_in = Input(shape=(max_len,))
+    suff4_emb = Embedding(input_dim=n_suff4, output_dim=100,
+                        input_length=max_len, mask_zero=True)(suff4_in)
+
+    tktypes_in = Input(shape=(max_len,))
+    tktypes_emb = Embedding(input_dim=n_tktypes, output_dim=100,
+                        input_length=max_len, mask_zero=True)(tktypes_in)
+
+    concat = concatenate([word_emb, pos_emb,
+        suff3_emb,
+        suff4_emb,
+        tktypes_emb])
+
+    model = Bidirectional(LSTM(units=64, return_sequences=True,
+                               recurrent_dropout=0.8))(concat)  # variational biLSTM
+    model = TimeDistributed(Dense(100, activation="relu"))(model)  # a dense layer as suggested by neuralNer
+    crf = CRF(n_tags, activation='linear')  # CRF layer
     out = crf(model)  # output
 
-    model = Model([word_in, pos_in], out)
-    model.compile(optimizer="rmsprop", loss=crf.loss_function, metrics=[crf.accuracy])
+    model = Model([word_in, pos_in,
+     suff3_in,
+     suff4_in,
+     tktypes_in], out)
 
+    optimizer = RMSprop(lr=0.01, epsilon=None, decay=0.0)
+    model.compile(optimizer=optimizer, loss=crf.loss_function, metrics=[crf.accuracy])
+    model.fit([X, X_pos, X_suff3, X_suff4, X_tktypes],
+        np.array(Y), batch_size=64, epochs=10,
+        validation_split=0.2, verbose=1)
     kf = KFold(n_splits=5, shuffle=True)
     Y = np.array(Y)
     for train_index, test_index in kf.split(X, Y):
-        train_x, val_x, train_x_pos, val_x_pos = X[train_index], X[test_index], X_pos[train_index], X_pos[test_index]
+        train_x, val_x = X[train_index], X[test_index],
+        train_x_pos, val_x_pos = X_pos[train_index], X_pos[test_index]
+        train_x_suff3, val_x_suff3 = X_suff3[train_index], X_suff3[test_index]
+        train_x_suff4, val_x_suff4 = X_suff4[train_index], X_suff4[test_index]
+        train_x_tktype, val_x_tktype = X_tktypes[train_index], X_tktypes[test_index]
+
         train_y, val_y = Y[train_index], Y[test_index]
-        model.fit([train_x, train_x_pos], train_y, batch_size=32, epochs=5, validation_data=([val_x, val_x_pos], val_y), verbose=1)
-    #history = model.fit(X, np.array(Y), batch_size=32, epochs=5,
+        #model.fit([train_x, train_x_pos,
+        #            train_x_suff3,
+        #            train_x_suff4,
+        #            train_x_tktype],
+        #    train_y, batch_size=32, epochs=5,
+        #    validation_data=([val_x, val_x_pos,
+        #     val_x_suff3,
+        #     val_x_suff4,
+        #     val_x_tktype], val_y), verbose=1)
+    #history = model.fit(X, npself.array(Y), batch_size=32, epochs=5,
                 #validation_split=0.2, verbose=1)
 
     #hist = pd.DataFrame(history.history)
@@ -216,11 +276,20 @@ if __name__ == '__main__':
         #x_test_sent = [[word2idx.get(t[0],0) for t in xseq]]
         docs = [[t[0] for t in xseq]]
         pos = [[pos2idx.get(t[4],0) for t in xseq]]
+        suff3 = [[suff32idx.get(t[2],0) for t in xseq]]
+        suff4 = [[suff42idx.get(t[3],0) for t in xseq]]
+        tktypes = [[tktypes2idx.get(t[5],0) for t in xseq]]
         encoded_docs = t.texts_to_sequences(docs)
         x_test_sent = pad_sequences(maxlen=max_len, sequences=encoded_docs, padding="post", value=vocab_size-1)
         x_test_pos = pad_sequences(maxlen=max_len, sequences=pos, padding="post", value=n_pos-1)
+        x_test_suff3 = pad_sequences(maxlen=max_len, sequences=suff3, padding="post", value=n_suff3-1)
+        x_test_suff4 = pad_sequences(maxlen=max_len, sequences=suff4, padding="post", value=n_suff4-1)
+        x_test_tktypes = pad_sequences(maxlen=max_len, sequences=tktypes, padding="post", value=n_tktypes-1)
 
-        prediction = model.predict([x_test_sent, x_test_pos])
+        prediction = model.predict([x_test_sent, x_test_pos,
+        x_test_suff3,
+        x_test_suff4,
+        x_test_tktypes])
         prediction = np.argmax(prediction[0], axis=-1)
         inside = False;
         for k in range(0,len(toks)) :
