@@ -11,3 +11,6 @@
 10 -> ComplementNB: adding DrugBank
 11 -> updating rule baseline
 12 -> revert rule baseline, switch order of drugs class
+13 -> all
+20 -> MultinomialNB
+21 -> GaussianNB

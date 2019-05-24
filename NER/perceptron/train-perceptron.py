@@ -66,7 +66,7 @@ if __name__ == '__main__':
     classes = np.unique(y)
     classes = classes.tolist()
 
-    per = Perceptron(verbose=10, n_jobs=-1, max_iter=5)
+    per = Perceptron(verbose=10, n_jobs=-1, max_iter=10)
     per = per.partial_fit(x, y, classes)
 
     #model = pipeline.fit(x.to_dict('records'), y)

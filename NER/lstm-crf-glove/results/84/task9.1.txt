@@ -1,0 +1,71 @@
+DDI-DrugBank.d621.s1|54-64|mineral oil|drug
+DDI-DrugBank.d672.s0|0-6|Digoxin|drug
+DDI-DrugBank.d672.s3|0-7|Warfarin|drug
+DDI-DrugBank.d672.s4|0-9|Cimetidine|drug
+DDI-DrugBank.d672.s6|0-8|Zinc/iron|drug
+DDI-DrugBank.d672.s8|0-9|Probenecid|drug
+DDI-DrugBank.d733.s0|0-10|Misoprostol|drug
+DDI-DrugBank.d733.s1|0-10|Misoprostol|drug
+DDI-DrugBank.d733.s2|0-10|Misoprostol|drug
+DDI-DrugBank.d617.s0|156-175|digitalis glycosides|group
+DDI-DrugBank.d617.s1|0-8|lidocaine|drug
+DDI-DrugBank.d617.s2|0-10|hydralazine|drug
+DDI-DrugBank.d617.s3|0-19|isosorbide dinitrate|drug
+DDI-DrugBank.d617.s4|0-13|chlorthalidone|drug
+DDI-DrugBank.d617.s5|0-8|captopril|drug
+DDI-DrugBank.d617.s6|0-6|heparin|drug
+DDI-DrugBank.d617.s7|4-24|potassium supplements|group
+DDI-DrugBank.d667.s1|0-11|Cyclopropane|drug
+DDI-DrugBank.d714.s0|20-34|CNS depressants|group
+DDI-DrugBank.d714.s0|39-63|trycyclic antidepressants|group
+DDI-DrugBank.d620.s0|0-11|Pyrazinamide|drug
+DDI-DrugBank.d583.s1|0-11|Remifentanil|drug
+DDI-DrugBank.d685.s4|171-198|murine monoclonal antibodies|group
+DDI-DrugBank.d719.s0|18-31|MAO inhibitors|group
+DDI-DrugBank.d614.s1|54-76|photosensitizing agents|group
+DDI-DrugBank.d614.s1|130-161|sulfonylurea hypoglycemia agents|group
+DDI-DrugBank.d614.s1|164-181|thiazide diuretics|group
+DDI-DrugBank.d614.s6|74-91|dimethyl sufloxide|drug
+DDI-DrugBank.d614.s7|65-88|calcium channel blockers|group
+DDI-DrugBank.d614.s7|99-132|prostaglandin synthesis inhibitors|group
+DDI-DrugBank.d614.s9|0-22|Glucocorticoid hormones|group
+DDI-DrugBank.d760.s0|159-181|photosensitizing agents|group
+DDI-DrugBank.d760.s0|266-279|nalidixic acid|drug
+DDI-DrugBank.d760.s0|282-308|halogenated salicylanilides|group
+DDI-DrugBank.d760.s0|311-330|bacteriostatic soaps|group
+DDI-DrugBank.d760.s0|416-424|methylene|drug
+DDI-DrugBank.d760.s0|432-440|toluidine|drug
+DDI-DrugBank.d760.s0|453-458|bengal|drug
+DDI-DrugBank.d760.s0|464-476|methyl orange|drug
+DDI-DrugBank.d644.s2|120-128|Tegretol )|group
+DDI-DrugBank.d644.s2|185-212|lorezepam oxezepam temezepam|drug
+DDI-DrugBank.d740.s0|57-78|anticholinergic agents|group
+DDI-DrugBank.d663.s1|76-87|photodynamic|drug
+DDI-DrugBank.d718.s0|51-69|Calcium supplements|group
+DDI-DrugBank.d718.s0|135-155|Iron-containing drugs|group
+DDI-DrugBank.d593.s0|154-169|antiviral agents|group
+DDI-DrugBank.d684.s3|87-110|calcium channel blockers|group
+DDI-DrugBank.d657.s0|195-215|anti-infective agents|group
+DDI-DrugBank.d657.s0|232-248|opioid analgesics|group
+DDI-DrugBank.d657.s2|0-9|Dronabinol|drug
+DDI-DrugBank.d705.s0|0-10|Telbivudine|drug
+DDI-DrugBank.d767.s1|20-38|vincristine sulfate|drug
+DDI-DrugBank.d662.s0|0-11|Mitoxantrone|drug
+DDI-DrugBank.d673.s0|67-76|olmesartan|drug
+DDI-DrugBank.d673.s2|0-9|Olmesartan|drug
+DDI-DrugBank.d768.s0|0-11|Palonosetron|drug
+DDI-DrugBank.d768.s4|156-177|anticholinergic agents|group
+DDI-DrugBank.d768.s5|0-11|Palonosetron|drug
+DDI-DrugBank.d768.s5|153-163|mitomycin C|drug
+DDI-DrugBank.d646.s1|147-163|ethinyl estradiol|drug
+DDI-DrugBank.d592.s0|17-22|Sodium|drug
+DDI-DrugBank.d592.s2|0-6|Heparin|drug
+DDI-DrugBank.d701.s1|81-120|Central nervous system ( CNS ) depressants|group
+DDI-DrugBank.d701.s1|149-173|Tricyclic antidepressants|group
+DDI-DrugBank.d701.s1|264-281|Potassium chloride|drug
+DDI-DrugBank.d586.s3|87-110|calcium channel blockers|group
+DDI-DrugBank.d626.s0|0-6|Alcohol|drug
+DDI-DrugBank.d707.s0|32-44|loop diuretic|group
+DDI-DrugBank.d764.s0|49-76|methyl aminolevulinate cream|drug
+DDI-DrugBank.d764.s1|51-73|photosensitizing agents|group
+DDI-DrugBank.d764.s1|154-181|methyl aminolevulinate cream|drug

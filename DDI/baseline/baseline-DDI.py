@@ -10,6 +10,8 @@ from nltk.tokenize import word_tokenize
 from nltk import pos_tag
 from nltk.stem import WordNetLemmatizer
 
+advise_pos = ["MD"]
+interest_pos = ["NN", "VBZ", "VBN", "VBD", "VB", "MD", "RB", "VBP"]
 advise_clues = ["should", "may", "could", "would"]
 effect_clues = ["administered", "concurrently", "concomitantly", "increase", "increases", "increased", "effect",
                 "effects", "prevent", "prevents", "prevented", "potentiate", "potentiates", "potentiated"]
@@ -58,6 +60,16 @@ def check_interaction(tokens,entities,e1,e2) :
     if any(e in mechanism_clues for e in [t[4] for t in before]): return True,"mechanism"
     if any(e in advise_clues for e in [t[4] for t in before]): return True,"advise"
     if any(e in int_clues for e in [t[4] for t in before]): return True,"int"
+
+    #if any(e in interest_pos for e in [t[3] for t in before]): return True,"effect"
+    #if any(e in interest_pos for e in [t[3] for t in after]): return True,"effect"
+    #if any(e in interest_pos for e in [t[3] for t in inBetween]): return True,"effect"
+
+    if any(e in advise_pos for e in [t[3] for t in before]): return True,"advise"
+    if any(e in advise_pos for e in [t[3] for t in after]): return True,"advise"
+    if any(e in advise_pos for e in [t[3] for t in inBetween]): return True,"advise"
+
+
 
     return False,"null"
 

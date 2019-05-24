@@ -1,0 +1,2 @@
+DDI-DrugBank.d673.s2|0-19|Olmesartan medoxomil|drug
+DDI-DrugBank.d701.s1|81-120|Central nervous system ( CNS ) depressants|group

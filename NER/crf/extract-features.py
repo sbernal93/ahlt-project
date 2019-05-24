@@ -21,7 +21,7 @@ suffixes_brand = ["gen"]
 suffixes_group = ["ines", "ides", "cins", "oles"]
 def classify_token(txt):
    if txt.isupper() or txt[-3:] in suffixes_brand : return True,"brand"
-   elif txt[-5:] in suffixes or txt[-3:] in suffixes_drug  or txt.lower() in drugnames : return True,"drug"
+   elif txt[-5:] in suffixes or txt[-3:] in suffixes_drug  : return True,"drug"
    elif txt[-4:] in suffixes_group : return True,"group"
    else : return False,""
 

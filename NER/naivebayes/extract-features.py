@@ -71,60 +71,60 @@ def extract_features(tokens) :
       t = tokens[k][0]
 
       tokenFeatures.append(t)
-      tokenFeatures.append(t.lower())
+      #tokenFeatures.append(t.lower())
       tokenFeatures.append(t[-3:])
       tokenFeatures.append(t[-4:])
 
       tokenFeatures.append(pos_tag([t])[0][1])
       (is_drug, tk_type) = classify_token(t)
 
-      tokenFeatures.append("True") if (is_drug) else tokenFeatures.append("False")
+      #tokenFeatures.append("True") if (is_drug) else tokenFeatures.append("False")
       tokenFeatures.append(tk_type) if (tk_type) else tokenFeatures.append("False")
 
-      tokenFeatures.append("True") if (t in stop_words)  else tokenFeatures.append("False")
-      tokenFeatures.append("True") if (t.isupper()) else tokenFeatures.append("False")
-      tokenFeatures.append("True") if (t.istitle()) else tokenFeatures.append("False")
-      tokenFeatures.append("True") if (t.isdigit()) else tokenFeatures.append("False")
+      #tokenFeatures.append("True") if (t in stop_words)  else tokenFeatures.append("False")
+      #tokenFeatures.append("True") if (t.isupper()) else tokenFeatures.append("False")
+      #tokenFeatures.append("True") if (t.istitle()) else tokenFeatures.append("False")
+      #tokenFeatures.append("True") if (t.isdigit()) else tokenFeatures.append("False")
 
       if k>0 :
          tPrev = tokens[k-1][0]
-         tokenFeatures.append(tPrev)
+         #tokenFeatures.append(tPrev)
          #tokenFeatures.append(tPrev.lower())
          #tokenFeatures.append(tPrev[-3:])
          #tokenFeatures.append(tPrev[-4:])
-         tokenFeatures.append("True")
-         tokenFeatures.append("True") if (tPrev.isupper()) else tokenFeatures.append("False")
-         tokenFeatures.append("True") if (tPrev.istitle()) else tokenFeatures.append("False")
-         tokenFeatures.append("True") if (tPrev.isdigit()) else tokenFeatures.append("False")
-      else :
+         #tokenFeatures.append("True")
+         #tokenFeatures.append("True") if (tPrev.isupper()) else tokenFeatures.append("False")
+         #tokenFeatures.append("True") if (tPrev.istitle()) else tokenFeatures.append("False")
+         #tokenFeatures.append("True") if (tPrev.isdigit()) else tokenFeatures.append("False")
+     # else :
          #tokenFeatures.append("BoS")
-         tokenFeatures.append("")
-         tokenFeatures.append("False")
+         #tokenFeatures.append("")
          #tokenFeatures.append("False")
          #tokenFeatures.append("False")
-         tokenFeatures.append("False")
-         tokenFeatures.append("False")
-         tokenFeatures.append("False")
+         #tokenFeatures.append("False")
+         #tokenFeatures.append("False")
+         #tokenFeatures.append("False")
+         #tokenFeatures.append("False")
 
       if k<len(tokens)-1 :
          tNext = tokens[k+1][0]
-         tokenFeatures.append(tNext)
+         #tokenFeatures.append(tNext)
          #tokenFeatures.append(tNext.lower())
          #tokenFeatures.append(tNext[-3:])
          #tokenFeatures.append(tNext[-4:])
-         tokenFeatures.append("True")
-         tokenFeatures.append("True") if (tNext.isupper()) else tokenFeatures.append("False")
-         tokenFeatures.append("True") if (tNext.istitle()) else tokenFeatures.append("False")
-         tokenFeatures.append("True") if (tNext.isdigit()) else tokenFeatures.append("False")
-      else:
+         #tokenFeatures.append("True")
+         #tokenFeatures.append("True") if (tNext.isupper()) else tokenFeatures.append("False")
+         #tokenFeatures.append("True") if (tNext.istitle()) else tokenFeatures.append("False")
+         #tokenFeatures.append("True") if (tNext.isdigit()) else tokenFeatures.append("False")
+      #else:
          #tokenFeatures.append("EoS")
-         tokenFeatures.append("")
-         tokenFeatures.append("False")
+         #tokenFeatures.append("")
          #tokenFeatures.append("False")
          #tokenFeatures.append("False")
-         tokenFeatures.append("False")
-         tokenFeatures.append("False")
-         tokenFeatures.append("False")
+         #tokenFeatures.append("False")
+         #tokenFeatures.append("False")
+         #tokenFeatures.append("False")
+         #tokenFeatures.append("False")
 
       result.append(tokenFeatures)
 

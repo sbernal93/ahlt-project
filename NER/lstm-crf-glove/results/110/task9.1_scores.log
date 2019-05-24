@@ -1,0 +1,52 @@
+task9.1 does not follow the convention file name for the task!
+
+Strict matching (boundaries + type)
+cor	inc	par	mis	spu	total	prec	recall	F1
+356	96	0	234	70	686	0.68	0.52	0.59
+
+
+
+Exact matching
+cor	inc	par	mis	spu	total	prec	recall	F1
+431	21	0	234	70	686	0.83	0.63	0.71
+
+
+
+Partial matching
+cor	inc	par	mis	spu	total	prec	recall	F1
+431	0	21	234	70	686	0.83	0.64	0.72
+
+
+
+type matching
+cor	inc	par	mis	spu	total	prec	recall	F1
+373	79	0	234	70	686	0.71	0.54	0.62
+
+
+
+SCORES FOR ENTITY TYPE
+Exact matching on drug
+cor	inc	par	mis	spu	total	prec	recall	F1
+227	10	0	114	52	351	0.79	0.65	0.71
+
+
+Exact matching on brand
+cor	inc	par	mis	spu	total	prec	recall	F1
+27	0	0	32	2	59	0.93	0.46	0.61
+
+
+Exact matching on group
+cor	inc	par	mis	spu	total	prec	recall	F1
+101	7	0	47	12	155	0.84	0.65	0.73
+
+
+Exact matching on drug_n
+cor	inc	par	mis	spu	total	prec	recall	F1
+1	1	0	119	1	121	0.33	0.01	0.02
+
+
+MACRO-AVERAGE MEASURES:
+P	R	F1
+0.72	0.44	0.52
+________________________________________________________________________
+

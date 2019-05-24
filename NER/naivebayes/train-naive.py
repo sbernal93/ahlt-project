@@ -47,8 +47,8 @@ if __name__ == '__main__':
     y = pd.DataFrame(ytrain).values[:,0]
 
     pipeline = Pipeline([('vect', v),
-                    ('chi',  SelectKBest(chi2, k=10000)),
-                    ('clf', ComplementNB())])
+                    ('chi',  SelectKBest(chi2, k=5000)),
+                    ('clf', MultinomialNB())])
     model = pipeline.fit(x.to_dict('records'), y)
 
     with open(sys.argv[1], 'wb') as f:

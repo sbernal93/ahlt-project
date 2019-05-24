@@ -10,6 +10,7 @@ from keras.models import Model, Input
 from keras.layers import LSTM, Embedding, Dense, TimeDistributed, Dropout, Bidirectional, concatenate
 from keras_contrib.layers import CRF
 from keras.optimizers import RMSprop
+from keras.utils import plot_model
 
 import matplotlib.pyplot as plt
 
@@ -118,7 +119,7 @@ if __name__ == '__main__':
     x = pd.DataFrame(xtrain)
     y = pd.DataFrame(ytrain).values[:,0]
 
-    max_len = 75
+    max_len = 76
     words = list(set(x[0].values))
     words.append("ENDPAD")
     n_words = len(words)
@@ -226,26 +227,31 @@ if __name__ == '__main__':
                         input_length=max_len, mask_zero=True)(tktypes_in)
 
     concat = concatenate([word_emb, pos_emb,
-        suff3_emb,
-        suff4_emb,
+#        suff3_emb,
+#        suff4_emb,
         tktypes_emb])
-
-    model = Bidirectional(LSTM(units=64, return_sequences=True,
-                               recurrent_dropout=0.8))(concat)  # variational biLSTM
-    model = TimeDistributed(Dense(100, activation="relu"))(model)  # a dense layer as suggested by neuralNer
+    concat = Dropout(0.2)(concat)
+    model = Bidirectional(LSTM(units=32, return_sequences=True,
+                               recurrent_dropout=0.5))(concat)  # variational biLSTM
+    model = TimeDistributed(Dense(10, activation="relu"))(model)  # a dense layer as suggested by neuralNer
     crf = CRF(n_tags, activation='linear')  # CRF layer
     out = crf(model)  # output
 
     model = Model([word_in, pos_in,
-     suff3_in,
-     suff4_in,
+    # suff3_in,
+    # suff4_in,
      tktypes_in], out)
 
     optimizer = RMSprop(lr=0.01, epsilon=None, decay=0.0)
     model.compile(optimizer=optimizer, loss=crf.loss_function, metrics=[crf.accuracy])
-    model.fit([X, X_pos, X_suff3, X_suff4, X_tktypes],
-        np.array(Y), batch_size=64, epochs=10,
-        validation_split=0.2, verbose=1)
+    model.summary()
+    #plot_model(model, to_file='model.png')
+    model.fit([X, X_pos,
+     #X_suff3,
+     #X_suff4,
+     X_tktypes],
+        np.array(Y), batch_size=32, epochs=10,
+        validation_split=0.1, verbose=1)
     kf = KFold(n_splits=5, shuffle=True)
     Y = np.array(Y)
     for train_index, test_index in kf.split(X, Y):
@@ -256,15 +262,15 @@ if __name__ == '__main__':
         train_x_tktype, val_x_tktype = X_tktypes[train_index], X_tktypes[test_index]
 
         train_y, val_y = Y[train_index], Y[test_index]
-        #model.fit([train_x, train_x_pos,
-        #            train_x_suff3,
-        #            train_x_suff4,
-        #            train_x_tktype],
-        #    train_y, batch_size=32, epochs=5,
-        #    validation_data=([val_x, val_x_pos,
-        #     val_x_suff3,
-        #     val_x_suff4,
-        #     val_x_tktype], val_y), verbose=1)
+#        model.fit([train_x, train_x_pos,
+#                    train_x_suff3,
+#                    train_x_suff4,
+#                    train_x_tktype],
+#            train_y, batch_size=32, epochs=5,
+#            validation_data=([val_x, val_x_pos,
+    #         val_x_suff3,
+    #         val_x_suff4,
+#             val_x_tktype], val_y), verbose=1)
     #history = model.fit(X, npself.array(Y), batch_size=32, epochs=5,
                 #validation_split=0.2, verbose=1)
 
@@ -287,8 +293,8 @@ if __name__ == '__main__':
         x_test_tktypes = pad_sequences(maxlen=max_len, sequences=tktypes, padding="post", value=n_tktypes-1)
 
         prediction = model.predict([x_test_sent, x_test_pos,
-        x_test_suff3,
-        x_test_suff4,
+    #    x_test_suff3,
+    #    x_test_suff4,
         x_test_tktypes])
         prediction = np.argmax(prediction[0], axis=-1)
         inside = False;

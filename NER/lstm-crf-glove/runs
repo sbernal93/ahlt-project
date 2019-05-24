@@ -59,3 +59,39 @@
 63 -> 20 epochs, lr to 0.01
 64 -> 10 epochs
 65 -> batches 64
+66 -> batches 32, units 64 (canceled)
+67, 68 -> adding dropout
+69 -> reducing dropout to 5
+70, 71 -> dropout to 0.8
+72 -> 300 units
+73 -> 32 units
+74 -> 64 units
+75 -> recurrent_dropout to 0.5
+76 -> recurrent_dropout to 0.2
+77, 78 -> recurrent_dropout to 0.5, 240 output_dim
+79 -> output_dim to 100, dense 10
+80 -> dense 100
+81 -> dropout 0.2
+82 -> dropout 0.5, crf activation softmax
+83 -> crf activation relu
+84 -> crf activation tanh
+85 -> crf activation sigmoid
+86 -> crf activation exponential
+87 -> linear activation dense
+88 -> relu activation dense
+89 -> batch size 1000
+90 -> batch size 10000
+91 -> batch size 32, validation split 0.1
+92 -> medline
+93, 94 -> join datasets
+95 -> kfold with 5 epochs 32 batch
+96 -> adding summary
+97,98,99 -> adding plot_model
+100 -> dense 20
+100,105 -> tests
+106 -> removekfold, sufixes
+107 -> lstm to 32, dense to 10
+108 -> updating features
+109 -> dropout 0.8
+110 -> dropout 0.2
+111 -> MedLine

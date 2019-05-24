@@ -1,0 +1,769 @@
+DDI-MedLine.d145.s0|46-56|doxorubicin|drug
+DDI-MedLine.d145.s1|0-5|Type-I|brand
+DDI-MedLine.d145.s2|99-115|tyrphostin AG1024|drug_n
+DDI-MedLine.d145.s2|147-157|doxorubicin|drug
+DDI-MedLine.d145.s2|251-254|line|drug_n
+DDI-MedLine.d145.s3|64-74|doxorubicin|drug
+DDI-MedLine.d145.s4|44-54|doxorubicin|drug
+DDI-MedLine.d212.s0|15-29|colchicine oral|drug_n
+DDI-MedLine.d212.s0|64-70|eugenol|drug
+DDI-MedLine.d212.s1|14-20|eugenol|drug
+DDI-MedLine.d212.s1|25-34|colchicine|drug_n
+DDI-MedLine.d212.s2|14-20|eugenol|drug
+DDI-MedLine.d212.s3|14-20|eugenol|drug
+DDI-MedLine.d212.s3|50-59|colchicine|drug_n
+DDI-MedLine.d212.s4|4-13|colchicine|drug_n
+DDI-MedLine.d212.s4|46-64|isopropyl myristate|brand
+DDI-MedLine.d212.s4|67-73|eugenol|drug
+DDI-MedLine.d212.s4|76-82|Tween80|brand
+DDI-MedLine.d212.s4|85-91|ethanol|drug
+DDI-MedLine.d212.s4|108-114|eugenol|drug
+DDI-MedLine.d212.s5|62-63|nm|brand
+DDI-MedLine.d212.s6|18-27|colchicine|drug_n
+DDI-MedLine.d212.s6|147-157|colchicine )|drug_n
+DDI-MedLine.d212.s7|0-6|Finally|group
+DDI-MedLine.d212.s7|30-36|eugenol|drug
+DDI-MedLine.d212.s7|41-50|colchicine|drug_n
+DDI-MedLine.d212.s7|80-89|colchicine|drug_n
+DDI-MedLine.d212.s8|29-40|colchicine (|drug_n
+DDI-MedLine.d212.s8|57-60|form|brand
+DDI-MedLine.d212.s8|100-109|colchicine|drug_n
+DDI-MedLine.d212.s8|266-275|colchicine|drug_n
+DDI-MedLine.d212.s9|58-67|colchicine|drug_n
+DDI-MedLine.d212.s9|99-105|eugenol|drug
+DDI-MedLine.d212.s10|31-37|eugenol|drug
+DDI-MedLine.d212.s10|146-155|colchicine|drug_n
+DDI-MedLine.d149.s0|23-35|ginseng-ginko|brand
+DDI-MedLine.d149.s0|101-111|Abeta ( 1-40 )|brand
+DDI-MedLine.d149.s1|15-20|injury|brand
+DDI-MedLine.d149.s1|65-75|Abeta ( 1-40 )|brand
+DDI-MedLine.d149.s1|122-128|ginseng|drug
+DDI-MedLine.d149.s1|134-138|ginko|brand
+DDI-MedLine.d149.s2|32-42|Abeta ( 1-40 )|brand
+DDI-MedLine.d149.s2|81-86|injury|brand
+DDI-MedLine.d149.s3|94-103|microscopy|brand
+DDI-MedLine.d149.s3|117-120|blot|brand
+DDI-MedLine.d149.s3|127-137|appropriate|group
+DDI-MedLine.d149.s4|27-33|ginseng|drug
+DDI-MedLine.d149.s4|39-50|ginko ( EGGB )|brand
+DDI-MedLine.d149.s5|79-86|micromol|brand
+DDI-MedLine.d149.s5|102-105|-40 )|brand
+DDI-MedLine.d149.s8|0-10|Abeta ( 1-40 )|brand
+DDI-MedLine.d149.s9|125-130|neuron|drug
+DDI-MedLine.d220.s0|62-69|luteolin|drug
+DDI-MedLine.d220.s1|52-59|luteolin|drug
+DDI-MedLine.d220.s2|0-7|Luteolin|drug
+DDI-MedLine.d220.s2|34-42|extensive|group
+DDI-MedLine.d220.s3|27-34|luteolin|drug
+DDI-MedLine.d220.s4|57-64|luteolin|drug
+DDI-MedLine.d220.s5|6-28|glucuronidated/sulfated|drug_n
+DDI-MedLine.d220.s6|38-45|luteolin|drug
+DDI-MedLine.d220.s6|80-87|luteolin|drug
+DDI-MedLine.d220.s6|136-161|Chrysanthemi extract ( FCE )|brand
+DDI-MedLine.d220.s6|196-203|luteolin|drug
+DDI-MedLine.d220.s7|59-66|flavones|group
+DDI-MedLine.d220.s7|81-89|flavanone|drug_n
+DDI-MedLine.d220.s7|141-148|luteolin|drug
+DDI-MedLine.d220.s8|14-29|key determinants|brand
+DDI-MedLine.d220.s8|145-152|catechol|drug
+DDI-MedLine.d220.s10|19-22|bond|group
+DDI-MedLine.d220.s10|51-58|carbonyl|drug
+DDI-MedLine.d220.s11|6-14|glycoside|group
+DDI-MedLine.d220.s12|211-221|appropriate|group
+DDI-MedLine.d183.s0|71-89|tetrahydropyridine )|drug_n
+DDI-MedLine.d183.s1|93-110|sporadic condition|brand
+DDI-MedLine.d183.s2|37-65|progressive neurodegenerative|group
+DDI-MedLine.d183.s2|89-110|selective degeneration|group
+DDI-MedLine.d183.s2|154-158|nigra|brand
+DDI-MedLine.d183.s2|165-172|compacta|brand
+DDI-MedLine.d183.s5|105-109|MPTP )|drug_n
+DDI-MedLine.d183.s5|164-176|idiopathic PD|group
+DDI-MedLine.d183.s6|56-59|MPTP|drug_n
+DDI-MedLine.d183.s6|222-225|MPTP|drug_n
+DDI-MedLine.d183.s7|54-57|MPTP|drug_n
+DDI-MedLine.d183.s8|19-25|discuss|brand
+DDI-MedLine.d183.s8|109-112|MPTP|drug_n
+DDI-MedLine.d168.s3|14-26|noradrenaline|drug
+DDI-MedLine.d168.s6|27-33|glycine|drug
+DDI-MedLine.d168.s7|83-89|thereby|group
+DDI-MedLine.d168.s8|33-35|yet|group
+DDI-MedLine.d168.s8|75-79|shift|brand
+DDI-MedLine.d207.s0|72-74|gap|brand
+DDI-MedLine.d207.s0|80-93|high-anion-gap|brand
+DDI-MedLine.d207.s1|50-52|gap|brand
+DDI-MedLine.d207.s1|70-83|high-anion-gap|brand
+DDI-MedLine.d207.s1|157-164|alcohols|drug_n
+DDI-MedLine.d207.s1|181-188|methanol|drug_n
+DDI-MedLine.d207.s1|200-205|glycol|drug
+DDI-MedLine.d207.s1|219-224|glycol|drug
+DDI-MedLine.d207.s1|237-242|glycol|drug
+DDI-MedLine.d207.s1|248-258|isopropanol|drug_n
+DDI-MedLine.d207.s2|39-41|gap|brand
+DDI-MedLine.d207.s2|164-166|gap|brand
+DDI-MedLine.d207.s3|89-94|injury|brand
+DDI-MedLine.d207.s3|152-165|high-anion-gap|brand
+DDI-MedLine.d207.s3|229-231|gap|brand
+DDI-MedLine.d207.s4|82-84|gap|brand
+DDI-MedLine.d207.s4|145-155|appropriate|group
+DDI-MedLine.d207.s5|120-122|gap|brand
+DDI-MedLine.d207.s5|140-153|high-anion-gap|brand
+DDI-MedLine.d210.s2|0-1|As|drug_n
+DDI-MedLine.d210.s2|6-11|efflux|brand
+DDI-MedLine.d210.s3|21-24|herb|brand
+DDI-MedLine.d210.s4|0-1|So|group
+DDI-MedLine.d210.s4|44-63|rational utilization|group
+DDI-MedLine.d210.s4|92-95|herb|brand
+DDI-MedLine.d210.s4|120-128|medicated|drug_n
+DDI-MedLine.d202.s1|0-11|Conventional|group
+DDI-MedLine.d202.s1|60-80|immunosupressive drug|group
+DDI-MedLine.d202.s1|149-165|immunosuppressive|group
+DDI-MedLine.d202.s1|194-201|medicine|drug_n
+DDI-MedLine.d202.s2|69-90|immunosuppressive drug|group
+DDI-MedLine.d202.s3|175-184|transplant|group
+DDI-MedLine.d202.s3|205-211|equally|group
+DDI-MedLine.d202.s5|134-143|multicolor|brand
+DDI-MedLine.d202.s8|36-48|differentiate|group
+DDI-MedLine.d202.s8|74-85|antagonistic|group
+DDI-MedLine.d202.s8|114-135|immunosuppressive drug|group
+DDI-MedLine.d202.s8|173-179|predict|brand
+DDI-MedLine.d202.s9|77-88|conventional|group
+DDI-MedLine.d202.s9|144-160|immunosuppressive|group
+DDI-MedLine.d202.s9|175-186|individually|group
+DDI-MedLine.d232.s0|0-5|Stroke|brand
+DDI-MedLine.d232.s1|42-47|stroke|brand
+DDI-MedLine.d232.s2|9-14|stroke|brand
+DDI-MedLine.d232.s3|74-79|stroke|brand
+DDI-MedLine.d232.s4|43-52|guidelines|group
+DDI-MedLine.d232.s4|149-160|K antagonist|drug_n
+DDI-MedLine.d232.s4|165-171|aspirin|group
+DDI-MedLine.d232.s6|8-14|discuss|brand
+DDI-MedLine.d232.s6|105-117|K antagonists|drug_n
+DDI-MedLine.d232.s7|33-46|anticoagulants|group
+DDI-MedLine.d232.s8|15-28|anticoagulants|group
+DDI-MedLine.d232.s8|93-105|K antagonists|drug_n
+DDI-MedLine.d182.s0|0-12|Antimicrobial|group
+DDI-MedLine.d182.s0|25-36|o-cymen-5-ol|brand
+DDI-MedLine.d182.s0|42-45|zinc|drug
+DDI-MedLine.d182.s1|39-61|toothpaste formulations|brand
+DDI-MedLine.d182.s2|29-41|antimicrobial|group
+DDI-MedLine.d182.s2|57-73|o-cymen-5-ol/zinc|drug
+DDI-MedLine.d182.s3|0-11|o-Cymen-5-ol|brand
+DDI-MedLine.d182.s3|17-30|zinc gluconate|drug
+DDI-MedLine.d182.s3|198-207|gingivalis|group
+DDI-MedLine.d182.s3|210-222|Fusobacterium|drug
+DDI-MedLine.d182.s6|11-18|protease|group
+DDI-MedLine.d182.s11|0-11|o-Cymen-5-ol|brand
+DDI-MedLine.d182.s13|0-13|Zinc gluconate|drug
+DDI-MedLine.d182.s16|0-9|gingivalis|group
+DDI-MedLine.d182.s17|28-34|mM/0.69|brand
+DDI-MedLine.d182.s17|43-69|o-cymen-5-ol/zinc gluconate|drug
+DDI-MedLine.d182.s18|0-3|Zinc|drug
+DDI-MedLine.d182.s18|30-37|protease|group
+DDI-MedLine.d182.s18|64-75|o-cymen-5-ol|brand
+DDI-MedLine.d182.s20|0-25|o-Cymen-5-ol/zinc chloride|drug
+DDI-MedLine.d182.s20|30-39|toothpaste|brand
+DDI-MedLine.d182.s20|89-103|kill=7.35 0.40|brand
+DDI-MedLine.d182.s21|4-20|zinc/o-cymen-5-ol|brand
+DDI-MedLine.d182.s21|40-52|antimicrobial|group
+DDI-MedLine.d182.s21|80-94|disease-related|drug_n
+DDI-MedLine.d182.s22|0-10|Synergistic|group
+DDI-MedLine.d182.s23|19-30|o-cymen-5-ol|brand
+DDI-MedLine.d182.s23|36-39|zinc|drug
+DDI-MedLine.d155.s0|36-43|Purkinje|brand
+DDI-MedLine.d155.s1|103-107|layer|brand
+DDI-MedLine.d155.s1|122-130|laterally|group
+DDI-MedLine.d155.s1|140-147|Purkinje|brand
+DDI-MedLine.d155.s2|42-59|on-beam excitation|brand
+DDI-MedLine.d155.s2|65-72|off-beam|brand
+DDI-MedLine.d155.s2|88-95|Purkinje|brand
+DDI-MedLine.d155.s2|152-161|cerebellum|brand
+DDI-MedLine.d155.s2|166-177|electrically|group
+DDI-MedLine.d155.s3|0-16|Patchy excitation|brand
+DDI-MedLine.d155.s3|21-28|Purkinje|brand
+DDI-MedLine.d155.s3|64-73|sagittally|group
+DDI-MedLine.d155.s3|84-91|Purkinje|brand
+DDI-MedLine.d155.s4|101-105|layer|brand
+DDI-MedLine.d155.s4|125-132|Purkinje|brand
+DDI-MedLine.d155.s5|78-82|mimic|group
+DDI-MedLine.d155.s5|106-110|mossy|brand
+DDI-MedLine.d155.s6|50-69|sagittal orientation|drug
+DDI-MedLine.d155.s7|39-46|Purkinje|brand
+DDI-MedLine.d155.s8|37-45|laterally|group
+DDI-MedLine.d155.s9|125-132|Purkinje|brand
+DDI-MedLine.d155.s9|186-194|laterally|group
+DDI-MedLine.d155.s9|205-212|Purkinje|brand
+DDI-MedLine.d155.s10|19-38|sagittal orientation|drug
+DDI-MedLine.d155.s10|48-66|coronal orientation|group
+DDI-MedLine.d155.s10|88-95|Purkinje|brand
+DDI-MedLine.d155.s11|63-63|m|brand
+DDI-MedLine.d155.s11|102-106|layer|brand
+DDI-MedLine.d155.s11|168-175|Purkinje|brand
+DDI-MedLine.d219.s1|98-105|globally|group
+DDI-MedLine.d219.s1|139-144|Africa|drug_n
+DDI-MedLine.d219.s3|13-22|microscopy|brand
+DDI-MedLine.d219.s5|24-29|burden|brand
+DDI-MedLine.d219.s6|8-17|guidelines|group
+DDI-MedLine.d219.s7|4-11|cells/ul|brand
+DDI-MedLine.d192.s0|47-52|opiate|group
+DDI-MedLine.d192.s0|121-127|circuit|brand
+DDI-MedLine.d192.s1|16-29|amygdala ( BLA )|brand
+DDI-MedLine.d192.s1|85-88|NAc )|brand
+DDI-MedLine.d192.s1|130-155|opiate-related associative|drug_n
+DDI-MedLine.d192.s3|31-41|single-unit|brand
+DDI-MedLine.d192.s3|74-76|NAc|brand
+DDI-MedLine.d192.s3|260-265|opiate|group
+DDI-MedLine.d192.s4|51-59|intra-BLA|brand
+DDI-MedLine.d192.s4|138-143|opiate|group
+DDI-MedLine.d192.s5|33-38|opiate|group
+DDI-MedLine.d192.s5|92-100|intra-BLA|brand
+DDI-MedLine.d192.s5|144-149|opiate|group
+DDI-MedLine.d192.s6|74-82|intra-BLA|brand
+DDI-MedLine.d192.s6|108-117|replicated|drug_n
+DDI-MedLine.d192.s6|145-153|intra-BLA|brand
+DDI-MedLine.d192.s6|184-189|opiate|group
+DDI-MedLine.d192.s7|0-10|Single-unit|brand
+DDI-MedLine.d192.s7|73-75|NAc|brand
+DDI-MedLine.d192.s7|148-150|NAc|brand
+DDI-MedLine.d192.s7|182-189|morphine|drug
+DDI-MedLine.d192.s8|46-61|opiate addiction|group
+DDI-MedLine.d192.s8|138-143|opiate|group
+DDI-MedLine.d192.s8|188-193|opiate|group
+DDI-MedLine.d187.s1|0-7|Cannabis|brand
+DDI-MedLine.d187.s2|7-14|cannabis|brand
+DDI-MedLine.d187.s2|40-51|illegal drug|group
+DDI-MedLine.d187.s3|36-43|cannabis|brand
+DDI-MedLine.d187.s3|150-157|cannabis|brand
+DDI-MedLine.d187.s7|100-102|yet|group
+DDI-MedLine.d187.s7|120-125|detail|brand
+DDI-MedLine.d187.s8|14-21|cannabis|brand
+DDI-MedLine.d187.s9|0-8|knowledge|brand
+DDI-MedLine.d176.s0|7-11|oxide|drug
+DDI-MedLine.d176.s0|58-63|neuron|drug
+DDI-MedLine.d176.s1|161-166|neuron|drug
+DDI-MedLine.d176.s2|135-147|voltage-gated|drug_n
+DDI-MedLine.d176.s3|68-73|neuron|drug
+DDI-MedLine.d176.s3|151-153|Kv3|drug_n
+DDI-MedLine.d176.s3|162-178|potassium channel|group
+DDI-MedLine.d176.s3|191-197|thereby|group
+DDI-MedLine.d176.s4|12-25|oxide-mediated|drug_n
+DDI-MedLine.d176.s4|37-48|dramatically|group
+DDI-MedLine.d176.s4|60-62|Kv2|drug_n
+DDI-MedLine.d176.s4|123-124|gt|brand
+DDI-MedLine.d176.s4|246-253|waveform|brand
+DDI-MedLine.d176.s5|24-28|oxide|drug
+DDI-MedLine.d157.s1|11-18|examines|group
+DDI-MedLine.d157.s1|82-82|f|brand
+DDI-MedLine.d157.s1|85-95|Piperaceae )|brand
+DDI-MedLine.d157.s1|100-111|plant native|group
+DDI-MedLine.d157.s1|156-166|traditional|group
+DDI-MedLine.d157.s2|0-3|Kava|drug_n
+DDI-MedLine.d157.s4|107-118|professional|group
+DDI-MedLine.d157.s4|121-132|disciplinary|group
+DDI-MedLine.d157.s4|139-152|organizational|group
+DDI-MedLine.d157.s6|120-128|knowledge|brand
+DDI-MedLine.d221.s1|33-40|etizolam|drug
+DDI-MedLine.d221.s1|43-55|phenobarbital|drug
+DDI-MedLine.d221.s1|58-69|promethazine|drug
+DDI-MedLine.d221.s1|75-88|chlorpromazine|drug
+DDI-MedLine.d221.s2|70-77|etizolam|drug
+DDI-MedLine.d221.s2|80-92|phenobarbital|drug
+DDI-MedLine.d221.s2|95-106|promethazine|drug
+DDI-MedLine.d221.s2|112-125|chlorpromazine|drug
+DDI-MedLine.d223.s4|14-20|achieve|brand
+DDI-MedLine.d215.s0|9-21|antimicrobial|group
+DDI-MedLine.d215.s0|36-59|synergistic/antagonistic|group
+DDI-MedLine.d215.s1|11-15|herbs|brand
+DDI-MedLine.d215.s2|60-72|antimicrobial|group
+DDI-MedLine.d215.s2|106-112|herbs (|brand
+DDI-MedLine.d215.s2|135-147|officinalis (|group
+DDI-MedLine.d215.s3|6-10|subsp|brand
+DDI-MedLine.d215.s4|0-14|Brachycalyx P.H|brand
+DDI-MedLine.d215.s5|0-6|Davis (|brand
+DDI-MedLine.d215.s5|42-47|cumin )|group
+DDI-MedLine.d215.s5|57-66|piperita (|brand
+DDI-MedLine.d215.s5|136-142|discuss|brand
+DDI-MedLine.d215.s6|48-54|LA 2971|drug_n
+DDI-MedLine.d215.s6|66-79|megaterium NRS|drug
+DDI-MedLine.d215.s6|91-102|brevis FMC 3|brand
+DDI-MedLine.d215.s6|170-182|Mycobacterium|drug
+DDI-MedLine.d215.s6|235-254|hydrophila ATCC 7966|brand
+DDI-MedLine.d215.s6|266-285|enterocolitica AU 19|brand
+DDI-MedLine.d215.s6|310-316|Cowan 1|drug_n
+DDI-MedLine.d215.s6|410-429|fragilis DC 98 fungi|group
+DDI-MedLine.d215.s7|56-66|officinalis|group
+DDI-MedLine.d215.s7|88-89|L.|drug_n
+DDI-MedLine.d215.s8|6-10|subsp|brand
+DDI-MedLine.d215.s9|0-14|brachycalyx P.H|brand
+DDI-MedLine.d215.s10|0-4|Davis|brand
+DDI-MedLine.d215.s10|22-23|L.|drug_n
+DDI-MedLine.d215.s10|33-42|piperita L|brand
+DDI-MedLine.d215.s11|11-23|antimicrobial|group
+DDI-MedLine.d215.s11|60-66|microl (|drug_n
+DDI-MedLine.d215.s11|123-126|disc|brand
+DDI-MedLine.d215.s12|28-39|Gentamicin (|drug
+DDI-MedLine.d215.s12|77-89|Ceftriaxone (|drug
+DDI-MedLine.d215.s12|102-111|Nystatin (|drug_n
+DDI-MedLine.d215.s12|118-122|discs|brand
+DDI-MedLine.d215.s12|158-170|antimicrobial|group
+DDI-MedLine.d224.s0|76-83|peroxide|drug
+DDI-MedLine.d224.s1|171-179|carbamide|drug_n
+DDI-MedLine.d224.s2|0-4|Forty|brand
+DDI-MedLine.d224.s2|53-58|coffee|brand
+DDI-MedLine.d224.s3|51-59|carbamide|drug_n
+DDI-MedLine.d224.s3|86-88|gel|brand
+DDI-MedLine.d224.s4|25-33|carbamide|drug_n
+DDI-MedLine.d224.s4|60-62|gel|brand
+DDI-MedLine.d224.s5|18-22|color|brand
+DDI-MedLine.d224.s5|45-48|Vita|drug_n
+DDI-MedLine.d224.s5|60-76|spectrophotometer|drug
+DDI-MedLine.d224.s6|6-10|color|brand
+DDI-MedLine.d224.s6|42-46|E*Lab|brand
+DDI-MedLine.d224.s10|50-57|peroxide|drug
+DDI-MedLine.d224.s10|69-71|gel|brand
+DDI-MedLine.d173.s1|20-25|second|group
+DDI-MedLine.d162.s3|172-179|trials.A|brand
+DDI-MedLine.d162.s4|124-133|phenomenon|brand
+DDI-MedLine.d174.s0|54-73|acetylsalicylic acid|group
+DDI-MedLine.d174.s0|76-84|selective|group
+DDI-MedLine.d174.s1|38-44|NSAIDs )|brand
+DDI-MedLine.d174.s1|65-73|medicines|group
+DDI-MedLine.d174.s2|112-130|appropriate NSAID (|group
+DDI-MedLine.d174.s2|195-204|continuous|group
+DDI-MedLine.d174.s2|228-234|aspirin|group
+DDI-MedLine.d174.s3|17-23|discuss|brand
+DDI-MedLine.d174.s3|97-116|acetylsalicylic acid|group
+DDI-MedLine.d197.s0|1-9|Vitamin D|drug
+DDI-MedLine.d197.s1|31-39|vitamin D|group
+DDI-MedLine.d197.s1|130-133|past|drug
+DDI-MedLine.d197.s3|0-1|As|drug_n
+DDI-MedLine.d197.s3|133-135|pay|brand
+DDI-MedLine.d197.s4|41-49|vitamin D|group
+DDI-MedLine.d197.s5|35-42|pregnane|drug_n
+DDI-MedLine.d197.s5|141-149|vitamin D|group
+DDI-MedLine.d197.s6|90-94|taxol|brand
+DDI-MedLine.d197.s6|97-106|rifampicin|drug
+DDI-MedLine.d197.s6|142-160|protease inhibitors|group
+DDI-MedLine.d197.s6|170-178|ritonavir|drug
+DDI-MedLine.d197.s6|184-193|saquinavir|drug
+DDI-MedLine.d197.s7|56-64|vitamin D|group
+DDI-MedLine.d151.s1|8-14|analyze|brand
+DDI-MedLine.d151.s3|0-10|Angiotensin|drug_n
+DDI-MedLine.d151.s4|82-95|anticoagulants|group
+DDI-MedLine.d151.s5|13-16|paid|brand
+DDI-MedLine.d151.s5|61-67|digoxin|drug
+DDI-MedLine.d142.s0|12-30|glycyrrhiza extract|brand
+DDI-MedLine.d142.s0|52-59|property|brand
+DDI-MedLine.d142.s0|64-72|daphnetin|drug_n
+DDI-MedLine.d142.s1|29-47|glycyrrhiza extract|brand
+DDI-MedLine.d142.s1|73-86|characteristic|group
+DDI-MedLine.d142.s1|102-110|daphnetin|drug_n
+DDI-MedLine.d142.s2|49-57|daphnetin|drug_n
+DDI-MedLine.d142.s2|63-81|glycyrrhiza extract|brand
+DDI-MedLine.d142.s2|103-111|daphnetin|drug_n
+DDI-MedLine.d142.s3|27-35|daphnetin|drug_n
+DDI-MedLine.d142.s5|0-18|Glycyrrhiza extract|brand
+DDI-MedLine.d142.s5|35-36|t (|brand
+DDI-MedLine.d142.s5|52-53|Ke|drug_n
+DDI-MedLine.d142.s5|58-66|daphnetin|drug_n
+DDI-MedLine.d142.s5|89-90|Ka|drug_n
+DDI-MedLine.d142.s6|0-18|Glycyrrhiza extract|brand
+DDI-MedLine.d142.s6|52-60|daphnetin|drug_n
+DDI-MedLine.d144.s0|95-102|personal|group
+DDI-MedLine.d144.s2|0-7|Personal|group
+DDI-MedLine.d144.s2|30-34|PHAs )|brand
+DDI-MedLine.d144.s2|110-117|computer|drug
+DDI-MedLine.d144.s3|26-29|PHAs|brand
+DDI-MedLine.d228.s0|0-8|Pulmonary|group
+DDI-MedLine.d228.s1|0-8|Pulmonary|group
+DDI-MedLine.d196.s0|113-115|fed|brand
+DDI-MedLine.d196.s4|127-131|fed (|brand
+DDI-MedLine.d196.s4|141-150|breakfast )|drug
+DDI-MedLine.d196.s5|178-184|scheme )|brand
+DDI-MedLine.d196.s5|205-210|fast (|drug
+DDI-MedLine.d196.s5|221-224|fast|drug
+DDI-MedLine.d196.s7|34-39|scheme|brand
+DDI-MedLine.d196.s7|117-119|fed|brand
+DDI-MedLine.d196.s7|185-188|fat )|brand
+DDI-MedLine.d196.s9|81-84|0-t )|brand
+DDI-MedLine.d196.s9|91-96|0- )|brand
+DDI-MedLine.d196.s10|142-145|0-t )|brand
+DDI-MedLine.d196.s10|152-157|0- )|brand
+DDI-MedLine.d196.s11|45-48|AEs )|brand
+DDI-MedLine.d196.s11|74-78|vital|drug
+DDI-MedLine.d196.s15|74-87|Indian/Alaskan|brand
+DDI-MedLine.d196.s16|23-25|fed|brand
+DDI-MedLine.d196.s20|8-10|CIs|brand
+DDI-MedLine.d196.s20|183-186|0-t )|brand
+DDI-MedLine.d196.s20|197-202|0- )|brand
+DDI-MedLine.d196.s21|67-69|AEs|brand
+DDI-MedLine.d196.s22|30-32|AEs|brand
+DDI-MedLine.d196.s22|58-67|headache (|brand
+DDI-MedLine.d196.s23|58-60|AEs|brand
+DDI-MedLine.d196.s24|30-32|AEs|brand
+DDI-MedLine.d196.s24|39-50|headache ( 17|brand
+DDI-MedLine.d196.s24|62-69|throat (|brand
+DDI-MedLine.d196.s25|0-2|AEs|brand
+DDI-MedLine.d196.s25|19-22|mild|brand
+DDI-MedLine.d196.s26|115-117|met|brand
+DDI-MedLine.d196.s26|329-331|fed|brand
+DDI-MedLine.d203.s0|33-45|inappropriate|group
+DDI-MedLine.d203.s0|79-85|veteran|brand
+DDI-MedLine.d203.s1|26-34|resident-|brand
+DDI-MedLine.d203.s1|108-120|inappropriate|group
+DDI-MedLine.d203.s3|28-31|CLCs|brand
+DDI-MedLine.d203.s5|34-46|inappropriate|group
+DDI-MedLine.d203.s7|0-1|Of|drug_n
+DDI-MedLine.d203.s8|0-11|Of residents|drug_n
+DDI-MedLine.d203.s8|79-91|inappropriate|group
+DDI-MedLine.d203.s8|147-158|drug-disease|group
+DDI-MedLine.d203.s9|0-1|Of|drug_n
+DDI-MedLine.d203.s11|46-68|appropriate ( 324/1,844 )|group
+DDI-MedLine.d203.s12|195-199|=0.56|brand
+DDI-MedLine.d203.s12|265-274|ratio=1.52|brand
+DDI-MedLine.d203.s13|87-96|anxiolytic|group
+DDI-MedLine.d203.s13|101-119|hypnotic ( ARRR=1.33|group
+DDI-MedLine.d203.s13|172-199|inappropriate antidepressant|group
+DDI-MedLine.d203.s15|0-20|veteran CLC residents|brand
+DDI-MedLine.d188.s1|64-69|second|group
+DDI-MedLine.d152.s1|0-10|Classically|group
+DDI-MedLine.d152.s3|60-68|unrelated|drug_n
+DDI-MedLine.d152.s7|26-31|advent|group
+DDI-MedLine.d152.s10|42-52|mechanistic|group
+DDI-MedLine.d152.s10|102-111|potentiate|group
+DDI-MedLine.d172.s0|62-71|guidelines|group
+DDI-MedLine.d172.s1|156-160|DDIs )|brand
+DDI-MedLine.d172.s2|15-24|guidelines|group
+DDI-MedLine.d172.s3|50-58|reporting|group
+DDI-MedLine.d172.s3|94-103|guidelines|group
+DDI-MedLine.d172.s3|153-155|yet|group
+DDI-MedLine.d172.s3|188-197|guidelines|group
+DDI-MedLine.d172.s4|68-77|guidelines|group
+DDI-MedLine.d172.s4|121-124|DDIs|brand
+DDI-MedLine.d172.s5|15-18|DDIs|brand
+DDI-MedLine.d172.s6|48-57|guidelines|group
+DDI-MedLine.d172.s6|68-71|DDIs|brand
+DDI-MedLine.d172.s6|98-108|appropriate|group
+DDI-MedLine.d172.s6|179-187|validated|drug_n
+DDI-MedLine.d172.s6|202-211|Guidelines|group
+DDI-MedLine.d172.s9|19-28|guidelines|group
+DDI-MedLine.d172.s9|172-178|vs 26.1|brand
+DDI-MedLine.d172.s11|54-76|organizational barriers|group
+DDI-MedLine.d172.s11|82-84|key|brand
+DDI-MedLine.d172.s12|4-13|guidelines|group
+DDI-MedLine.d172.s13|29-38|guidelines|group
+DDI-MedLine.d172.s13|56-66|appropriate|group
+DDI-MedLine.d172.s14|36-45|guidelines|group
+DDI-MedLine.d172.s15|11-19|guideline|drug_n
+DDI-MedLine.d172.s15|68-71|paid|brand
+DDI-MedLine.d156.s0|0-2|ABC|drug_n
+DDI-MedLine.d156.s0|49-54|malayi|brand
+DDI-MedLine.d156.s1|5-7|ABC|drug_n
+DDI-MedLine.d156.s2|32-37|efflux|brand
+DDI-MedLine.d156.s3|0-1|Of|drug_n
+DDI-MedLine.d156.s3|23-25|ABC|drug_n
+DDI-MedLine.d156.s5|18-20|ABC|drug_n
+DDI-MedLine.d156.s6|39-41|ABC|drug_n
+DDI-MedLine.d156.s7|51-53|ABC|drug_n
+DDI-MedLine.d156.s9|23-25|ABC|drug_n
+DDI-MedLine.d150.s3|157-166|downstream|brand
+DDI-MedLine.d191.s0|108-116|cisplatin|drug
+DDI-MedLine.d191.s1|111-119|cisplatin|drug
+DDI-MedLine.d191.s2|72-85|cisplatin ( 7.33|drug
+DDI-MedLine.d191.s5|33-37|chain|drug
+DDI-MedLine.d191.s5|153-161|intestine|drug
+DDI-MedLine.d191.s6|15-23|cisplatin|drug
+DDI-MedLine.d191.s6|174-179|injury|brand
+DDI-MedLine.d191.s6|198-203|injury|brand
+DDI-MedLine.d191.s6|243-251|intestine|drug
+DDI-MedLine.d191.s7|90-98|cisplatin|drug
+DDI-MedLine.d191.s7|169-177|cisplatin|drug
+DDI-MedLine.d230.s0|11-18|neferine|drug
+DDI-MedLine.d230.s0|47-56|amiodarone|drug
+DDI-MedLine.d230.s1|0-9|Amiodarone|drug
+DDI-MedLine.d230.s1|15-45|iodinated benzofuran derivative|drug_n
+DDI-MedLine.d230.s1|76-90|anti-arrhythmic|group
+DDI-MedLine.d230.s2|57-64|neferine|drug
+DDI-MedLine.d230.s2|80-93|anti-pulmonary|group
+DDI-MedLine.d230.s2|127-132|embryo|brand
+DDI-MedLine.d230.s2|145-152|nucifera|brand
+DDI-MedLine.d230.s2|212-221|amiodarone|drug
+DDI-MedLine.d230.s3|13-26|Sprague-Dawley|brand
+DDI-MedLine.d230.s4|19-28|amiodarone|drug
+DDI-MedLine.d230.s4|116-123|neferine|drug
+DDI-MedLine.d230.s5|38-44|orbital|drug
+DDI-MedLine.d230.s5|53-58|plexus|brand
+DDI-MedLine.d230.s5|107-116|amiodarone|drug
+DDI-MedLine.d230.s6|44-48|0-96 )|brand
+DDI-MedLine.d230.s7|81-90|amiodarone|drug
+DDI-MedLine.d230.s7|122-137|intragastrically|group
+DDI-MedLine.d230.s7|164-172|neferine )|drug
+DDI-MedLine.d230.s7|196-202|0.7-1.4|brand
+DDI-MedLine.d230.s7|249-256|neferine|drug
+DDI-MedLine.d230.s7|275-284|amiodarone|drug
+DDI-MedLine.d230.s8|22-31|amiodarone|drug
+DDI-MedLine.d230.s8|97-104|neferine|drug
+DDI-MedLine.d146.s0|40-50|oseltamivir|drug
+DDI-MedLine.d146.s0|61-69|allograft|brand
+DDI-MedLine.d146.s0|113-133|immunosuppresive drug|group
+DDI-MedLine.d146.s1|7-16|transplant|group
+DDI-MedLine.d146.s1|111-118|pandemic|group
+DDI-MedLine.d146.s2|77-92|prompt antiviral|brand
+DDI-MedLine.d146.s3|39-49|oseltamivir|drug
+DDI-MedLine.d146.s3|106-116|influenza A|brand
+DDI-MedLine.d146.s3|162-170|allograft|brand
+DDI-MedLine.d146.s3|246-255|tacrolimus|drug
+DDI-MedLine.d146.s4|0-10|Oseltamivir|drug
+DDI-MedLine.d177.s2|60-68|medicines|group
+DDI-MedLine.d177.s4|127-143|interdisciplinary|group
+DDI-MedLine.d205.s1|0-7|Globally|group
+DDI-MedLine.d205.s2|9-14|burden|brand
+DDI-MedLine.d205.s3|146-153|initiate|group
+DDI-MedLine.d205.s4|63-69|anti-TB|brand
+DDI-MedLine.d205.s4|86-97|dramatically|group
+DDI-MedLine.d178.s2|125-135|clopidogrel|drug
+DDI-MedLine.d198.s0|56-79|ligand-gated ion channel|drug_n
+DDI-MedLine.d198.s2|129-134|pLGIC )|brand
+DDI-MedLine.d198.s3|58-67|n-alcohols|drug_n
+DDI-MedLine.d198.s3|105-112|methanol|drug_n
+DDI-MedLine.d198.s3|118-124|ethanol|drug
+DDI-MedLine.d198.s3|145-160|proton-activated|drug_n
+DDI-MedLine.d198.s3|188-197|n-alcohols|drug_n
+DDI-MedLine.d198.s3|211-217|ethanol|drug
+DDI-MedLine.d198.s4|80-86|glycine|drug
+DDI-MedLine.d198.s4|115-127|acetylcholine|drug_n
+DDI-MedLine.d198.s5|46-50|helix|brand
+DDI-MedLine.d198.s6|62-66|chain|drug
+DDI-MedLine.d198.s6|97-128|highly ethanol-sensitive channel|group
+DDI-MedLine.d198.s7|98-107|implicated|drug_n
+DDI-MedLine.d198.s7|150-154|helix|brand
+DDI-MedLine.d198.s8|31-40|elucidated|drug_n
+DDI-MedLine.d198.s9|108-117|n-alcohols|drug_n
+DDI-MedLine.d198.s9|126-130|pLGIC|brand
+DDI-MedLine.d186.s0|76-80|mimic|group
+DDI-MedLine.d186.s1|27-30|cord|brand
+DDI-MedLine.d186.s1|172-177|injury|brand
+DDI-MedLine.d186.s3|77-82|injury|brand
+DDI-MedLine.d186.s4|53-57|fore-|brand
+DDI-MedLine.d186.s4|63-70|hindlimb|brand
+DDI-MedLine.d186.s4|190-196|Brown-S|brand
+DDI-MedLine.d186.s5|60-67|hindlimb|brand
+DDI-MedLine.d186.s5|83-90|forelimb|brand
+DDI-MedLine.d186.s6|0-7|hindlimb|brand
+DDI-MedLine.d186.s6|74-81|forelimb|brand
+DDI-MedLine.d186.s7|112-115|cord|brand
+DDI-MedLine.d186.s8|22-29|cortico-|brand
+DDI-MedLine.d186.s8|32-37|rubro-|brand
+DDI-MedLine.d186.s8|40-49|vestibulo-|brand
+DDI-MedLine.d186.s8|151-155|fibre|brand
+DDI-MedLine.d186.s9|6-12|attempt|brand
+DDI-MedLine.d186.s9|87-99|intrathecally|group
+DDI-MedLine.d186.s10|101-104|cord|brand
+DDI-MedLine.d186.s10|150-161|functionally|group
+DDI-MedLine.d186.s10|213-220|hindlimb|brand
+DDI-MedLine.d186.s11|13-20|forelimb|brand
+DDI-MedLine.d186.s11|44-55|unresponsive|group
+DDI-MedLine.d186.s12|63-67|fore-|brand
+DDI-MedLine.d186.s12|73-80|hindlimb|brand
+DDI-MedLine.d186.s13|44-50|develop|drug
+DDI-MedLine.d186.s13|109-112|limb|brand
+DDI-MedLine.d186.s13|167-170|cord|brand
+DDI-MedLine.d222.s0|13-20|nicotine|drug
+DDI-MedLine.d222.s0|47-58|varenicline )|drug_n
+DDI-MedLine.d222.s1|0-10|Varenicline|drug_n
+DDI-MedLine.d222.s1|36-42|Chantix|brand
+DDI-MedLine.d222.s1|92-98|tobacco|brand
+DDI-MedLine.d222.s2|92-101|varencline|drug_n
+DDI-MedLine.d222.s2|169-174|Zyban )|brand
+DDI-MedLine.d222.s3|0-10|Varenicline|drug_n
+DDI-MedLine.d222.s3|20-27|nicotine|drug
+DDI-MedLine.d222.s3|72-92|nicotine satisfaction|drug
+DDI-MedLine.d222.s4|0-10|Post-market|brand
+DDI-MedLine.d222.s4|101-111|varenicline|drug_n
+DDI-MedLine.d222.s5|0-1|As|drug_n
+DDI-MedLine.d222.s6|145-155|varenicline|drug_n
+DDI-MedLine.d170.s1|130-134|ictal|drug
+DDI-MedLine.d170.s2|34-45|epileptiform|brand
+DDI-MedLine.d170.s2|59-68|critically|group
+DDI-MedLine.d170.s3|141-157|pharmacologically|group
+DDI-MedLine.d170.s3|183-199|receptor-mediated|drug_n
+DDI-MedLine.d170.s3|235-240|IPSCs )|brand
+DDI-MedLine.d170.s3|385-395|patch-clamp|brand
+DDI-MedLine.d170.s4|0-6|Whereas|group
+DDI-MedLine.d170.s4|43-47|input|brand
+DDI-MedLine.d170.s4|168-172|IPSCs|brand
+DDI-MedLine.d170.s5|76-80|chain|drug
+DDI-MedLine.d170.s5|199-203|Cl ( - )|brand
+DDI-MedLine.d170.s5|233-238|-Cl ( - )|brand
+DDI-MedLine.d170.s5|255-259|KCC2 )|drug_n
+DDI-MedLine.d170.s5|273-277|Cl ( - )|brand
+DDI-MedLine.d170.s5|311-317|-2Cl ( - )|brand
+DDI-MedLine.d206.s0|46-53|curcumin|group
+DDI-MedLine.d206.s0|80-89|fluoxetine|drug
+DDI-MedLine.d206.s0|95-104|imipramine|drug_n
+DDI-MedLine.d206.s1|0-7|Curcumin|group
+DDI-MedLine.d206.s1|70-73|Linn|brand
+DDI-MedLine.d206.s2|58-65|curcumin|group
+DDI-MedLine.d206.s2|92-101|fluoxetine|drug
+DDI-MedLine.d206.s2|107-116|imipramine|drug_n
+DDI-MedLine.d206.s2|224-226|jar|brand
+DDI-MedLine.d206.s2|232-235|tail|brand
+DDI-MedLine.d206.s2|321-325|wheel|brand
+DDI-MedLine.d206.s3|155-162|curcumin|group
+DDI-MedLine.d206.s3|184-191|curcumin|group
+DDI-MedLine.d206.s3|214-223|fluoxetine|drug
+DDI-MedLine.d206.s3|245-254|imipramine|drug_n
+DDI-MedLine.d206.s3|276-283|curcumin|group
+DDI-MedLine.d206.s3|300-309|fluoxetine|drug
+DDI-MedLine.d206.s3|334-341|curcumin|group
+DDI-MedLine.d206.s3|358-367|imipramine|drug_n
+DDI-MedLine.d206.s5|77-81|wheel|brand
+DDI-MedLine.d206.s5|134-141|curcumin|group
+DDI-MedLine.d206.s6|14-23|curcumin (|group
+DDI-MedLine.d206.s6|58-67|fluoxetine|drug
+DDI-MedLine.d206.s6|73-84|imipramine (|drug_n
+DDI-MedLine.d206.s6|115-124|fluoxetine|drug
+DDI-MedLine.d206.s6|130-139|imipramine|drug_n
+DDI-MedLine.d206.s7|0-7|Curcumin|group
+DDI-MedLine.d206.s7|147-160|norepinephrine|drug
+DDI-MedLine.d206.s8|0-7|Curcumin|group
+DDI-MedLine.d206.s8|121-134|catecholamines|group
+DDI-MedLine.d153.s0|17-41|propiverine hydrochloride|drug
+DDI-MedLine.d153.s0|86-106|chromatography-tandem|brand
+DDI-MedLine.d153.s1|56-76|chromatography-tandem|brand
+DDI-MedLine.d153.s1|134-142|validated|drug_n
+DDI-MedLine.d153.s1|169-195|propiverine hydrochloride (|drug
+DDI-MedLine.d153.s1|234-260|cetirizine di-hydrochloride|drug
+DDI-MedLine.d153.s2|40-52|ethyl acetate|drug_n
+DDI-MedLine.d153.s2|107-112|column|brand
+DDI-MedLine.d153.s2|147-173|methanol-ammonium acetate (|drug_n
+DDI-MedLine.d153.s2|197-200|v/v )|brand
+DDI-MedLine.d153.s3|33-49|triple-quadrupole|drug_n
+DDI-MedLine.d153.s3|56-67|spectrometer|drug
+DDI-MedLine.d153.s3|134-142|m/z 368.3|brand
+DDI-MedLine.d153.s4|10-20|propiverine|drug
+DDI-MedLine.d153.s4|26-34|m/z 389.2|brand
+DDI-MedLine.d153.s6|143-169|propiverine hydrochloride ) )|drug
+DDI-MedLine.d153.s8|146-170|propiverine hydrochloride|drug
+DDI-MedLine.d148.s0|69-82|oligophrenin-1|brand
+DDI-MedLine.d148.s0|88-94|Rev-erb|brand
+DDI-MedLine.d148.s0|135-139|spine|group
+DDI-MedLine.d148.s1|17-30|oligophrenin-1|brand
+DDI-MedLine.d148.s2|46-59|oligophrenin-1|brand
+DDI-MedLine.d148.s2|62-68|Rev-erb|brand
+DDI-MedLine.d148.s3|14-27|oligophrenin-1|brand
+DDI-MedLine.d148.s3|44-50|Rev-erb|brand
+DDI-MedLine.d148.s4|105-111|Bmal1 (|brand
+DDI-MedLine.d148.s4|126-131|Arntl )|brand
+DDI-MedLine.d148.s4|142-150|modulated|drug_n
+DDI-MedLine.d148.s4|155-161|Rev-erb|brand
+DDI-MedLine.d148.s4|178-191|oligophrenin-1|brand
+DDI-MedLine.d148.s5|45-66|Rev-erb localization|brand
+DDI-MedLine.d148.s5|85-90|spines|group
+DDI-MedLine.d148.s5|161-174|oligophrenin-1|brand
+DDI-MedLine.d148.s6|149-155|synapse|brand
+DDI-MedLine.d167.s1|113-127|develop diverse|drug
+DDI-MedLine.d167.s2|53-56|hope|brand
+DDI-MedLine.d167.s3|151-155|legal|group
+DDI-MedLine.d165.s1|41-47|hygiene|group
+DDI-MedLine.d165.s1|79-100|appropriate preventive|group
+DDI-MedLine.d165.s2|44-62|phosphate ( CPP-ACP )|drug
+DDI-MedLine.d165.s3|71-79|phosphate|drug
+DDI-MedLine.d165.s4|41-60|specifically CCP-ACP|group
+DDI-MedLine.d165.s5|79-87|phosphate|drug
+DDI-MedLine.d165.s5|148-156|dentistry|group
+DDI-MedLine.d165.s6|42-55|scientifically|group
+DDI-MedLine.d171.s0|58-77|Antiretroviral drugs|group
+DDI-MedLine.d171.s1|172-184|opportunistic|group
+DDI-MedLine.d171.s2|30-57|highly active antiretroviral|group
+DDI-MedLine.d171.s3|19-34|antiretrovirally|group
+DDI-MedLine.d171.s5|38-47|nucleoside|group
+DDI-MedLine.d171.s5|97-101|NRTI )|group
+DDI-MedLine.d171.s5|167-172|NNRTI )|group
+DDI-MedLine.d171.s5|197-199|PI )|group
+DDI-MedLine.d160.s0|85-98|Pharmacopeia (|brand
+DDI-MedLine.d160.s1|6-18|pharmacopoeia|brand
+DDI-MedLine.d175.s0|35-44|colchicine|drug_n
+DDI-MedLine.d175.s1|0-9|Colchicine|drug_n
+DDI-MedLine.d175.s1|58-69|occasionally|group
+DDI-MedLine.d175.s2|9-14|narrow|brand
+DDI-MedLine.d175.s3|44-53|colchicine|drug_n
+DDI-MedLine.d175.s3|99-108|colchicine|drug_n
+DDI-MedLine.d175.s3|164-173|colchicine|drug_n
+DDI-MedLine.d175.s3|311-320|colchicine|drug_n
+DDI-MedLine.d175.s3|373-382|guidelines|group
+DDI-MedLine.d175.s4|70-77|tertiary|group
+DDI-MedLine.d175.s5|53-62|colchicine|drug_n
+DDI-MedLine.d175.s6|45-54|colchicine|drug_n
+DDI-MedLine.d175.s7|68-77|colchicine|drug_n
+DDI-MedLine.d175.s7|124-133|colchicine|drug_n
+DDI-MedLine.d175.s7|212-221|colchicine|drug_n
+DDI-MedLine.d175.s8|86-95|colchicine|drug_n
+DDI-MedLine.d175.s10|24-33|colchicine|drug_n
+DDI-MedLine.d175.s11|0-9|Colchicine|drug_n
+DDI-MedLine.d175.s11|27-36|creatinine|drug
+DDI-MedLine.d175.s13|0-9|Colchicine|drug_n
+DDI-MedLine.d175.s14|0-12|Inappropriate|group
+DDI-MedLine.d175.s14|24-33|colchicine|drug_n
+DDI-MedLine.d229.s0|73-76|tBid|brand
+DDI-MedLine.d226.s0|101-106|asthma|brand
+DDI-MedLine.d226.s1|105-116|QCs ) working|brand
+DDI-MedLine.d226.s1|195-199|field|brand
+DDI-MedLine.d226.s1|204-209|asthma|brand
+DDI-MedLine.d226.s2|7-9|QCs|brand
+DDI-MedLine.d226.s3|4-6|QCs|brand
+DDI-MedLine.d226.s3|32-40|anonymous|group
+DDI-MedLine.d226.s4|53-65|held covering|brand
+DDI-MedLine.d226.s5|5-10|asthma|brand
+DDI-MedLine.d226.s7|26-39|health-related|drug_n
+DDI-MedLine.d226.s7|98-103|asthma|brand
+DDI-MedLine.d226.s7|140-157|inappropriate drug|group
+DDI-MedLine.d226.s8|46-51|asthma|brand
+DDI-MedLine.d226.s9|55-72|inappropriate drug|group
+DDI-MedLine.d226.s10|84-94|traditional|group
+DDI-MedLine.d226.s11|85-89|T-QCs|brand
+DDI-MedLine.d226.s12|22-25|seem|brand
+DDI-MedLine.d226.s13|128-138|traditional|group
+DDI-MedLine.d225.s0|93-105|updated guide|drug_n
+DDI-MedLine.d225.s1|59-65|vertigo|brand
+DDI-MedLine.d225.s2|4-11|panorama|brand
+DDI-MedLine.d225.s2|108-114|vertigo|brand
+DDI-MedLine.d225.s2|165-173|knowledge|brand
+DDI-MedLine.d225.s2|233-257|drug-control institutions|drug_n
+DDI-MedLine.d225.s3|146-157|medico-legal|group
+DDI-MedLine.d225.s4|103-107|field|brand
+DDI-MedLine.d225.s6|56-60|field|brand
+DDI-MedLine.d225.s8|25-33|initially|group
+DDI-MedLine.d225.s8|63-67|Italy|drug_n
+DDI-MedLine.d225.s8|103-115|international|group
+DDI-MedLine.d225.s8|127-136|expecially|group
+DDI-MedLine.d225.s9|103-117|he/she operates|brand
+DDI-MedLine.d158.s0|25-27|ABC|drug_n
+DDI-MedLine.d158.s0|76-81|murine|drug
+DDI-MedLine.d158.s0|130-133|-/- )|brand
+DDI-MedLine.d158.s1|81-83|ABC|drug_n
+DDI-MedLine.d158.s1|126-131|murine|drug
+DDI-MedLine.d158.s1|188-191|-/- )|brand
+DDI-MedLine.d158.s2|14-18|green|drug
+DDI-MedLine.d158.s3|117-119|ABC|drug_n
+DDI-MedLine.d158.s3|135-138|-/- )|brand
+DDI-MedLine.d158.s3|174-176|ABC|drug_n
+DDI-MedLine.d158.s3|209-217|-L-alanyl|drug
+DDI-MedLine.d158.s3|236-242|t-butyl|drug_n
+DDI-MedLine.d158.s3|262-268|insulin|drug
+DDI-MedLine.d158.s5|0-19|Immunohistochemistry|group
+DDI-MedLine.d158.s5|101-104|-/- )|brand
+DDI-MedLine.d158.s6|51-58|migrated|drug_n
+DDI-MedLine.d158.s6|80-85|retina|brand
+DDI-MedLine.d158.s6|125-127|ABC|drug_n
+DDI-MedLine.d158.s6|145-148|-/- )|brand
+DDI-MedLine.d158.s7|15-27|ABC disrupted|drug_n
+DDI-MedLine.d158.s7|39-42|scar|brand
+DDI-MedLine.d158.s8|0-3|Only|group
+DDI-MedLine.d158.s8|27-35|recoverin|group
+DDI-MedLine.d158.s9|21-29|rhodopsin|drug_n
+DDI-MedLine.d158.s9|32-40|recoverin|group
+DDI-MedLine.d158.s9|47-59|synaptophysin|drug_n
+DDI-MedLine.d158.s9|92-95|-/- )|brand
+DDI-MedLine.d158.s9|136-138|ABC|drug_n
+DDI-MedLine.d158.s10|41-43|ABC|drug_n
+DDI-MedLine.d158.s10|132-135|-/- )|brand
